@@ -1,0 +1,95 @@
+# Google App (y)
+com.google.android.googlequicksearchbox
+
+# Google Assistant 1/3 (y)
+com.android.hotwordenrollment.google
+
+# Google Assistant 2/3 (y)
+com.android.hotwordenrollment.okgoogle
+
+# Google Assistant 2/3 (y)
+com.google.android.apps.googleassistant
+
+# Google Chrome (y)
+com.android.chrome
+
+# Google Contacts (y)
+com.google.android.contacts
+
+# Google Drive (y)
+com.google.android.apps.docs
+
+# Google Duo (y)
+com.google.android.apps.tachyon
+
+# Google Files (y)
+com.google.android.apps.nbu.files
+
+# Google Hangouts (y)
+com.google.android.talk
+
+# Google Keyboard - GBoard (n)
+com.google.android.inputmethod.latin
+
+# Google Lens (y)
+com.google.ar.lens
+
+# Google Messages
+com.google.android.apps.messaging
+
+# Google News (y)
+com.google.android.apps.news
+
+# Google One (y)
+com.google.android.apps.subscriptions.red
+
+# Google Phone (y)
+com.google.android.dialer
+
+# Google Photos (y)
+com.google.android.apps.photos
+
+# Google Play Books (y)
+com.google.android.apps.books
+
+# Google Play Games(y)
+com.google.android.play.games
+
+# Google Play Magazines (y)
+com.google.android.apps.magazines
+
+# Google Play Movies (y)
+com.google.android.videos
+
+# Google Play Music (y)
+com.google.android.music
+
+# Google Play Services (n)
+com.google.android.gms
+
+# Google Podcasts (y)
+com.google.android.apps.podcasts
+
+# Google Search (y)
+android.googleSearch.googleSearchWidget
+
+# Google Talkback (y)
+com.google.android.marvin.talkback
+
+# Google TV (y)
+com.google.android.tv
+
+# Google Wallet (y)
+com.google.android.apps.walletnfcrel
+
+# Google Youtube (y)
+com.google.android.youtube
+
+# Google Youtube Music (y)
+com.google.android.apps.youtube.music
+
+# Bookmark Provider (y)
+com.android.bookmarkprovider
+
+# Market Feedback Agent (y)
+com.google.android.feedback
