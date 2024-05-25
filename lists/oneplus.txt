@@ -1,37 +1,37 @@
-# OnePlus Clone Phone (y)
+# OnePlus Clone Phone
 com.oneplus.backuprestore
 
-# OnePlus Community (y)
+# OnePlus Community
 net.oneplus.forums
 
-# OnePlus Gallery (y)
+# OnePlus Gallery
 com.oneplus.gallery
 
-# OnePlus Games (y)
+# OnePlus Games
 com.oplus.games
 
 # OnePlus My Files
 com.oneplus.filemanager
 
-# OnePlus Notes (y)
+# OnePlus Notes
 com.oneplus.note
 
-# OnePlus Quick Connect (y)
+# OnePlus Quick Connect
 com.heytap.accessory
 
-# OnePlus Recorder (y)
+# OnePlus Recorder
 com.oneplus.soundrecorder
 
-# OnePlus Store (y)
+# OnePlus Store
 com.oneplus.store
 
-# OnePlus Weather (y)
+# OnePlus Weather
 net.oneplus.weather
 
-# OnePlus Zen Mode 1/2 (y)
+# OnePlus Zen Mode 1/2
 com.oneplus.zenmode
 
-# OnePlus Zen Mode 2/2 (y)
+# OnePlus Zen Mode 2/2
 com.oneplus.brickmode
 
 # Remove Carrier bootloader lock (dev options)

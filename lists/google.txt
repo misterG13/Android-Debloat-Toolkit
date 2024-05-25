@@ -1,95 +1,92 @@
-# Google App (y)
+# Google App
 com.google.android.googlequicksearchbox
 
-# Google Assistant 1/3 (y)
+# Google Assistant 1/3
 com.android.hotwordenrollment.google
 
-# Google Assistant 2/3 (y)
+# Google Assistant 2/3
 com.android.hotwordenrollment.okgoogle
 
-# Google Assistant 2/3 (y)
+# Google Assistant 2/3
 com.google.android.apps.googleassistant
 
-# Google Chrome (y)
+# Google Chrome
 com.android.chrome
 
-# Google Contacts (y)
+# Google Contacts
 com.google.android.contacts
 
-# Google Drive (y)
+# Google Drive
 com.google.android.apps.docs
 
-# Google Duo (y)
+# Google Duo
 com.google.android.apps.tachyon
 
-# Google Files (y)
+# Google Files
 com.google.android.apps.nbu.files
 
-# Google Hangouts (y)
+# Google Hangouts
 com.google.android.talk
 
-# Google Keyboard - GBoard (n)
+# Google Keyboard - GBoard
 com.google.android.inputmethod.latin
 
-# Google Lens (y)
+# Google Lens
 com.google.ar.lens
+
+# Google Market Feedback Agent
+com.google.android.feedback
 
 # Google Messages
 com.google.android.apps.messaging
 
-# Google News (y)
+# Google News
 com.google.android.apps.news
 
-# Google One (y)
+# Google One
 com.google.android.apps.subscriptions.red
 
-# Google Phone (y)
+# Google Phone
 com.google.android.dialer
 
-# Google Photos (y)
+# Google Photos
 com.google.android.apps.photos
 
-# Google Play Books (y)
+# Google Play Books
 com.google.android.apps.books
 
-# Google Play Games(y)
+# Google Play Games
 com.google.android.play.games
 
-# Google Play Magazines (y)
+# Google Play Magazines
 com.google.android.apps.magazines
 
-# Google Play Movies (y)
+# Google Play Movies
 com.google.android.videos
 
-# Google Play Music (y)
+# Google Play Music
 com.google.android.music
 
-# Google Play Services (n)
+# Google Play Services
 com.google.android.gms
 
-# Google Podcasts (y)
+# Google Podcasts
 com.google.android.apps.podcasts
 
-# Google Search (y)
+# Google Search
 android.googleSearch.googleSearchWidget
 
-# Google Talkback (y)
+# Google Talkback
 com.google.android.marvin.talkback
 
-# Google TV (y)
+# Google TV
 com.google.android.tv
 
-# Google Wallet (y)
+# Google Wallet
 com.google.android.apps.walletnfcrel
 
-# Google Youtube (y)
+# Google Youtube
 com.google.android.youtube
 
-# Google Youtube Music (y)
+# Google Youtube Music
 com.google.android.apps.youtube.music
-
-# Bookmark Provider (y)
-com.android.bookmarkprovider
-
-# Market Feedback Agent (y)
-com.google.android.feedback
