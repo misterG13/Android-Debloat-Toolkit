@@ -11,22 +11,6 @@ rebootAndroid() {
   menuExit
 }
 
-checkADB() {
-  dpkg -s adb &> /dev/null
-  return $?
-}
-
-installADB() {
-  echo "Running apt-get update..."
-  sleep 2
-  sudo apt-get update
-  echo "Installing ADB..."
-  sleep 2
-  sudo apt-get install -y adb
-  echo "ADB installed successfully!"
-  sleep 2
-}
-
 checkDevice() {
   # adb devices | grep -q "device"
   # return $?
@@ -364,13 +348,9 @@ menuHome() {
   fi
 }
 
-# Check for ADB on host PC
-if ! checkADB; then
-  installADB
-fi
-
 # Check for a connected Android device
 if ! checkDevice; then
+  echo "" # Blank line
   echo "No Android device found. Please connect a device and try again."
   exit 1
 fi
