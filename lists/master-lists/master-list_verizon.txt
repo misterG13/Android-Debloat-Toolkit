@@ -1,0 +1,29 @@
+# Verizon Messages
+com.verizon.messaging.vzmsgs.apk
+
+# Verizon Cloud
+com.verizon.cloud.apk
+
+# Verizon Call Filter
+com.verizon.callfilter.apk
+
+# Verizon Content Transfer
+com.verizon.contenttransfer.apk
+
+# Verizon Support & Protection
+com.verizon.vzwapps.support.apk
+
+# Verizon Wi-Fi Calling
+com.verizon.wificalling.apk
+
+# manage your Verizon account, including viewing your usage, paying your bill, and changing your plan
+com.verizon.myverizon.apk
+
+# back up and sync your contacts, photos, and videos to the Verizon Cloud
+com.verizon.vzwcloud.apk
+
+# block unwanted calls and identify incoming calls from unknown numbers
+com.verizon.callfilter.apk
+
+# manage your voicemails
+com.verizon.voicemail.apk

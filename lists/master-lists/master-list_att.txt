@@ -1,0 +1,56 @@
+# AT&T's proprietary agent app that provides device management and diagnostic capabilities
+com.att.android.agent
+
+# AT&T's Data Sense app, which helps users track and manage their data usage
+com.att.dsa
+
+# AT&T's MyATT app, which provides account management and billing information
+com.att.myatt
+
+# AT&T's Smart Wi-Fi app, which helps users manage their Wi-Fi connections
+com.att.smartwifi
+
+# DirecTV Remote app, which allows users to control their DirecTV streaming service
+com.directv.remote
+
+# Yahoo's mobile app, which is often pre-installed on AT&T devices
+com.yahoo.mobile.client.android.att
+
+# AT&T's TV app, which provides access to live TV and on-demand content
+com.att.tv
+
+# AT&T's Mobile Hotspot app, which allows users to share their device's internet connection
+com.att.hotspot
+
+# AT&T's Call Protect app, which provides call blocking and spam protection features
+com.att.callprotector
+
+# AT&T's Thanks app, which offers rewards and discounts to AT&T customers
+com.att.thanks
+
+# com.att.myWireless
+com.att.myWireless
+
+# com.att.dh
+com.att.dh
+
+# com.att.callprotect
+com.att.callprotect
+
+# com.att.csoiam.mobilekey
+com.att.csoiam.mobilekey
+
+# com.att.personalcloud
+com.att.personalcloud
+
+# com.digitalturbine.android.apps.news.att
+com.digitalturbine.android.apps.news.att
+
+# com.att.mobilesecurity
+com.att.mobilesecurity
+
+# com.asurion.android.protech.att
+com.asurion.android.protech.att
+
+# com.att.android.attsmartwifi
+com.att.android.attsmartwifi

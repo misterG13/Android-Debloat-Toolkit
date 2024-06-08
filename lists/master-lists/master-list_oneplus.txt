@@ -1,0 +1,125 @@
+# OnePlus Weather Service
+com.oneplus.weather
+
+# OnePlus File Manager
+com.oneplus.filemanager
+
+# OnePlus Account
+com.oneplus.account
+
+# OnePlus Membership
+com.oneplus.membership
+
+# OnePlus Work-Life Balance
+com.oneplus.opwlb
+
+# OnePlus AOD (Always On Display)
+com.oplus.aod
+
+# OnePlus App Recover
+com.oplus.apprecover
+
+# OnePlus Atlas
+com.oplus.atlas
+
+# OnePlus Cast
+com.oplus.cast
+
+# OnePlus Cosa
+com.oplus.cosa
+
+# OnePlus Crash Box
+com.oplus.crashbox
+
+# OnePlus Customize Core App
+com.oplus.customize.coreapp
+
+# OnePlus Deep Thinker
+com.oplus.deepthinker
+
+# OnePlus Encryption
+com.oplus.encryption
+
+# OnePlus Games
+com.oplus.games
+
+# OnePlus Hamlet
+com.oplus.hamlet
+
+# OnePlus Health Service
+com.oplus.healthservice
+
+# OnePlus Interconnect Collect Kit
+com.oplus.interconnectcollectkit
+
+# OnePlus Linker
+com.oplus.linker
+
+# OnePlus Location
+com.oplus.location
+
+# OnePlus Location Proxy
+com.oplus.locationproxy
+
+# OnePlus Log Kit
+com.oplus.logkit
+
+# OnePlus Multi App
+com.oplus.multiapp
+
+# OnePlus NHS (Network Health Service)
+com.oplus.nhs
+
+# OnePlus OCS
+com.oplus.ocs
+
+# OnePlus OLC
+com.oplus.olc
+
+# OnePlus OMOJI
+com.oplus.omoji
+
+# OnePlus ONET
+com.oplus.onet
+
+# OnePlus Portrait
+com.oplus.portrait
+
+# OnePlus Postman Service
+com.oplus.postmanservice
+
+# OnePlus Quality Protect
+com.oplus.qualityprotect
+
+# OnePlus Safe Center
+com.oplus.safecenter
+
+# OnePlus SAU Helper
+com.oplus.sauhelper
+
+# OnePlus Security Permission
+com.oplus.securitypermission
+
+# OnePlus Smart Engine
+com.oplus.smartengine
+
+# OnePlus SOS
+com.oplus.sos
+
+# OnePlus Statistics ROM
+com.oplus.statistics.rom
+
+# OnePlus STD ID
+com.oplus.stdid
+
+# OnePlus STD SP
+com.oplus.stdsp
+
+# OnePlus Synergy
+com.oplus.synergy
+
+# OnePlus Traffic Monitor
+com.oplus.trafficmonitor
+
+# OnePlus UI Engine
+com.oplus.uiengine
