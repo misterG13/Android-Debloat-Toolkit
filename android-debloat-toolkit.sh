@@ -231,11 +231,11 @@ listPackagesDisabled() {
 
 exportApkList() {
   local search_word="$1"
-  local output_file="lists/apk_list_${search_word}.txt"
+  local output_file="lists/apk_export_list_${search_word}.txt"
 
   if [ -z "$search_word" ]; then
     read -p "Enter a keyword to search for: " search_word
-    output_file="lists/apk_list_${search_word}.txt"
+    output_file="lists/apk_export_list_${search_word}.txt"
   fi
 
   echo "Exporting APK list to $output_file..."
