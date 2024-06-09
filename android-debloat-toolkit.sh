@@ -234,7 +234,7 @@ exportApkList() {
   local output_file="lists/export-lists/apk_export_list_${search_word}.txt"
 
   if [ -z "$search_word" ]; then
-    read -p "Enter a keyword to search for: " search_word
+    read -p "Enter a keyword to search for (ex: tmobile, att, google, android, opus, oneplus, qualcomm, cn, remote): " search_word
     output_file="lists/export-lists/apk_export_list_${search_word}.txt"
   fi
 
@@ -268,11 +268,13 @@ exportApkList() {
   done
 
   echo "Export complete!"
+  echo ""
 }
 
 menuHome() {
   # Define the menu options
-  local options=("Debloat:" "Google" "OnePlus" "TMobile" "Custom" "------" "Restore:" "Google" "OnePlus" "Tmobile" "Custom" "------" "Export List (slow)" "Google" "OnePlus" "TMobile" "Custom" "------" "Reboot Phone" "Exit Script")
+  # local options=("Debloat:" "Google" "OnePlus" "TMobile" "Custom" "------" "Restore:" "Google" "OnePlus" "Tmobile" "Custom" "------" "Export List (slow)" "Google" "OnePlus" "TMobile" "Custom" "------" "Reboot Phone" "Exit Script")
+  local options=("Debloat:" "ASOP" "Carrier" "Google" "Manufacturer" "Custom" "------" "Restore:" "ASOP" "Carrier" "Google" "Manufacturer" "Custom" "------" "Export List (slow)" "------" "Reboot Phone" "Exit Script")
 
   # Display the menu
   echo "Menu:"
@@ -287,60 +289,59 @@ menuHome() {
 
   # Menu logic:
   if [[ $choice -gt 0 && $choice -le ${#options[@]} ]]; then    
-  # 1. Debloat:
-    # 2. Google
+
+  # Debloat:
+    # 2. ASOP
     if [[ $choice -eq 2 ]]; then
       loadPackages "lists/${options[$choice-1],,}.txt"
       removePackages
-    # 3. OnePlus
+    # 3. Carrier
     elif [[ $choice -eq 3 ]]; then
       loadPackages "lists/${options[$choice-1],,}.txt"
       removePackages
-    # 4. TMobile
+    # 4. Google
     elif [[ $choice -eq 4 ]]; then
       loadPackages "lists/${options[$choice-1],,}.txt"
       removePackages
-    # 5. Custom
+    # 5. Manufacturer
+    elif [[ $choice -eq 5 ]]; then
+      loadPackages "lists/${options[$choice-1],,}.txt"
+      removePackages
+    # 6. Custom
     elif [[ $choice -eq 5 ]]; then
       loadPackages "lists/${options[$choice-1],,}.txt"
       removePackages
 
-  # 7. Restore:
-    # 8. Google
-    elif [[ $choice -eq 8 ]]; then
-      loadPackages "lists/${options[$choice-1],,}.txt"
-      restorePackages
-    # 9. OnePlus
+  # Restore:
+    # 9. ASOP
     elif [[ $choice -eq 9 ]]; then
       loadPackages "lists/${options[$choice-1],,}.txt"
       restorePackages
-    # 10. TMobile
+    # 10. Carrier
     elif [[ $choice -eq 10 ]]; then
       loadPackages "lists/${options[$choice-1],,}.txt"
       restorePackages
-    # 11. Custom
+    # 11. Google
     elif [[ $choice -eq 11 ]]; then
       loadPackages "lists/${options[$choice-1],,}.txt"
       restorePackages
+    # 12. Manufacturer
+    elif [[ $choice -eq 12 ]]; then
+      loadPackages "lists/${options[$choice-1],,}.txt"
+      restorePackages
+    # 13. Custom
+    elif [[ $choice -eq 13 ]]; then
+      loadPackages "lists/${options[$choice-1],,}.txt"
+      restorePackages
 
-  # 13. Export List:
-    # 14. Google
-    elif [[ $choice -eq 14 ]]; then
-      exportApkList "${options[$choice-1],,}"
-    # 15. OnePlus
+  # Export List
     elif [[ $choice -eq 15 ]]; then
-      exportApkList "${options[$choice-1],,}"
-    # 16. TMobile
-    elif [[ $choice -eq 16 ]]; then
-      exportApkList "${options[$choice-1],,}"
-    # 17. Custom
-    elif [[ $choice -eq 17 ]]; then
       exportApkList
   # Reboot Phone
-    elif [[ $choice -eq 19 ]]; then
+    elif [[ $choice -eq 17 ]]; then
       rebootAndroid  
   # Menu Exit
-    elif [[ $choice -eq 20 ]]; then
+    elif [[ $choice -eq 18 ]]; then
       menuExit
   fi
   else
