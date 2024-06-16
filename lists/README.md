@@ -22,3 +22,8 @@ https://xdaforums.com/t/debloat-lists-s22-ultra-series.4413149/
 ```
 https://www.reddit.com/r/oneplus/comments/zeuefz/oos13_how_to_eliminate_basically_all_of_the_extra/
 ```
+
+## universal-android-debloater JSON list
+```
+https://github.com/0x192/universal-android-debloater/blob/main/resources/assets/uad_lists.json
+```
