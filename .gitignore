@@ -38,3 +38,5 @@ Thumbs.db
 .vscode
 apk_export_list_*.txt
 custom_*.txt
+*.pdf
+*-full.txt
