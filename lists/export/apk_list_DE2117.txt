@@ -1,0 +1,1565 @@
+Package: android.frameworkres.overlay
+  Version: 31
+  Status: enabled
+  Directory: /product/overlay/framework_res_overlay.network.fussi.2083C
+
+Package: com.google.android.networkstack.tethering
+  Version: 13-9086189
+  Status: enabled
+  Directory: /apex/com.android.tethering/priv-app/TetheringGoogle@331012080/TetheringGoogle
+
+Package: com.oneplus.calculator
+  Version: 2.1.71
+  Status: enabled
+  Directory: /product/app/OPCalculator/OPCalculator
+
+Package: net.oneplus.weather
+  Version: 2.7.80
+  Status: enabled
+  Directory: /data/app/OPWeather/OPWeather
+
+Package: com.oplus.healthservice
+  Version: 3.0.18
+  Status: enabled
+  Directory: /system_ext/app/HealthService/HealthService
+
+Package: com.google.android.apps.subscriptions.red
+  Version: 1.131.417490472
+  Status: enabled
+  Directory: /data/app/Google_One/Google_One
+
+Package: com.android.cts.priv.ctsshim
+  Version: 12-7552332
+  Status: enabled
+  Directory: /apex/com.android.apex.cts.shim/priv-app/CtsShimPriv/CtsShimPriv
+
+Package: com.google.android.youtube
+  Version: 17.01.35
+  Status: enabled
+  Directory: /product/app/YouTube/YouTube
+
+Package: com.qualcomm.qti.qcolor
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/app/QColor/QColor
+
+Package: com.android.internal.display.cutout.emulation.corner
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/DisplayCutoutEmulationCorner/DisplayCutoutEmulationCornerOverlay
+
+Package: com.oplus.smartengine
+  Version: 12.0.27
+  Status: enabled
+  Directory: /product/app/SmartEngine/SmartEngine
+
+Package: com.google.android.ext.services
+  Version: aml_ext_331012020
+  Status: enabled
+  Directory: /apex/com.android.extservices/priv-app/GoogleExtServices@331012020/GoogleExtServices
+
+Package: com.android.internal.display.cutout.emulation.double
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/DisplayCutoutEmulationDouble/DisplayCutoutEmulationDoubleOverlay
+
+Package: com.android.providers.telephony
+  Version: 12.0.40
+  Status: enabled
+  Directory: /system_ext/priv-app/TelephonyProvider/TelephonyProvider
+
+Package: com.oplus.securitykeyboard
+  Version: 2.1.7
+  Status: enabled
+  Directory: /product/app/OplusSecurityKeyboard/OplusSecurityKeyboard
+
+Package: com.android.dynsystem
+  Version: 12
+  Status: enabled
+  Directory: /system/priv-app/DynamicSystemInstallationService/DynamicSystemInstallationService
+
+Package: com.oplus.crashbox
+  Version: 13.4.36
+  Status: enabled
+  Directory: /system_ext/app/CrashBox/CrashBox
+
+Package: com.google.android.googlequicksearchbox
+  Version: 13.2.19.23.arm64
+  Status: enabled
+  Directory: /product/priv-app/Velvet/Velvet
+
+Package: com.google.android.cellbroadcastservice
+  Version: R-initial
+  Status: enabled
+  Directory: /apex/com.android.cellbroadcast/priv-app/GoogleCellBroadcastServiceModule@331013010/GoogleCellBroadcastServiceModule
+
+Package: com.android.providers.calendar
+  Version: 12.0.20
+  Status: enabled
+  Directory: /system_ext/priv-app/CalendarProvider/CalendarProvider
+
+Package: com.google.android.apps.googleassistant
+  Version: 0.1.315561676
+  Status: enabled
+  Directory: /my_bigball/app/Google_AssistantShell/Google_AssistantShell
+
+Package: com.oneplus.note
+  Version: 12.5.18
+  Status: enabled
+  Directory: /data/app/OPNote/OPNote
+
+Package: com.android.providers.media
+  Version: 12
+  Status: enabled
+  Directory: /system/priv-app/MediaProviderLegacy/MediaProviderLegacy
+
+Package: com.oneplus.opscout
+  Version: 2.3.24
+  Status: enabled
+  Directory: /product/priv-app/OPScout/OPScout
+
+Package: com.oneplus.opshelf
+  Version: 3.5.57
+  Status: enabled
+  Directory: /product/priv-app/OPShelf/OPShelf
+
+Package: com.qti.service.colorservice
+  Version: 1.0
+  Status: enabled
+  Directory: /system_ext/app/colorservice/colorservice
+
+Package: com.google.android.onetimeinitializer
+  Version: 12-7567768
+  Status: enabled
+  Directory: /product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer
+
+Package: com.google.android.ext.shared
+  Version: 1
+  Status: enabled
+  Directory: /my_heytap/non_overlay/app/GoogleExtShared/GoogleExtShared
+
+Package: com.android.internal.systemui.navbar.gestural_wide_back
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/NavigationBarModeGesturalWideBack/NavigationBarModeGesturalOverlayWideBack
+
+Package: com.qualcomm.qti.simcontacts
+  Version: 1.0.0
+  Status: enabled
+  Directory: /system_ext/app/SimContact/SimContact
+
+Package: com.qualcomm.qti.modemtestmode
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/app/ModemTestMode/ModemTestMode
+
+Package: com.oneplus.account
+  Version: 3.3.0
+  Status: enabled
+  Directory: /product/app/Account/Account
+
+Package: com.android.wifi.resources.overlay.oplus
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/overlay/OplusWifiResource
+
+Package: com.oplus.location
+  Version: 1.2.16
+  Status: enabled
+  Directory: /product/app/OplusLocationServiceForeign/OplusLocationServiceForeign
+
+Package: com.oneplus.soundrecorder
+  Version: 3.0.37
+  Status: enabled
+  Directory: /data/app/OPSoundRecorder/OPSoundRecorder
+
+Package: com.android.launcher
+  Version: 12.0.52
+  Status: enabled
+  Directory: /system_ext/priv-app/OplusLauncher/OplusLauncher
+
+Package: com.oplus.screenrecorder
+  Version: 12.11.21
+  Status: enabled
+  Directory: /product/priv-app/OplusScreenRecorder/OplusScreenRecorder
+
+Package: com.google.android.apps.podcasts
+  Version: 1.0.0.403811697
+  Status: enabled
+  Directory: /data/app/Google_Podcasts/Google_Podcasts
+
+Package: com.android.externalstorage
+  Version: 12
+  Status: enabled
+  Directory: /system/priv-app/ExternalStorageProvider/ExternalStorageProvider
+
+Package: com.qualcomm.uimremoteclient
+  Version: 12
+  Status: enabled
+  Directory: /product/app/uimremoteclient/uimremoteclient
+
+Package: com.android.htmlviewer
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/app/HTMLViewer/HTMLViewer
+
+Package: com.qualcomm.qti.uceShimService
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/app/uceShimService/uceShimService
+
+Package: com.android.companiondevicemanager
+  Version: 12
+  Status: enabled
+  Directory: /system/app/CompanionDeviceManager/CompanionDeviceManager
+
+Package: com.android.mms.service
+  Version: 3.3.50
+  Status: enabled
+  Directory: /system_ext/priv-app/MmsService/MmsService
+
+Package: com.android.providers.downloads
+  Version: 12.0.1
+  Status: enabled
+  Directory: /system_ext/priv-app/DownloadProvider/DownloadProvider
+
+Package: com.oplus.powermonitor
+  Version: v2.202210111446
+  Status: enabled
+  Directory: /system_ext/app/PowerMonitor/PowerMonitor
+
+Package: com.google.android.apps.messaging
+  Version: messages.android_20220214_00_RC02.phone_dynamic
+  Status: enabled
+  Directory: /my_bigball/priv-app/Messages/Messages
+
+Package: com.android.internal.systemui.onehanded.gestural
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/OneHandedModeGestural/OneHandedModeGesturalOverlay
+
+Package: vendor.qti.hardware.cacert.server
+  Version: 1.0
+  Status: enabled
+  Directory: /vendor/app/CACertService/CACertService
+
+Package: com.oneplus.brickmode
+  Version: 2.4.15
+  Status: enabled
+  Directory: /data/app/OPBreathMode/OPBreathMode
+
+Package: com.oneplus.deskclock
+  Version: 7.0.112
+  Status: enabled
+  Directory: /product/priv-app/OPDeskClock/OPDeskClock
+
+Package: com.oplus.interconnectcollectkit
+  Version: 1.1.3
+  Status: enabled
+  Directory: /product/app/InterconnectCollectKit/InterconnectCollectKit
+
+Package: com.oplus.deepthinker
+  Version: 12.0.0
+  Status: enabled
+  Directory: /system_ext/priv-app/DeepThinker/DeepThinker
+
+Package: com.oplus.qualityprotect
+  Version: 5.0.25
+  Status: enabled
+  Directory: /system_ext/app/OplusQualityProtect/OplusQualityProtect
+
+Package: com.mediatek.omacp
+  Version: 4.15.5
+  Status: enabled
+  Directory: /product/priv-app/Omacp/Omacp
+
+Package: com.oneplus.setupwizard
+  Version: 3.0.40
+  Status: enabled
+  Directory: /product/priv-app/OnePlusWizard/OnePlusWizard
+
+Package: com.qualcomm.qti.telephonyservice
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/app/QtiTelephonyService/QtiTelephonyService
+
+Package: com.android.bluetooth.oplus.overlay
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/overlay/OplusBluetoothResource
+
+Package: com.qualcomm.qti.performancemode
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/app/PerformanceMode/PerformanceMode
+
+Package: android.frameworkres.overlay.display.product
+  Version: 31
+  Status: enabled
+  Directory: /product/overlay/android_framework_res_overlay.display.product.20121
+
+Package: com.qualcomm.qti.ridemodeaudio
+  Version: 12
+  Status: enabled
+  Directory: /product/app/RideModeAudio/RideModeAudio
+
+Package: com.oplus.aod
+  Version: 2.0.60
+  Status: enabled
+  Directory: /product/app/Aod/Aod
+
+Package: com.oplus.nhs
+  Version: 3.3.29
+  Status: enabled
+  Directory: /system_ext/app/NetworkHealthService/NetworkHealthService
+
+Package: com.oplus.ocs
+  Version: 1.4.11
+  Status: enabled
+  Directory: /product/app/OpenCapabilityService/OpenCapabilityService
+
+Package: com.oplus.ota
+  Version: 3.14.16
+  Status: disabled
+  Directory: /system_ext/app/OTA/OTA
+
+Package: com.oplus.sau
+  Version: 1.1.33
+  Status: enabled
+  Directory: /system_ext/app/SystemAppUpdateService/SystemAppUpdateService
+
+Package: com.oplus.sos
+  Version: 7.25.10
+  Status: enabled
+  Directory: /product/priv-app/SOSHelper/SOSHelper
+
+Package: vendor.qti.iwlan
+  Version: 1.0
+  Status: enabled
+  Directory: /vendor/app/IWlanService/IWlanService
+
+Package: com.google.android.configupdater
+  Version: 12-8072170
+  Status: enabled
+  Directory: /product/priv-app/ConfigUpdater/ConfigUpdater
+
+Package: com.oneplus.backuprestore
+  Version: 12.21.3
+  Status: disabled
+  Directory: /data/app/BackupAndRestore/BackupAndRestore
+
+Package: com.oplus.exserviceui
+  Version: 1.2.0
+  Status: enabled
+  Directory: /system_ext/app/OplusExServiceUI/OplusExServiceUI
+
+Package: com.google.android.providers.media.module
+  Version: 13-9111734
+  Status: enabled
+  Directory: /apex/com.android.mediaprovider/priv-app/MediaProviderGoogle@331011070/MediaProviderGoogle
+
+Package: com.google.android.overlay.modules.permissioncontroller
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/GooglePermissionControllerOverlay
+
+Package: com.oplus.romupdate
+  Version: 3.8.09
+  Status: enabled
+  Directory: /product/app/RomUpdate/RomUpdate
+
+Package: com.qualcomm.uimremoteserver
+  Version: 12
+  Status: enabled
+  Directory: /product/app/uimremoteserver/uimremoteserver
+
+Package: com.qti.confuridialer
+  Version: 12
+  Status: enabled
+  Directory: /product/app/ConfURIDialer/ConfURIDialer
+
+Package: com.android.systemui.plugin.globalactions.wallet
+  Version: 11.0.0
+  Status: enabled
+  Directory: /system_ext/priv-app/QuickAccessWallet/QuickAccessWallet
+
+Package: com.google.ar.core
+  Version: 0
+  Status: enabled
+  Directory: /product/app/ARCore/ARCore
+
+Package: com.google.ar.lens
+  Version: 1.12.200728016
+  Status: enabled
+  Directory: /my_bigball/app/Google_Lens/Google_Lens
+
+Package: com.android.providers.downloads.ui
+  Version: 12
+  Status: enabled
+  Directory: /system/priv-app/DownloadProviderUi/DownloadProviderUi
+
+Package: com.android.vending
+  Version: 28.8.17-21 [0] [PR] 420363821
+  Status: enabled
+  Directory: /product/priv-app/Phonesky/Phonesky
+
+Package: com.android.pacprocessor
+  Version: 12
+  Status: enabled
+  Directory: /system/app/PacProcessor/PacProcessor
+
+Package: com.android.simappdialog
+  Version: 12
+  Status: enabled
+  Directory: /system/app/SimAppDialog/SimAppDialog
+
+Package: android.overlay.common
+  Version: 12
+  Status: enabled
+  Directory: /product/overlay/FrameworksResCommon_Sys
+
+Package: android.frameworkres.overlay.captions.product
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/overlay/captions_framework_res_overlay.product.export
+
+Package: com.android.internal.display.cutout.emulation.hole
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/DisplayCutoutEmulationHole/DisplayCutoutEmulationHoleOverlay
+
+Package: com.android.internal.display.cutout.emulation.tall
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/DisplayCutoutEmulationTall/DisplayCutoutEmulationTallOverlay
+
+Package: com.gsma.rcs.overlay
+  Version: 31
+  Status: enabled
+  Directory: /product/overlay/RcsSDK_res_overlay
+
+Package: com.android.certinstaller
+  Version: 12.100.10
+  Status: enabled
+  Directory: /system_ext/app/CertInstaller/CertInstaller
+
+Package: com.oplus.framework_bluetooth.overlay
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/overlay/OplusFrameworkBluetoothResource
+
+Package: com.android.carrierconfig
+  Version: 1.0.0
+  Status: enabled
+  Directory: /system_ext/priv-app/CarrierConfig/CarrierConfig
+
+Package: com.google.android.marvin.talkback
+  Version: 12.2.0.442723463
+  Status: enabled
+  Directory: /product/app/talkback/talkback
+
+Package: com.wapi.wapicertmanage
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/app/WapiCertManage/WapiCertManage
+
+Package: com.android.internal.systemui.navbar.threebutton
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay
+
+Package: com.qti.qualcomm.datastatusnotification
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/app/datastatusnotification/datastatusnotification
+
+Package: android
+  Version: 12
+  Status: enabled
+  Directory: /system/framework/framework-res
+
+Package: com.android.hotwordenrollment.xgoogle
+  Version: 12
+  Status: enabled
+  Directory: /product/priv-app/HotwordEnrollmentXGoogleHEXAGON
+
+Package: com.qualcomm.qti.callfeaturessetting
+  Version: 12
+  Status: enabled
+  Directory: /product/app/CallFeaturesSetting/CallFeaturesSetting
+
+Package: com.qualcomm.wfd.service
+  Version: 2.0
+  Status: enabled
+  Directory: /system_ext/priv-app/WfdService/WfdService
+
+Package: com.oneplus.gallery
+  Version: 5.0.60
+  Status: enabled
+  Directory: /my_bigball/priv-app/OnePlusGallery/OnePlusGallery
+
+Package: com.oplus.notificationmanager
+  Version: 12.10.10
+  Status: enabled
+  Directory: /system_ext/app/NotificationCenter/NotificationCenter
+
+Package: com.qti.qualcomm.deviceinfo
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/app/DeviceInfo/DeviceInfo
+
+Package: com.oplus.upgradeguide
+  Version: 1.1.01
+  Status: enabled
+  Directory: /system_ext/priv-app/UpgradeGuide/UpgradeGuide
+
+Package: com.oplus.wifitest
+  Version: 1.0
+  Status: enabled
+  Directory: /system_ext/app/wifirftest/wifirftest
+
+Package: com.android.egg
+  Version: 1.0
+  Status: enabled
+  Directory: /system/app/EasterEgg/EasterEgg
+
+Package: com.android.mtp
+  Version: 12
+  Status: enabled
+  Directory: /system/priv-app/MtpService/MtpService
+
+Package: com.android.nfc
+  Version: 12.0.11.230815
+  Status: enabled
+  Directory: /system_ext/app/NfcNci/NfcNci
+
+Package: com.android.ons
+  Version: 12
+  Status: enabled
+  Directory: /system/priv-app/ONS/ONS
+
+Package: com.android.stk
+  Version: 12.102.1
+  Status: enabled
+  Directory: /system_ext/app/Stk/Stk
+
+Package: com.oplus.locationproxy
+  Version: 12.0.9
+  Status: enabled
+  Directory: /product/app/LocationProxy/LocationProxy
+
+Package: com.android.backupconfirm
+  Version: 12
+  Status: enabled
+  Directory: /system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation
+
+Package: com.google.android.cellbroadcastreceiver.overlay
+  Version: 1.0.2
+  Status: enabled
+  Directory: /system_ext/overlay/CellBroadcastReceiverModuleOverlay/CellBroadcastReceiverModuleOverlay
+
+Package: se.dirac.acs
+  Version: 3.5.9_220303
+  Status: enabled
+  Directory: /my_product/non_overlay/priv-app/DiracAudioControlService/DiracAudioControlService
+
+Package: com.coloros.activation
+  Version: 12.0.16
+  Status: enabled
+  Directory: /my_bigball/app/OppoPhoneActivation/OppoPhoneActivation
+
+Package: org.codeaurora.ims
+  Version: 1.0
+  Status: enabled
+  Directory: /system_ext/priv-app/ims/ims
+
+Package: com.android.statementservice
+  Version: 1.0
+  Status: enabled
+  Directory: /system/priv-app/StatementService/StatementService
+
+Package: com.google.android.as
+  Version: S.7.sysimg.oem.404000311
+  Status: enabled
+  Directory: /system_ext/priv-app/LiveCaption_export/LiveCaption_export
+
+Package: com.google.android.gm
+  Version: 2021.12.26.419629782.Release
+  Status: enabled
+  Directory: /product/app/Gmail2/Gmail2
+
+Package: android.overlay.target
+  Version: 12
+  Status: enabled
+  Directory: /vendor/overlay/FrameworksResTarget
+
+Package: com.google.android.apps.tachyon
+  Version: 157.0.419023025.duo.android_20211226.12_p1
+  Status: enabled
+  Directory: /data/app/Duo/Duo
+
+Package: com.google.android.overlay.gmsconfig.common
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/GmsConfigOverlayCommon/GmsConfigOverlayCommon
+
+Package: com.android.settings.intelligence
+  Version: 12.0.2
+  Status: enabled
+  Directory: /system_ext/priv-app/SettingsIntelligence/SettingsIntelligence
+
+Package: com.google.android.cellbroadcastservice.overlay
+  Version: 1.0.3
+  Status: enabled
+  Directory: /system_ext/overlay/CellBroadcastServiceModuleOverlay/CellBroadcastServiceModuleOverlay
+
+Package: com.android.internal.systemui.navbar.gestural_extra_wide_back
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/NavigationBarModeGesturalExtraWideBack/NavigationBarModeGesturalOverlayExtraWideBack
+
+Package: com.google.android.permissioncontroller
+  Version: aml_per_331019040
+  Status: enabled
+  Directory: /apex/com.android.permission/priv-app/GooglePermissionController@331019040/GooglePermissionController
+
+Package: com.qualcomm.qti.dynamicddsservice
+  Version: 1.0
+  Status: enabled
+  Directory: /system_ext/app/DynamicDDSService/DynamicDDSService
+
+Package: net.oneplus.push
+  Version: 2.0.2
+  Status: enabled
+  Directory: /product/app/OPPush/OPPush
+
+Package: com.android.carrierconfig.oplus.overlay
+  Version: 12
+  Status: enabled
+  Directory: /product/overlay/OplusCarrierConfig
+
+Package: com.google.android.setupwizard
+  Version: 232.429004660
+  Status: enabled
+  Directory: /my_heytap/non_overlay/priv-app/SetupWizard/SetupWizard
+
+Package: com.qualcomm.qcrilmsgtunnel
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel
+
+Package: com.android.providers.settings
+  Version: 12.0.3
+  Status: enabled
+  Directory: /system_ext/priv-app/SettingsProvider/SettingsProvider
+
+Package: com.android.sharedstoragebackup
+  Version: 12
+  Status: enabled
+  Directory: /system/priv-app/SharedStorageBackup/SharedStorageBackup
+
+Package: com.oplus.eyeprotect
+  Version: 2.0
+  Status: enabled
+  Directory: /system_ext/app/OplusEyeProtect/OplusEyeProtect
+
+Package: net.oneplus.forums
+  Version: 4.6.2
+  Status: enabled
+  Directory: /data/app/OPForum/OPForum
+
+Package: com.android.printspooler
+  Version: 1.0.0
+  Status: enabled
+  Directory: /system_ext/app/PrintSpooler/PrintSpooler
+
+Package: com.android.hotwordenrollment.okgoogle
+  Version: 12
+  Status: enabled
+  Directory: /product/priv-app/HotwordEnrollmentOKGoogleHEXAGON
+
+Package: com.android.wifi.resources.overlay.common
+  Version: 12
+  Status: enabled
+  Directory: /product/overlay/WifiResCommon_Sys
+
+Package: com.android.dreams.basic
+  Version: 12
+  Status: enabled
+  Directory: /system/app/BasicDreams/BasicDreams
+
+Package: com.google.android.overlay.modules.ext.services
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/GoogleExtServicesConfigOverlay
+
+Package: com.oplus.synergy
+  Version: 3.0.32
+  Status: enabled
+  Directory: /product/priv-app/HeySynergy/HeySynergy
+
+Package: com.google.android.as.oss
+  Version: 1.0.404596181
+  Status: enabled
+  Directory: /system_ext/priv-app/PrivateComputeServices_export/PrivateComputeServices_export
+
+Package: com.android.se
+  Version: 12.0.2.220428
+  Status: enabled
+  Directory: /system_ext/app/SecureElement/SecureElement
+
+Package: com.android.inputdevices
+  Version: 12
+  Status: enabled
+  Directory: /system/priv-app/InputDevices/InputDevices
+
+Package: com.google.android.apps.wellbeing
+  Version: 1.0.410515141 (329097)
+  Status: enabled
+  Directory: /product/priv-app/Wellbeing/Wellbeing
+
+Package: com.fido.asm
+  Version: 3.18.0
+  Status: enabled
+  Directory: /system_ext/app/FidoAsm/FidoAsm
+
+Package: com.google.android.dialer
+  Version: 77.0.432472356
+  Status: enabled
+  Directory: /my_bigball/priv-app/GoogleDialer/GoogleDialer
+
+Package: com.android.bips
+  Version: 1.0.0
+  Status: enabled
+  Directory: /system_ext/priv-app/BuiltInPrintService/BuiltInPrintService
+
+Package: com.qti.dpmserviceapp
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/priv-app/dpmserviceapp/dpmserviceapp
+
+Package: com.google.android.apps.nbu.files
+  Version: 1.0.352915835
+  Status: enabled
+  Directory: /my_bigball/priv-app/Google_Files/Google_Files
+
+Package: com.google.android.captiveportallogin
+  Version: aml_net_330811010
+  Status: enabled
+  Directory: /system/app/CaptivePortalLoginGoogle/CaptivePortalLoginGoogle
+
+Package: com.google.android.overlay.gmsconfig.comms
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/GmsConfigOverlayComms/GmsConfigOverlayComms
+
+Package: com.oplus.bttestmode
+  Version: 2.0.20150831
+  Status: enabled
+  Directory: /system_ext/app/BTtestmode/BTtestmode
+
+Package: com.qti.xdivert
+  Version: 12
+  Status: enabled
+  Directory: /product/app/xdivert/xdivert
+
+Package: com.android.settings.overlay.common
+  Version: 12
+  Status: enabled
+  Directory: /product/overlay/SettingsResCommon_Sys
+
+Package: com.android.phone.overlay.oplus
+  Version: 12
+  Status: enabled
+  Directory: /product/overlay/TelephonyResCommon_Sys_Oplus
+
+Package: com.google.android.apps.docs
+  Version: 2.22.017.0.90
+  Status: enabled
+  Directory: /data/app/Drive/Drive
+
+Package: com.google.android.apps.maps
+  Version: 11.12.3
+  Status: enabled
+  Directory: /product/app/Maps/Maps
+
+Package: com.oplus.uiengine
+  Version: 12.0.24
+  Status: enabled
+  Directory: /product/app/VariUIEngine/VariUIEngine
+
+Package: com.google.android.modulemetadata
+  Version: 2022-10-01 S+
+  Status: enabled
+  Directory: /product/app/com.google.android.modulemetadata/com.google.android.modulemetadata
+
+Package: com.oplus.statistics.rom
+  Version: 5.5.12
+  Status: enabled
+  Directory: /product/priv-app/DCS/DCS
+
+Package: oplus
+  Version: 8.0
+  Status: disabled
+  Directory: /system_ext/framework/oplus-framework-res
+
+Package: com.android.cellbroadcastreceiver
+  Version: R-initial
+  Status: enabled
+  Directory: /system/priv-app/CellBroadcastLegacyApp/CellBroadcastLegacyApp
+
+Package: com.google.android.webview
+  Version: 97.0.4692.98
+  Status: enabled
+  Directory: /product/app/WebViewGoogle/WebViewGoogle
+
+Package: android.frameworkres.overlay.Network
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/overlay/framework_res_overlay_Network
+
+Package: com.google.android.overlay.modules.documentsui
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/GoogleDocumentsUIOverlay
+
+Package: com.google.android.networkstack
+  Version: aml_net_331011030
+  Status: enabled
+  Directory: /system/priv-app/NetworkStackGoogle/NetworkStackGoogle
+
+Package: com.google.android.contacts
+  Version: 3.62.2.428100364
+  Status: enabled
+  Directory: /my_bigball/app/GoogleContacts/GoogleContacts
+
+Package: com.android.server.telecom
+  Version: 12.208.125
+  Status: enabled
+  Directory: /system_ext/priv-app/TelecomQcom/TelecomQcom
+
+Package: com.google.android.syncadapters.contacts
+  Version: 12-8361351
+  Status: enabled
+  Directory: /product/app/GoogleContactsSyncAdapter/GoogleContactsSyncAdapter
+
+Package: net.oneplus.widget
+  Version: 3.0.22
+  Status: enabled
+  Directory: /data/app/OPWidget/OPWidget
+
+Package: com.android.keychain
+  Version: 12.100.6
+  Status: enabled
+  Directory: /system_ext/app/KeyChain/KeyChain
+
+Package: com.qti.snapdragon.qdcm_ff
+  Version: 1.0
+  Status: enabled
+  Directory: /system_ext/app/QdcmFF/QdcmFF
+
+Package: com.android.chrome
+  Version: 97.0.4692.98
+  Status: enabled
+  Directory: /product/app/Chrome/Chrome
+
+Package: com.oneplus.filemanager
+  Version: 12.3.6
+  Status: enabled
+  Directory: /product/app/FileManager/FileManager
+
+Package: com.oplus.wirelesssettings
+  Version: 12.103.15
+  Status: enabled
+  Directory: /system_ext/priv-app/WirelessSettings/WirelessSettings
+
+Package: com.google.android.packageinstaller
+  Version: 12-7567768
+  Status: enabled
+  Directory: /my_heytap/non_overlay/priv-app/GooglePackageInstaller/GooglePackageInstaller
+
+Package: com.google.android.gms
+  Version: 22.02.21 (190400-428111784)
+  Status: enabled
+  Directory: /product/priv-app/GmsCore/GmsCore
+
+Package: com.google.android.gsf
+  Version: 12-7567768
+  Status: enabled
+  Directory: /my_heytap/non_overlay/priv-app/GoogleServicesFramework/GoogleServicesFramework
+
+Package: com.google.android.ims
+  Version: 93.0.428509775-carrierservices_20220214_RC00
+  Status: enabled
+  Directory: /my_bigball/priv-app/CarrierServices/CarrierServices
+
+Package: com.google.android.tts
+  Version: googletts.google-speech-apk_20220221.02_p3.432326328.tnt
+  Status: enabled
+  Directory: /product/app/SpeechServicesByGoogle/SpeechServicesByGoogle
+
+Package: com.android.wifi.resources
+  Version: R-initial
+  Status: enabled
+  Directory: /apex/com.android.wifi/priv-app/ServiceWifiResources/ServiceWifiResources
+
+Package: com.android.phone.overlay.common
+  Version: 12
+  Status: enabled
+  Directory: /product/overlay/TelephonyResCommon_Sys
+
+Package: com.android.carrierconfig.overlay.common
+  Version: 12
+  Status: enabled
+  Directory: /product/overlay/CarrierConfigResCommon_Sys
+
+Package: com.google.android.apps.walletnfcrel
+  Version: 2.141.420849731
+  Status: enabled
+  Directory: /my_bigball/app/Google_Pay/Google_Pay
+
+Package: com.android.calllogbackup
+  Version: 3.1.0
+  Status: enabled
+  Directory: /system/priv-app/CallLogBackup/CallLogBackup
+
+Package: com.google.android.partnersetup
+  Version: 100.404341199
+  Status: enabled
+  Directory: /product/priv-app/GooglePartnerSetup/GooglePartnerSetup
+
+Package: com.android.systemui.overlay.common
+  Version: 12
+  Status: enabled
+  Directory: /product/overlay/SystemUIResCommon_Sys
+
+Package: com.android.cameraextensions
+  Version: 12
+  Status: enabled
+  Directory: /system/app/CameraExtensionsProxy/CameraExtensionsProxy
+
+Package: com.android.server.telecom.overlay.common
+  Version: 12
+  Status: enabled
+  Directory: /product/overlay/TelecommResCommon_Sys
+
+Package: com.android.localtransport
+  Version: 12
+  Status: enabled
+  Directory: /system/priv-app/LocalTransport/LocalTransport
+
+Package: com.google.android.videos
+  Version: 4.30.15
+  Status: enabled
+  Directory: /data/app/Videos/Videos
+
+Package: com.google.android.overlay.gmsconfig.gsa
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/GmsConfigOverlayGSA/GmsConfigOverlayGSA
+
+Package: com.google.android.nearby.halfsheet
+  Version: 13-9086189
+  Status: enabled
+  Directory: /apex/com.android.tethering/app/HalfSheetUXGoogle@331012080/HalfSheetUXGoogle
+
+Package: com.android.carrierdefaultapp
+  Version: 12
+  Status: enabled
+  Directory: /system/app/CarrierDefaultApp/CarrierDefaultApp
+
+Package: com.oplus.uxdesign
+  Version: 12.1.0
+  Status: enabled
+  Directory: /system_ext/app/UXDesign/UXDesign
+
+Package: com.qualcomm.qti.remoteSimlockAuth
+  Version: 12
+  Status: enabled
+  Directory: /product/app/remoteSimLockAuthentication/remoteSimLockAuthentication
+
+Package: com.qualcomm.qti.devicestatisticsservice
+  Version: 12
+  Status: enabled
+  Directory: /product/app/DeviceStatisticsService/DeviceStatisticsService
+
+Package: com.android.theme.font.notoserifsource
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/FontNotoSerifSource/FontNotoSerifSourceOverlay
+
+Package: com.android.proxyhandler
+  Version: 12
+  Status: enabled
+  Directory: /system/priv-app/ProxyHandler/ProxyHandler
+
+Package: com.google.android.safetycenter.resources
+  Version: 33 system image
+  Status: enabled
+  Directory: /apex/com.android.permission/priv-app/GoogleSafetyCenterResources@331019040/GoogleSafetyCenterResources
+
+Package: com.android.internal.display.cutout.emulation.waterfall
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/DisplayCutoutEmulationWaterfall/DisplayCutoutEmulationWaterfallOverlay
+
+Package: com.qualcomm.qti.workloadclassifier
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/app/workloadclassifier/workloadclassifier
+
+Package: com.oplus.appplatform
+  Version: 1.13.0
+  Status: enabled
+  Directory: /system_ext/priv-app/OplusAppPlatform/OplusAppPlatform
+
+Package: com.google.android.connectivity.resources
+  Version: S-initial
+  Status: enabled
+  Directory: /apex/com.android.tethering/priv-app/ServiceConnectivityResourcesGoogle@331012080/ServiceConnectivityResourcesGoogle
+
+Package: com.google.android.overlay.modules.permissioncontroller.forframework
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/GooglePermissionControllerFrameworkOverlay
+
+Package: com.oneplus.faceunlock
+  Version: 2.7.29
+  Status: enabled
+  Directory: /my_product/non_overlay/priv-app/OPFaceUnlock/OPFaceUnlock
+
+Package: com.google.android.feedback
+  Version: 12-8072170
+  Status: enabled
+  Directory: /my_heytap/non_overlay/priv-app/GoogleFeedback/GoogleFeedback
+
+Package: com.google.android.printservice.recommendation
+  Version: 1.3.0
+  Status: enabled
+  Directory: /my_heytap/non_overlay/app/GooglePrintRecommendationService/GooglePrintRecommendationService
+
+Package: com.google.android.apps.photos
+  Version: 5.72.0.421580696
+  Status: enabled
+  Directory: /my_bigball/app/Photos/Photos
+
+Package: com.google.android.calendar
+  Version: 2022.12.0-436054850-release
+  Status: enabled
+  Directory: /my_bigball/app/CalendarGoogle/CalendarGoogle
+
+Package: com.android.managedprovisioning
+  Version: 12
+  Status: enabled
+  Directory: /system/priv-app/ManagedProvisioning/ManagedProvisioning
+
+Package: com.google.android.documentsui
+  Version: t_frc_doc_330443060
+  Status: enabled
+  Directory: /system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle
+
+Package: com.oplus.opusermanual
+  Version: 1.3.25
+  Status: enabled
+  Directory: /product/app/OPUserManual/OPUserManual
+
+Package: com.google.mainline.telemetry
+  Version: 2022-10-01 S+
+  Status: enabled
+  Directory: /product/app/com.google.mainline.telemetry/com.google.mainline.telemetry
+
+Package: com.oplus.framework.rro.oneplus
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/oplus_framework_res_rro_oneplus
+
+Package: com.google.android.permissioncontroller.overlay.oplus
+  Version: 2.0.0
+  Status: enabled
+  Directory: /system_ext/overlay/OplusPermissionControllerOverlay/OplusPermissionControllerOverlay
+
+Package: com.oplus.atlas
+  Version: 1.0
+  Status: enabled
+  Directory: /system_ext/app/OplusAtlasService/OplusAtlasService
+
+Package: com.oplus.games
+  Version: 3.2.7
+  Status: enabled
+  Directory: /product/app/Games/Games
+
+Package: com.oplus.stdid
+  Version: 1.1.0
+  Status: enabled
+  Directory: /system_ext/priv-app/StdID/StdID
+
+Package: com.android.providers.partnerbookmarks
+  Version: 1.0.20
+  Status: enabled
+  Directory: /product/app/ChromePartnerProvider/ChromePartnerProvider
+
+Package: com.android.smspush
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/app/WAPPushManager/WAPPushManager
+
+Package: com.oplus.exsystemservice
+  Version: 1.1.4
+  Status: enabled
+  Directory: /system_ext/priv-app/OplusExSystemService/OplusExSystemService
+
+Package: com.android.wallpaper.livepicker
+  Version: 8.0.0
+  Status: enabled
+  Directory: /system_ext/app/WallpaperChooser/WallpaperChooser
+
+Package: com.oplus.wallpapers
+  Version: 12.1.33
+  Status: enabled
+  Directory: /product/app/Wallpapers/Wallpapers
+
+Package: com.android.apps.tag
+  Version: 1.1
+  Status: enabled
+  Directory: /system/priv-app/Tag/Tag
+
+Package: com.oplus.encryption
+  Version: 12.102.17
+  Status: enabled
+  Directory: /product/app/FileEncryption/FileEncryption
+
+Package: com.oneplus.canvasresources
+  Version: 2.2.20
+  Status: enabled
+  Directory: /data/app/CanvasResources/CanvasResources
+
+Package: com.heytap.colorfulengine
+  Version: 1.2.16
+  Status: enabled
+  Directory: /product/priv-app/ColorfulEngine/ColorfulEngine
+
+Package: com.oplus.trafficmonitor
+  Version: 12.006.5
+  Status: enabled
+  Directory: /system_ext/priv-app/TrafficMonitor/TrafficMonitor
+
+Package: com.google.android.networkstack.permissionconfig
+  Version: aml_pco_311011000
+  Status: enabled
+  Directory: /system/priv-app/NetworkPermissionConfigGoogle/NetworkPermissionConfigGoogle
+
+Package: com.android.storagemanager
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/priv-app/StorageManager/StorageManager
+
+Package: com.android.bookmarkprovider
+  Version: 12
+  Status: enabled
+  Directory: /system/app/BookmarkProvider/BookmarkProvider
+
+Package: com.ses.entitlement.o2
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/priv-app/Entitlement/Entitlement
+
+Package: com.android.settings
+  Version: 12.1.2
+  Status: enabled
+  Directory: /system_ext/priv-app/Settings/Settings
+
+Package: com.qualcomm.qti.cne
+  Version: 1.0
+  Status: enabled
+  Directory: /vendor/app/CneApp/CneApp
+
+Package: com.qualcomm.qti.ims
+  Version: 1.0
+  Status: enabled
+  Directory: /system_ext/app/imssettings/imssettings
+
+Package: com.qualcomm.qti.lpa
+  Version: 12
+  Status: enabled
+  Directory: /product/app/uimlpaservice/uimlpaservice
+
+Package: com.qualcomm.qti.uim
+  Version: 12
+  Status: enabled
+  Directory: /product/app/remotesimlockservice/remotesimlockservice
+
+Package: com.heytap.mcs
+  Version: 5.2.74
+  Status: enabled
+  Directory: /system_ext/app/MCS/MCS
+
+Package: com.oplus.wifibackuprestore
+  Version: 1.0
+  Status: enabled
+  Directory: /system_ext/app/WifiBackupAndRestore/WifiBackupAndRestore
+
+Package: com.google.android.networkstack.overlay
+  Version: 1.0
+  Status: enabled
+  Directory: /system_ext/overlay/NetworkStackOverlay
+
+Package: com.oplus.battery
+  Version: 1.2.0
+  Status: enabled
+  Directory: /system_ext/app/Battery/Battery
+
+Package: com.google.android.projection.gearhead
+  Version: 1.2.520120-stub
+  Status: enabled
+  Directory: /product/priv-app/AndroidAutoStub/AndroidAutoStub
+
+Package: com.oplus.multiapp
+  Version: 2.1.0
+  Status: enabled
+  Directory: /system_ext/app/OplusMultiApp/OplusMultiApp
+
+Package: com.qualcomm.location
+  Version: 1.0
+  Status: enabled
+  Directory: /system_ext/priv-app/com.qualcomm.location/com.qualcomm.location
+
+Package: com.oplus.engineercamera
+  Version: V4.0
+  Status: enabled
+  Directory: /system_ext/app/OplusEngineerCamera/OplusEngineerCamera
+
+Package: com.oplus.postmanservice
+  Version: V12.0.0
+  Status: enabled
+  Directory: /system_ext/app/PostmanService/PostmanService
+
+Package: com.android.cts.ctsshim
+  Version: 12-7552332
+  Status: enabled
+  Directory: /apex/com.android.apex.cts.shim/app/CtsShim/CtsShim
+
+Package: com.oneplus.opwlb
+  Version: 3.3.28
+  Status: enabled
+  Directory: /product/app/OPWorkLifeBalance/OPWorkLifeBalance
+
+Package: com.oneplus.store
+  Version: 2.4.1
+  Status: enabled
+  Directory: /data/app/~~ax42iHvnn4phl2Vx1NMr1Q==/com.oneplus.store-BxVa_Sa1JW1JmYF71BtWNw==/EAOnePlusStore
+
+Package: com.oplus.multimedia.dirac
+  Version: 2.0.41
+  Status: enabled
+  Directory: /product/app/OplusDiracService/OplusDiracService
+
+Package: com.google.android.overlay.modules.modulemetadata.forframework
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/ModuleMetadataGoogleOverlay
+
+Package: com.heytap.accessory
+  Version: 2.6.25
+  Status: enabled
+  Directory: /product/priv-app/AccessoryFramework/AccessoryFramework
+
+Package: com.qualcomm.qti.uimGbaApp
+  Version: 12
+  Status: enabled
+  Directory: /product/app/uimgbaservice/uimgbaservice
+
+Package: android.autoinstalls.config.oneplus
+  Version: 1
+  Status: enabled
+  Directory: /product/priv-app/PlayAutoInstallConfig/PlayAutoInstallConfig
+
+Package: com.oplus.gesture
+  Version: 8.1.0
+  Status: enabled
+  Directory: /system_ext/app/OppoGestureUI/OppoGestureUI
+
+Package: android.framework.res.rro.oneplus
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/android_framework_res_rro_export_oneplus
+
+Package: com.oplus.securitypermission
+  Version: 2.0.600
+  Status: enabled
+  Directory: /system_ext/app/SecurityPermission/SecurityPermission
+
+Package: com.android.vpndialogs
+  Version: 12.100.12
+  Status: enabled
+  Directory: /system_ext/priv-app/VpnDialogs/VpnDialogs
+
+Package: com.fido.uafclient
+  Version: 3.6.1
+  Status: enabled
+  Directory: /system_ext/app/UAFClient/UAFClient
+
+Package: com.android.phone
+  Version: 12.220.40
+  Status: enabled
+  Directory: /system_ext/priv-app/TeleServiceQcom/TeleServiceQcom
+
+Package: com.android.shell
+  Version: 12
+  Status: enabled
+  Directory: /system/priv-app/Shell/Shell
+
+Package: com.oplus.cast
+  Version: 4.1.058
+  Status: enabled
+  Directory: /product/priv-app/HeyCast/HeyCast
+
+Package: com.oplus.cosa
+  Version: 12.0.177
+  Status: enabled
+  Directory: /product/app/COSA/COSA
+
+Package: com.oplus.lfeh
+  Version: 1.1.3
+  Status: enabled
+  Directory: /system_ext/app/LFEHer/LFEHer
+
+Package: com.oplus.onet
+  Version: 1.1.355
+  Status: enabled
+  Directory: /product/priv-app/ONet/ONet
+
+Package: com.oplus.athena
+  Version: 3.2.11
+  Status: enabled
+  Directory: /system_ext/app/Athena/Athena
+
+Package: com.android.wallpaperbackup
+  Version: 12
+  Status: enabled
+  Directory: /system/app/WallpaperBackup/WallpaperBackup
+
+Package: com.android.providers.blockednumber
+  Version: 3.1.0
+  Status: enabled
+  Directory: /system_ext/priv-app/BlockedNumberProvider/BlockedNumberProvider
+
+Package: com.android.email.partnerprovider
+  Version: 1.0.10
+  Status: enabled
+  Directory: /product/app/EmailPartnerProvider/EmailPartnerProvider
+
+Package: com.android.providers.userdictionary
+  Version: 12
+  Status: enabled
+  Directory: /system/priv-app/UserDictionaryProvider/UserDictionaryProvider
+
+Package: com.oplus.camera
+  Version: 3.490.185
+  Status: enabled
+  Directory: /product/app/OplusCamera/OplusCamera
+
+Package: android.frameworkres.overlay.audio.product
+  Version: 12
+  Status: enabled
+  Directory: /odm/overlay/android_framework_res_overlay.audio.product.2083C
+
+Package: com.qualcomm.qti.seccamservice
+  Version: 2.2
+  Status: enabled
+  Directory: /system_ext/priv-app/seccamservice/seccamservice
+
+Package: com.android.hotspot2.osulogin
+  Version: 12
+  Status: enabled
+  Directory: /apex/com.android.wifi/app/OsuLogin/OsuLogin
+
+Package: com.qualcomm.qti.qdma
+  Version: QCC12.0-20211109-d1b401e
+  Status: enabled
+  Directory: /system_ext/app/QCC/QCC
+
+Package: com.qualcomm.qti.xrcb
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/priv-app/xrcbservice/xrcbservice
+
+Package: com.google.android.gms.location.history
+  Version: 1.2
+  Status: enabled
+  Directory: /product/app/GoogleLocationHistory/GoogleLocationHistory
+
+Package: com.android.internal.systemui.navbar.gestural
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay
+
+Package: com.android.location.fused
+  Version: 12
+  Status: enabled
+  Directory: /system/priv-app/FusedLocation/FusedLocation
+
+Package: com.android.systemui
+  Version: 12.10.17
+  Status: enabled
+  Directory: /system_ext/priv-app/SystemUI/SystemUI
+
+Package: com.google.android.apps.youtube.music
+  Version: 4.60.52
+  Status: enabled
+  Directory: /data/app/YTMusic/YTMusic
+
+Package: com.android.bluetoothmidiservice
+  Version: 12
+  Status: enabled
+  Directory: /system/app/BluetoothMidiService/BluetoothMidiService
+
+Package: com.qualcomm.qti.confdialer
+  Version: 12
+  Status: enabled
+  Directory: /product/app/ConferenceDialer/ConferenceDialer
+
+Package: com.qualcomm.qti.poweroffalarm
+  Version: 12
+  Status: enabled
+  Directory: /product/app/PowerOffAlarm/PowerOffAlarm
+
+Package: com.qti.ltebc
+  Version: MSDC_LA_5.4.01.01.0
+  Status: enabled
+  Directory: /system_ext/priv-app/QAS_DVC_MSP/QAS_DVC_MSP
+
+Package: com.qti.phone
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/app/QtiTelephony/QtiTelephony
+
+Package: com.android.carrierconfig.overlay
+  Version: 12
+  Status: enabled
+  Directory: /odm/overlay/CarrierConfigOverlay.2083C
+
+Package: com.oplus.safecenter
+  Version: 12.100.0
+  Status: enabled
+  Directory: /system_ext/app/SafeCenter/SafeCenter
+
+Package: com.android.traceur
+  Version: 1.0
+  Status: enabled
+  Directory: /system/priv-app/Traceur/Traceur
+
+Package: com.google.android.cellbroadcastreceiver
+  Version: R-initial
+  Status: enabled
+  Directory: /apex/com.android.cellbroadcast/priv-app/GoogleCellBroadcastApp@331013010/GoogleCellBroadcastApp
+
+Package: com.qualcomm.qti.qccauthmgr
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/app/QCC-AUTHMGR/QCC-AUTHMGR
+
+Package: com.oplus.linker
+  Version: 3.1.28
+  Status: enabled
+  Directory: /product/priv-app/OPSynergy/OPSynergy
+
+Package: com.oplus.logkit
+  Version: 2.2.64
+  Status: enabled
+  Directory: /system_ext/app/LogKit/LogKit
+
+Package: com.oplus.melody
+  Version: 4.1.242
+  Status: enabled
+  Directory: /data/app/Melody/Melody
+
+Package: com.oplus.nrMode
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/priv-app/OplusNrMode/OplusNrMode
+
+Package: com.google.android.apps.magazines
+  Version: 5.45.0.413762585
+  Status: enabled
+  Directory: /data/app/Google_News/Google_News
+
+Package: com.android.bluetooth
+  Version: 12
+  Status: enabled
+  Directory: /system/app/Bluetooth/Bluetooth
+
+Package: com.qualcomm.timeservice
+  Version: 12
+  Status: enabled
+  Directory: /vendor/app/TimeService/TimeService
+
+Package: com.oplus.engineermode
+  Version: V7.0
+  Status: enabled
+  Directory: /system_ext/app/OplusEngineerMode/OplusEngineerMode
+
+Package: com.oneplus.membership
+  Version: 19.6.1
+  Status: enabled
+  Directory: /my_bigball/priv-app/OPMemberShip/OPMemberShip
+
+Package: com.qualcomm.atfwd
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/app/atfwd/atfwd
+
+Package: com.qualcomm.embms
+  Version: 1.0
+  Status: enabled
+  Directory: /system_ext/app/embms/embms
+
+Package: net.oneplus.launcher
+  Version: 1.0.16
+  Status: enabled
+  Directory: /product/app/OPLauncher/OPLauncher
+
+Package: com.android.providers.contacts
+  Version: 5.1.105
+  Status: enabled
+  Directory: /system_ext/priv-app/ContactsProvider/ContactsProvider
+
+Package: vendor.qti.imsrcs
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/app/ImsRcsService/ImsRcsService
+
+Package: com.oplus.screenshot
+  Version: 13.6.12
+  Status: enabled
+  Directory: /product/priv-app/Screenshot/Screenshot
+
+Package: com.android.internal.systemui.navbar.gestural_narrow_back
+  Version: 1.0
+  Status: enabled
+  Directory: /product/overlay/NavigationBarModeGesturalNarrowBack/NavigationBarModeGesturalOverlayNarrowBack
+
+Package: com.android.cellbroadcastreceiver.overlay.common
+  Version: 12
+  Status: enabled
+  Directory: /product/overlay/CellBroadcastReceiverResCommon_Sys
+
+Package: com.oplus.subsys
+  Version: 12
+  Status: enabled
+  Directory: /system_ext/app/SubsystemApp/SubsystemApp
+
+Package: com.oplus.engineernetwork
+  Version: V2.2.30
+  Status: enabled
+  Directory: /system_ext/app/OplusEngineerNetwork/OplusEngineerNetwork
+
+Package: com.google.android.inputmethod.latin
+  Version: 11.2.10.404227572-release-arm64-v8a
+  Status: enabled
+  Directory: /my_bigball/app/LatinImeGoogle/LatinImeGoogle
+
+Package: com.google.android.apps.restore
+  Version: 1.0.412254046
+  Status: enabled
+  Directory: /my_bigball/priv-app/GoogleRestore/GoogleRestore
+

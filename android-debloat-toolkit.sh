@@ -1,6 +1,6 @@
 #!/bin/bash
 
-menuExit() {
+exitScript() {
   echo "Goodbye!"
   sleep 1
   exit 0
@@ -9,20 +9,21 @@ menuExit() {
 rebootAndroid() {
   # add user confirmation to reboot
   adb reboot
-  menuExit
+  exitScript
 }
 
 checkDevice() {
   local output
   output=$(adb devices)
+
   if echo "$output" | grep -q "List of devices attached"; then
     if echo "$output" | grep -q "^[^ ]\{8,\}[[:space:]]*device$"; then
-      return 0
+      return 0 # true
     else
-      return 1
+      return 1 # false
     fi
   else
-    return 1
+    return 1 # false
   fi
 }
 
@@ -94,328 +95,30 @@ saveJSON(){
 isPackageInstalled() {
   local package=$1
 
-  # Installed & disabled
+  # Installed & Disabled
   if adb shell pm list packages -d | grep -q $package; then
-    echo "$package is disabled."
-    # false
-    return 1
+    return 1 # false
 
-  # Installed & enabled
+  # Installed & Enabled
   elif adb shell pm list packages -e | grep -q $package; then
-    # true
-    return 0
+    return 0 # true
 
-  # Not installed
+  # Not Installed
   else
-    echo "$package is not installed."
-    # false
-    return 1
+    return 1 # false
   fi
 }
 
 isPackageCached() {
-  local package_name="$1"
-  local output=$(adb shell pm list packages -u | grep -c $package_name)
+  local package="$1"
+  # local output=$(adb shell pm list packages -u | grep -c "$package")
 
-  if [ $output -eq 0 ]; then
-    # false
-    return 1
+  # Installed & Disabled
+  if adb shell pm list packages -d | grep -q $package; then
+    return 0 # true
   else
-    # true
-    return 0
+    return 1 # false
   fi
-}
-
-apkDisable() {
-  local skip=false
-
-  # 'skip' bypasses the ask to remove/disable input
-  if [ "$1" = "skip" ]; then
-    skip=true
-  fi
-
-  # ---
-
-  for package in "${packages[@]}"; do
-    apk=$(echo "$package" | cut -f1)
-    list=$(echo "$package" | cut -f2)
-    description=$(echo "$package" | cut -f3)
-    removal=$(echo "$package" | cut -f4)
-
-    # Check if installed
-    if [[ ${package:0:1} == "#" ]]; then
-      echo ""
-      echo "$package"
-    elif isPackageInstalled $apk; then
-      echo "List: $list"
-      echo "Removal Type: $removal"
-      echo "APK file: $apk"
-      echo "Description: $description"
-      echo ""
-
-      # Check for 'skip'
-      if [[ $skip == false ]]; then
-        read -p "Disable $apk? (y/n): " response
-      elif [[ $skip == true ]]; then
-        response="y"
-      fi
-
-      # Disable APK
-      if [[ $response == "y" ]]; then
-        adb shell pm disable-user --user 0 $apk
-        echo "Disabled $apk"
-      fi
-    fi
-
-    # echo "List: $list"
-    # echo "Removal Type: $removal"
-    # echo "APK file: $apk"
-    # echo "Description: $description"
-    # echo ""
-  done
-
-  # ---
-
-  # for package in "${packages[@]}"; do
-  #   if [[ ${package:0:1} == "#" ]]; then
-  #     echo ""
-  #     echo "$package"
-  #   elif isPackageInstalled $package; then
-  #     if [[ $skip == false ]]; then
-  #       read -p "Disable $package? (y/n): " response
-  #     elif [[ $skip == true ]]; then
-  #       response="y"
-  #     fi
-  #     if [[ $response == "y" ]]; then
-  #       adb shell pm disable-user --user 0 $package
-  #       echo "Disabled $package"
-  #     fi
-  #   fi
-  # done
-
-  # for package in "${packages[@]}"; do
-  #   if [[ ${package:0:1} == "#" ]]; then
-  #     echo ""
-  #     echo "$package"
-  #   elif isPackageInstalled $package; then
-  #     if [[ $skip == false ]]; then
-  #       read -p "Disable $package? (y/n): " response
-  #     elif [[ $skip == true ]]; then
-  #       response="y"
-  #     fi
-  #     if [[ $response == "y" ]]; then
-  #       adb shell pm disable-user --user 0 $package
-  #       echo "Disabled $package"
-  #     fi
-  #   fi
-  # done
-}
-
-apkUninstall () {
-  local skip=false
-
-  if [ "$1" = "skip" ]; then
-    skip=true
-  fi
-
-  for package in "${packages[@]}"; do
-    if [[ ${package:0:1} == "#" ]]; then
-      echo ""
-      echo "$package"
-    elif isPackageInstalled $package; then
-      if [[ $skip == false ]]; then
-        read -p "Uninstall $package? (y/n): " response
-      elif [[ $skip == true ]]; then
-        response="y"
-      fi
-      if [[ $response == "y" ]]; then
-        adb shell pm uninstall --user 0 $package
-        echo "Unistalled $package"
-      fi
-    fi
-  done
-}
-
-apkRemoval(){
-  local skip=false
-  local removal='d'
-
-  echo ""
-  echo "Begin removing APK files from your Android device."
-
-  read -p "Do you want to confirm removal of each file (y), yes to all (a) or cancel (c)? (y/a/c): " confirm
-  echo ""
-  case $confirm in
-    y)
-      skip=false
-      ;;
-    a)
-      skip=true
-      ;;
-    c)
-      echo "Removal cancelled."
-      ;;
-    *)
-      echo "Invalid input. Please enter y, a or c."
-      ;;
-  esac
-
-  if [[ $skip == true ]]; then
-    read -p "Disable all APKs or Uninstall? C for cancel (d/u/c): " confirm
-    case $confirm in
-      d)
-        removal='d'
-        ;;
-      u)
-        removal='u'
-        ;;
-      c)
-        echo "Removal cancelled."
-        ;;
-      *)
-        echo "Invalid input. Please enter d, u or c."
-        ;;
-  esac
-  fi
-
-  for package in "${packages[@]}"; do
-    apk=$(echo "$package" | cut -f1)
-    list=$(echo "$package" | cut -f2)
-    description=$(echo "$package" | cut -f3)
-    removal=$(echo "$package" | cut -f4)
-
-    # Check if installed
-    if isPackageInstalled $apk; then
-      echo ""
-      echo "List: $list"
-      echo "Removal Type: $removal"
-      echo "APK file: $apk"
-      echo "Description: $description"
-      echo ""
-
-      # Check for 'skip'
-      if [[ $skip == false ]]; then
-        read -p "Disable or Uninstall: $apk? (d/u): " response
-
-      elif [[ $skip == true ]]; then
-        response=$removal
-      fi
-
-      # Disable APK
-      if [[ $response == "d" ]]; then
-        adb shell pm disable-user --user 0 $apk
-        echo "Disabled: $apk"
-
-      # Uninstall APK
-      elif [[ $response == "u" ]]; then
-        adb shell pm uninstall --user 0 $apk
-        echo "Uninstalled: $apk"
-      fi
-    fi
-  done
-}
-
-removePackages() {
-  echo "" # Blank line
-  echo "Begin removing APK files from your Android device."
-
-  read -p "Do you want to confirm removal of each file (y), yes to all (a) or cancel (c)? (y/a/c): " confirm
-
-  case $confirm in
-    y)
-      read -p "Do you want to disable (d) or uninstall (u) packages? (d/u): " action
-
-      case $action in
-        d)
-          apkDisable          
-          ;;
-        u)
-          apkUninstall
-          ;;
-        *)
-          echo "Invalid input. Please enter d or u."
-          ;;
-      esac
-      ;;
-    a)
-      read -p "Do you want to disable (d) or uninstall (u) packages? (d/u): " action
-
-      case $action in
-        d)
-          apkDisable skip
-          ;;
-        u)
-          apkUninstall skip
-          ;;
-        *)
-          echo "Invalid input. Please enter d or u."
-          ;;
-      esac
-      ;;
-    c)
-      echo "Removal cancelled."
-      ;;
-    *)
-      echo "Invalid input. Please enter y, a or c."
-      ;;
-  esac
-}
-
-restorePackages() {
-  echo "" # Blank line
-  echo "Attempting to re-install cached APK files on your Android device."
-
-  read -p "Do you want to confirm installation of each file (y), yes to all (a) or cancel (c)? (y/a/c): " confirm
-
-  case $confirm in
-    y)
-      for package in "${packages[@]}"; do
-        if [[ ${package:0:1} == "#" ]]; then
-          echo "" # Blank line
-          echo "$package"
-        elif isPackageCached $package; then
-          read -p "Install $package? (y/n): " response
-          if [[ $response == "y" ]]; then
-            adb shell pm install-existing --user 0 $package # attempt to reinstall
-            adb shell pm enable --user 0 $package # attempt to enable
-            if ! isPackageInstalled $package; then # verify $package was installed and enabled
-              echo "Failed to install $package."
-            else
-              echo "Successfully installed $package."
-            fi
-          fi
-        elif ! isPackageCached $package; then # package needs to be downloaded
-          echo "Package not eligible for installation..."
-          echo "Download $package from the Android Play Store"
-        fi
-      done
-      ;;
-    a)
-      for package in "${packages[@]}"; do
-        if [[ ${package:0:1} == "#" ]]; then
-          echo "" # Blank line
-          echo "$package"
-        elif isPackageCached $package; then
-          adb shell pm install-existing --user 0 $package # attempt to reinstall
-          adb shell pm enable --user 0 $package # attempt to enable
-          if ! isPackageInstalled $package; then # verify $package was installed and enabled
-            echo "Failed to install $package."
-          else
-            echo "Successfully installed $package."
-          fi
-        elif ! isPackageCached $package; then # package needs to be downloaded
-          echo "Package not eligible for installation..."
-          echo "Download $package from the Android Play Store"
-        fi
-      done
-      ;;
-    c)
-      echo "Removal cancelled."
-      ;;
-    *)
-      echo "Invalid input. Please enter y, a, or c."
-      ;;
-  esac
 }
 
 listPackagesDisabled() {
@@ -423,18 +126,252 @@ listPackagesDisabled() {
   adb shell pm list packages -d
 }
 
-exportApkList() {
-  local search_word="$1"
-  local output_file="lists/export-lists/apk_export_list_${search_word}.txt"
+apkRemoval(){
+  local skip=false
+  local removal='d'
 
-  if [ -z "$search_word" ]; then
-    read -p "Enter a keyword to search for (ex: tmobile, att, google, android, opus, oneplus, qualcomm, cn, remote): " search_word
-    output_file="lists/export-lists/apk_export_list_${search_word}.txt"
+  clear
+  echo "Begin removing APK files from your Android device."
+  echo ""
+
+  read -p "For each APK, do you want to (C)onfirm removal of each, yes to (A)ll or (E)xit? (c/a/e): " confirm
+  echo ""
+
+  case $confirm in
+    c) skip=false ;;
+    a) skip=true ;;
+    e) echo "Removal cancelled."; submenuDebloat ;;
+    *) echo "Invalid input. Please enter y, a or c."; submenuDebloat ;;
+  esac
+
+  if [[ $skip == true ]]; then
+    read -p "For all APKs in this list: (D)isable, (U)ninstall or (C)ancel? (d/u/c): " confirm
+    echo ""
+
+    case $confirm in
+      d) removal='d' ;;
+      u) removal='u' ;;
+      c) echo "Removal cancelled."; submenuDebloat ;;
+      *) echo "Invalid input. Please enter d, u or c."; submenuDebloat ;;
+    esac
   fi
 
-  echo "Exporting APK list to $output_file..."
+  # Loop through $packages global, set by loadPackages() or loadJSON()
+  for package in "${packages[@]}"; do
+    apk=$(echo "$package" | cut -f1)
+    list=$(echo "$package" | cut -f2)
+    description=$(echo "$package" | cut -f3)
+    removal=$(echo "$package" | cut -f4)
 
-  > $output_file  # clear the file
+    # For custom.txt, only echo lines that begin with a '#'
+    if [[ $list == '#'* ]]; then
+      echo ""
+      echo "$apk"
+    
+    # Check if installed
+    else
+      if isPackageInstalled $apk; then
+        echo ""
+        echo "List: $list"
+        echo "Removal Type: $removal"
+        echo "APK file: $apk"
+        echo "Description: $description"
+        echo ""
+
+        # Check for 'skip'
+        if [[ $skip == false ]]; then
+          read -p "(D)isable, (U)ninstall, (S)kip or (E)xit: $apk? (d/u/s/e): " response
+          echo ""
+
+        elif [[ $skip == true ]]; then
+          response=$removal
+        fi
+
+        # Disable APK
+        if [[ $response == "d" ]]; then
+          adb shell pm disable-user --user 0 $apk
+          echo "Disabled: $apk"
+          sleep 1
+          
+        # Uninstall APK
+        elif [[ $response == "u" ]]; then
+          adb shell pm uninstall --user 0 $apk
+          echo "Uninstalled: $apk"
+          sleep 1
+        
+        # Skip APK
+        elif [[ $response == "s" ]]; then
+          echo "Skipping: $apk"
+          sleep 1
+
+        # Exit
+        elif [[ $response == "e" ]]; then
+          submenuDebloat
+        fi
+
+      # Not Installed
+      else
+        echo "$apk not installed, skipping."
+        # sleep 1 # Slow down
+      fi
+    fi
+  done
+
+  echo ""
+  read -p "Removal complete, return to (M)ain Menu, (D)ebloat Menu or (E)xit? (m/d/e): " response
+  
+  # (M)ain Menu
+  if [[ $response == "m" ]]; then
+    mainMenu
+
+  # (D)ebloat Menu
+  elif [[ $response == "d" ]]; then
+    submenuDebloat
+  
+  # (E)xit
+  elif [[ $response == "e" ]]; then
+    exitScript
+  
+  else
+    mainMenu
+  fi
+}
+
+apkRestore() {
+  local skip=false
+  local removal='d'
+
+  clear
+  echo "Begin restoring APK files from your Android device."
+  echo ""
+
+  read -p "For each APK, do you want to (C)onfirm restoration of each, yes to (A)ll or (E)xit? (c/a/e): " confirm
+  echo ""
+
+  # Set $skip variable
+  case $confirm in
+    c) skip=false ;;
+    a) skip=true ;;
+    e) echo "Restore cancelled."; submenuRestore ;;
+    *) echo "Invalid input. Please enter c, a or e."; submenuRestore ;;
+  esac
+
+  # Loop through $packages global, set by loadPackages() or loadJSON()
+  for package in "${packages[@]}"; do
+    apk=$(echo "$package" | cut -f1)
+    list=$(echo "$package" | cut -f2)
+    description=$(echo "$package" | cut -f3)
+    removal=$(echo "$package" | cut -f4)
+
+    # For custom.txt, only echo lines that begin with a '#'
+    if [[ $list == '#'* ]]; then
+      echo ""
+      echo "$apk"
+    else
+      # Check Android cache for $apk
+      if isPackageCached $apk; then
+        echo ""
+        echo "List: $list"
+        echo "Removal Type: $removal"
+        echo "APK file: $apk"
+        echo "Description: $description"
+        echo ""
+
+        # Check for 'skip'
+        if [[ $skip == false ]]; then
+          read -p "(R)estore, (S)kip or (E)xit: $apk? (r/s/e): " response
+          echo ""
+
+        elif [[ $skip == true ]]; then
+          response="r"
+        fi
+
+        # Restore APK
+        if [[ $response == "r" ]]; then
+
+          # attempt to reinstall
+          adb shell pm install-existing --user 0 $apk
+
+          # attempt to enable
+          adb shell pm enable --user 0 $apk
+          
+          # verify $apk was installed and enabled
+          if ! isPackageInstalled $apk; then
+            echo "Failed to restore $apk."
+            echo ""
+          else
+            echo "Successfully restored $apk."
+            echo ""
+          fi
+
+        # Skip APK
+        elif [[ $response == "s" ]]; then
+          echo "Skipping: $apk"
+          sleep 1
+
+        # Exit
+        elif [[ $response == "e" ]]; then
+          submenuRestore
+        fi
+
+      # Not Installed
+      else
+        echo "$apk not disabled, skipping."
+        # sleep 1 # Slow down
+      fi
+    fi
+  done
+
+  echo ""
+  read -p "Restoration complete, return to (M)ain Menu, (R)estore Menu or (E)xit? (m/r/e): " response
+  
+  # (M)ain Menu
+  if [[ $response == "m" ]]; then
+    mainMenu
+
+  # (R)estore Menu
+  elif [[ $response == "r" ]]; then
+    submenuRestore
+  
+  # (E)xit
+  elif [[ $response == "e" ]]; then
+    exitScript
+
+  else
+    mainMenu
+  fi
+}
+
+apkExport() {
+  local search_word="$1"
+  local file_loc="lists/export/"
+  local file_name="apk_list_"
+  local output_file=""
+
+  clear
+
+  # Check for an empty search_word
+  if [ -z "$search_word" ]; then
+    # Ask user for a search term
+    read -p "Enter ONE or NO keyword to search for (ex: tmobile, att, google, android, opus, oneplus, qualcomm, cn, remote): " search_word
+  fi
+
+  # No search word, add model name
+  if [[ ! $search_word ]]; then
+    # ADB shell to get phone's model name
+    model_name=$(adb shell getprop ro.product.model)
+
+    # Build output_file
+    output_file="${file_loc}${file_name}${model_name}.txt"
+  else
+    # Build output_file
+    output_file="${file_loc}${file_name}${search_word}.txt"
+  fi
+
+  # Creates file or clears file contents
+  > $output_file
+
+  echo "Exporting $model_name's APK list to: $output_file"
 
   for package in $(adb shell pm list packages -f); do
     package_path=$(echo $package | cut -d ':' -f 2)
@@ -443,10 +380,13 @@ exportApkList() {
     package_name=${package_path##*.apk=} # extracts the package name
     package_version=$(adb shell dumpsys package $package_name | grep "versionName" | cut -d '=' -f 2)
 
+    # Set package status
     if adb shell pm list packages -d | grep -q $package_name; then
       package_status="disabled"
+
     elif adb shell pm list packages -e | grep -q $package_name; then
       package_status="enabled"
+
     else
       package_status="uninstalled"
     fi
@@ -461,133 +401,174 @@ exportApkList() {
     fi
   done
 
-  echo "Export complete!"
   echo ""
-}
+  read -p "Export complete, return to (M)ain Menu or (E)xit? (m/e): " response
+  
+  # (M)ain Menu
+  if [[ $response == "m" ]]; then
+    mainMenu
 
-menuHome() {
-  # Define the menu options
-  local options=("Debloat" "------" "Restore" "------" "Export APKs (slow)" "------" "Reboot Phone" "------" "Exit Script")
+  # (E)xit
+  elif [[ $response == "e" ]]; then
+    exitScript
 
-  # Display the menu
-  echo "Menu:"
-
-  for ((i=0; i<${#options[@]}; i++)); do
-    echo "  $((i+1)). ${options[$i]}"
-  done
-  echo "------"
-
-  # Read user input
-  read -p "Enter the number of your choice: " choice
-
-  # Menu logic:
-  if [[ $choice -gt 0 && $choice -le ${#options[@]} ]]; then
-  # 1. Debloat
-    if [[ $choice -eq 1 ]]; then
-      submenuDebloat
-  # ------
-  # 3. Restore:
-    elif [[ $choice -eq 3 ]]; then
-      submenuRestore
-  # ------
-  # 5. Export List
-    elif [[ $choice -eq 5 ]]; then
-      exportApkList
-  # ------
-  # 7. Reboot Phone
-    elif [[ $choice -eq 7 ]]; then
-      rebootAndroid  
-  # ------
-  # 9. Menu Exit
-    elif [[ $choice -eq 9 ]]; then
-      menuExit
-    fi
   else
-    echo "Invalid menu choice. Please try again."
+    mainMenu
   fi
 }
 
-submenuDebloat() {
-  local choice
-
-  while true; do
-    # Define the submenu options
-    local options=("ASOP" "Carrier" "Google" "Manufacturer" "JSON" "Custom" "Back to Main Menu")
-
-    # Display the submenu
-    echo "Debloat Submenu:"
-    for ((i=0; i<${#options[@]}; i++)); do
-      echo "  $((i+1)). ${options[$i]}"
-    done
-    echo "------"
-
-    # Read user input
-    read -p "Enter the number of your choice: " choice
-
-    # Submenu logic:
-    if [[ $choice -gt 0 && $choice -le ${#options[@]} ]]; then
-      # Handle submenu options
-      case $choice in
-        1) loadPackages "lists/${options[$choice-1],,}.txt"; removePackages ;;
-        2) loadPackages "lists/${options[$choice-1],,}.txt"; removePackages ;;
-        3) loadPackages "lists/${options[$choice-1],,}.txt"; removePackages ;;
-        4) loadPackages "lists/${options[$choice-1],,}.txt"; removePackages ;;
-        5) loadPackages "lists/${options[$choice-1],,}.txt"; removePackages ;;
-        6) loadPackages "lists/${options[$choice-1],,}.txt"; removePackages ;;
-        7) return ;; # Go back to main menu
-      esac
-    else
-      echo "Invalid submenu choice. Please try again."
-    fi
-  done
+# Debloat custom.txt
+debloatCustom() {
+  clear
+  loadPackages "lists/custom.txt"
+  apkRemoval
 }
 
-submenuRestore() {
+# Restore custom.txt
+restoreCustom() {
+  clear
+  loadPackages "lists/custom.txt"
+  apkRestore
+}
+
+# Debloat uad_lists.json
+debloatUAD() {
   local choice
+  local removal='Recommended'
+  local debloat='Google'
 
-  while true; do
-    # Define the submenu options
-    local options=("ASOP" "Carrier" "Google" "Manufacturer" "JSON" "Custom" "Back to Main Menu")
+  # Ask user what to remove
+  echo ""
+  read -p "Type in the APK debloat list number you would like to remove: 1-AOSP, 2-Carrier, 3-Google, 4-Misc 5-OEM " debloat_choice
 
-    # Display the submenu
-    echo "Restore Submenu:"
-    for ((i=0; i<${#options[@]}; i++)); do
-      echo "  $((i+1)). ${options[$i]}"
-    done
-    echo "------"
+  case $debloat_choice in
+    1) debloat="Aosp" ;;
+    2) debloat="Carrier" ;;
+    3) debloat="Google" ;;
+    4) debloat="Misc" ;;
+    5) debloat="Oem" ;;
+    *) echo "Invalid removal level. Please try again." ;;
+  esac
 
-    # Read user input
-    read -p "Enter the number of your choice: " choice
+  # Ask user for removal level
+  echo ""
+  read -p "Type in the removal level number: 1-Recommended, 2-Advanced, 3-Expert, 4-Unsafe " removal_choice
 
-    # Submenu logic:
-    if [[ $choice -gt 0 && $choice -le ${#options[@]} ]]; then
-      # Handle submenu options
-      case $choice in
-        1) loadPackages "lists/${options[$choice-1],,}.txt"; restorePackages ;;
-        2) loadPackages "lists/${options[$choice-1],,}.txt"; restorePackages ;;
-        3) loadPackages "lists/${options[$choice-1],,}.txt"; restorePackages ;;
-        4) loadPackages "lists/${options[$choice-1],,}.txt"; restorePackages ;;
-        5) loadPackages "lists/${options[$choice-1],,}.txt"; restorePackages ;;
-        6) loadPackages "lists/${options[$choice-1],,}.txt"; restorePackages ;;
-        7) return ;; # Go back to main menu
-      esac
-    else
-      echo "Invalid submenu choice. Please try again."
-    fi
-  done
+  case $removal_choice in
+    1) removal="Recommended" ;;
+    2) removal="Advanced" ;;
+    3) removal="Expert" ;;
+    4) removal="Unsafe" ;;
+    *) echo "Invalid removal level. Please try again." ;;
+  esac
+
+  loadJSON "lists/uad_lists.json" list $debloat removal $removal
+  apkRemoval
+}
+
+# Restore uad_lists.json
+restoreUAD() {
+  local choice
+  local removal='Recommended'
+  local debloat='Google'
+
+  # Ask user what to remove
+  echo ""
+  read -p "Type in the APK debloat list number you would like to restore: 1-AOSP, 2-Carrier, 3-Google, 4-Misc 5-OEM " restore_choice
+
+  case $restore_choice in
+    1) debloat="Aosp" ;;
+    2) debloat="Carrier" ;;
+    3) debloat="Google" ;;
+    4) debloat="Misc" ;;
+    5) debloat="Oem" ;;
+    *) echo "Invalid removal level. Please try again." ;;
+  esac
+
+  # Ask user for removal level
+  echo ""
+  read -p "Type in the removal level number: 1-Recommended, 2-Advanced, 3-Expert, 4-Unsafe " removal_choice
+
+  case $removal_choice in
+    1) removal="Recommended" ;;
+    2) removal="Advanced" ;;
+    3) removal="Expert" ;;
+    4) removal="Unsafe" ;;
+    *) echo "Invalid removal level. Please try again." ;;
+  esac
+
+  loadJSON "lists/uad_lists.json" list $debloat removal $removal
+  apkRestore
+}
+
+# Main menu
+mainMenu() {
+  clear
+  echo "Main Menu"
+  echo "---------"
+  echo "1. Debloat"
+  echo "2. Restore"
+  echo "3. Export Phone's APK List"
+  echo "---------"
+  echo "4. Reboot Phone"
+  echo "5. Exit"
+  read -p "Enter your choice: " choice
+
+  case $choice in
+    1) submenuDebloat ;;
+    2) submenuRestore ;;
+    3) apkExport ;;
+    4) rebootAndroid ;;
+    5) exitScript ;;
+    *) echo "Invalid choice. Please try again." ;;
+  esac
+}
+
+# Submenu - Debloat
+submenuDebloat() {
+  clear
+  echo "Debloat Submenu"
+  echo "--------------"
+  echo "1. Custom.txt"
+  echo "2. UAD Lists.json"
+  echo "3. Back to Main Menu"
+  read -p "Enter your choice: " choice
+
+  case $choice in
+    1) debloatCustom ;;
+    2) debloatUAD ;;
+    3) mainMenu ;;
+    *) echo "Invalid choice. Please try again." ;;
+  esac
+}
+
+# Submenu - Restore
+submenuRestore() {
+  clear
+  echo "Restore Submenu"
+  echo "-------------"
+  echo "1. Custom.txt"
+  echo "2. UAD Lists.json"
+  echo "3. Back to Main Menu"
+  read -p "Enter your choice: " choice
+
+  case $choice in
+    1) restoreCustom ;;
+    2) restoreUAD ;;
+    3) mainMenu ;;
+    *) echo "Invalid choice. Please try again." ;;
+  esac
 }
 
 # Check for a connected Android device
 if ! checkDevice; then
-  echo "" # Blank line
-  echo "No Android device found. Please connect a device and try again."
-  exit 1
+  echo ""
+  echo "No Android device found."
+  echo "Check ADB is running and your phone is connected"
+  exitScript
 fi
 
-# loadJSON lists/master-lists/UAD-lists/uad_lists.json list Oem removal Recommended
-# apkRemoval
-
-# Call the menuHome function to start the menu
+# Start the main menu
 while true; do
-    menuHome
+  mainMenu
 done
