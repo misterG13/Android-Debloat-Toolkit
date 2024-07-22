@@ -36,6 +36,9 @@
 ehthumbs.db
 Thumbs.db
 .vscode
+
+# Custom Ignores #
+##################
 apk_export_list_*.txt
 apk_list_*.txt
 custom_*.txt
