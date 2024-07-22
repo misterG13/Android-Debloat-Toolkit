@@ -2,8 +2,8 @@
 
 exitScript() {
   echo "Goodbye!"
-  sleep 1
-  exit 0
+  sleep 1 # 1 second
+  exit 0 # 0 = successful exit
 }
 
 rebootAndroid() {
@@ -29,24 +29,21 @@ checkDevice() {
 
 loadPackages() {
   local filename="$1"
+  declare -g packages # Declare a global variable
 
-  declare -g packages # declare $packages as a global
+  # Skips lines that are blank OR begin with "#"
+  # mapfile -t packages < <(grep -v '^[[:space:]]*$\|#' "$filename")
 
-  # mapfile -t packages < <(grep -v '^[[:space:]]*$\|#' "$filename") # skip lines that are blank or begin with "#"
-  mapfile -t packages < <(grep -v '^[[:space:]]*$' "$filename") # skip lines that are blank
-
-  # for package in "${packages[@]}"; do
-  #   echo "Package: $package"
-  # done
+  # Skips lines that are blank
+  mapfile -t packages < <(grep -v '^[[:space:]]*$' "$filename")
 }
 
 loadJSON() {
-  local file=$1   # JSON file location
-  local key=$2    # JSON variable name
-  local search=$3 # Value of the $key
-  # Multiple search
-  local key1=$4
-  local search1=$5
+  local    file=$1 # JSON file location
+  local     key=$2 # JSON variable name
+  local  search=$3 # Value to search for in each  $key
+  local    key1=$4 # Multiple key and search values
+  local search1=$5 # Multiple key and search values
 
   if [ ! -f "$file" ]; then
     echo "Error: File not found: $file"
@@ -59,37 +56,7 @@ loadJSON() {
   # mapfile -t packages < <(jq -r ".[] | select(.\"$key\" == \"$search\") |[.id,.description]" "$file")
 
   # Multiple key and search values
-  # mapfile -t packages < <(jq -r ".[] | select((.\"$key\" == \"$search\") and (.\"$key1\" == \"$search1\")) | [.id, .description]" "$file")
-  # mapfile -t packages < <(jq -r ".[] | select(.\"$key\" == \"$search\") | [.id, .description] | @tsv" "$file")
   mapfile -t packages < <(jq -r ".[] | select((.\"$key\" == \"$search\") and (.\"$key1\" == \"$search1\")) | [.id, .list, .description, .removal] | @tsv" "$file")
-  
-  # Print out the extracted key and data
-  # echo "Extracted data:"
-  # for package in "${packages[@]}"; do
-  #   echo "  Key: $key, Value: $package"
-  # done
-
-  # for package in "${packages[@]}"; do
-  #   apk=$(echo "$package" | cut -f1)
-  #   list=$(echo "$package" | cut -f2)
-  #   description=$(echo "$package" | cut -f3)
-  #   removal=$(echo "$package" | cut -f4)
-
-  #   echo "List: $list"
-  #   echo "Removal Type: $removal"
-  #   echo "APK file: $apk"
-  #   echo "Description: $description"
-  #   echo ""
-  # done
-}
-
-saveJSON(){
-  declare -A arr
-  arr["name"]="John"
-  arr["age"]=30
-  arr["city"]="New York"
-
-  jq -n --argjson arr "$(declare -p arr | sed '/declare -A //')" '.[]' > output.json
 }
 
 isPackageInstalled() {
@@ -111,7 +78,6 @@ isPackageInstalled() {
 
 isPackageCached() {
   local package="$1"
-  # local output=$(adb shell pm list packages -u | grep -c "$package")
 
   # Installed & Disabled
   if adb shell pm list packages -d | grep -q $package; then
@@ -121,14 +87,9 @@ isPackageCached() {
   fi
 }
 
-listPackagesDisabled() {
-  # run adb command to list all packages disabled or uninstalled from the device
-  adb shell pm list packages -d
-}
-
 apkRemoval(){
   local skip=false
-  local removal='d'
+  local removalType='d'
 
   clear
   echo "Begin removing APK files from your Android device."
@@ -149,8 +110,8 @@ apkRemoval(){
     echo ""
 
     case $confirm in
-      d) removal='d' ;;
-      u) removal='u' ;;
+      d) removalType='d' ;;
+      u) removalType='u' ;;
       c) echo "Removal cancelled."; submenuDebloat ;;
       *) echo "Invalid input. Please enter d, u or c."; submenuDebloat ;;
     esac
@@ -184,19 +145,21 @@ apkRemoval(){
           echo ""
 
         elif [[ $skip == true ]]; then
-          response=$removal
+          response=$removalType
         fi
 
         # Disable APK
         if [[ $response == "d" ]]; then
           adb shell pm disable-user --user 0 $apk
           echo "Disabled: $apk"
+          echo ""
           sleep 1
           
         # Uninstall APK
         elif [[ $response == "u" ]]; then
           adb shell pm uninstall --user 0 $apk
           echo "Uninstalled: $apk"
+          echo ""
           sleep 1
         
         # Skip APK
@@ -239,7 +202,6 @@ apkRemoval(){
 
 apkRestore() {
   local skip=false
-  local removal='d'
 
   clear
   echo "Begin restoring APK files from your Android device."
@@ -317,7 +279,6 @@ apkRestore() {
       # Not Installed
       else
         echo "$apk not disabled, skipping."
-        # sleep 1 # Slow down
       fi
     fi
   done
@@ -565,6 +526,7 @@ if ! checkDevice; then
   echo ""
   echo "No Android device found."
   echo "Check ADB is running and your phone is connected"
+  echo ""
   exitScript
 fi
 
