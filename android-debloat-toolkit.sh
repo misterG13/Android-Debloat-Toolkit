@@ -322,22 +322,25 @@ apkExport() {
     read -p "Enter ONE or NO keyword to search for (ex: tmobile, att, google, android, opus, oneplus, qualcomm, cn, remote): " search_word
   fi
 
+  # ADB shell to get phone's model name
+  model_name=$(adb shell getprop ro.product.model)
+
   # No search word, add model name
   if [[ ! $search_word ]]; then
-    # ADB shell to get phone's model name
-    model_name=$(adb shell getprop ro.product.model)
-
     # Build output_file
-    output_file="${file_loc}${file_name}${model_name}.txt"
+    output_file="${file_loc}${file_name}${model_name}.json"
   else
     # Build output_file
-    output_file="${file_loc}${file_name}${search_word}.txt"
+    output_file="${file_loc}${file_name}${search_word}.json"
   fi
 
   # Creates file or clears file contents
   > $output_file
 
   echo "Exporting $model_name's APK list to: $output_file"
+
+  # Start JSON format
+  echo "[" >> $output_file
 
   for package in $(adb shell pm list packages -f); do
     package_path=$(echo $package | cut -d ':' -f 2)
@@ -359,13 +362,26 @@ apkExport() {
 
     # export only matching packages
     if [[ $package_name =~ $search_word ]]; then
-      echo "Package: $package_name" >> $output_file
-      echo "  Version: $package_version" >> $output_file
-      echo "  Status: $package_status" >> $output_file
-      echo "  Directory: $package_dir" >> $output_file # add the package directory
-      echo "" >> $output_file # add a blank line between packages
+      # Create description
+      package_description="Version: $package_version, Status: $package_status, Directory: $package_dir"
+
+      echo "  {" >> $output_file
+      echo "    \"id\": \"$package_name\"," >> $output_file
+      echo "    \"list\": \"unknown\"," >> $output_file
+      echo "    \"description\": \"$package_description\"," >> $output_file
+      echo "    \"removal\": \"unknown\"" >> $output_file
+      echo "  }," >> $output_file # can last entry have a comma?
+
+      # echo " Package: $package_name" >> $output_file # id
+      # echo "  Version: $package_version" >> $output_file
+      # echo "  Status: $package_status" >> $output_file
+      # echo "  Directory: $package_dir" >> $output_file # add the package directory
+      # echo "" >> $output_file # add a blank line between packages
     fi
   done
+
+  # End JSON format
+  echo "]" >> $output_file
 
   echo ""
   read -p "Export complete, return to (M)ain Menu or (E)xit? (m/e): " response
