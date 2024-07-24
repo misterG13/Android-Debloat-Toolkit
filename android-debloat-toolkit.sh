@@ -312,7 +312,9 @@ apkExport() {
   local search_word="$1"
   local file_loc="lists/export/"
   local file_name="apk_list_"
-  local output_file=""
+  # local output_file=""
+  local packages=($(adb shell pm list packages -f))
+  local package_count=${#packages[@]}
 
   clear
 
@@ -342,7 +344,9 @@ apkExport() {
   # Start JSON format
   echo "[" >> $output_file
 
-  for package in $(adb shell pm list packages -f); do
+  # for package in $(adb shell pm list packages -f); do
+  for ((i = 0; i < package_count; i++)); do
+    package=${packages[$i]}
     package_path=$(echo $package | cut -d ':' -f 2)
     # package_dir=${package_path%*.apk} # extracts the full directory path
     package_dir=${package_path%.apk=*}  # extracts the directory path
@@ -352,25 +356,24 @@ apkExport() {
     # Set package status
     if adb shell pm list packages -d | grep -q $package_name; then
       package_status="disabled"
-
     elif adb shell pm list packages -e | grep -q $package_name; then
       package_status="enabled"
-
     else
       package_status="uninstalled"
     fi
 
-    # export only matching packages
+    # Export only matching packages
     if [[ $package_name =~ $search_word ]]; then
       # Create description
-      package_description="Version: $package_version, Status: $package_status, Directory: $package_dir"
+      package_description="Version: $package_version, Directory: $package_dir"
 
       echo "  {" >> $output_file
       echo "    \"id\": \"$package_name\"," >> $output_file
       echo "    \"list\": \"unknown\"," >> $output_file
       echo "    \"description\": \"$package_description\"," >> $output_file
+      echo "    \"status\": \"$package_status\"," >> $output_file
       echo "    \"removal\": \"unknown\"" >> $output_file
-      echo "  }," >> $output_file # can last entry have a comma?
+      echo "  }," >> $output_file
 
       # echo " Package: $package_name" >> $output_file # id
       # echo "  Version: $package_version" >> $output_file
@@ -382,6 +385,9 @@ apkExport() {
 
   # End JSON format
   echo "]" >> $output_file
+
+  # Remove last comma
+  sed -i '$!N;$s/},/}/' $output_file
 
   echo ""
   read -p "Export complete, return to (M)ain Menu or (E)xit? (m/e): " response
