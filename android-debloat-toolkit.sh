@@ -1,15 +1,20 @@
 #!/bin/bash
 
 exitScript() {
+  echo ""
   echo "Goodbye!"
   sleep 1 # 1 second
   exit 0 # 0 = successful exit
 }
 
 rebootAndroid() {
-  # add user confirmation to reboot
-  adb reboot
-  exitScript
+  clear
+  read -p "Reboot device now? (Y/N) " choice
+  case "$choice" in
+    Y|y ) echo "Rebooting device now..."; adb reboot; exitScript ;;
+    N|n ) echo "Not rebooting device." ;;
+    * ) echo "Please answer Yes or No." ;;
+  esac
 }
 
 checkDevice() {
@@ -523,10 +528,9 @@ submenuRestore() {
 
 # Check for a connected Android device
 if ! checkDevice; then
-  echo ""
+  clear
   echo "No Android device found."
   echo "Check ADB is running and your phone is connected"
-  echo ""
   exitScript
 fi
 
