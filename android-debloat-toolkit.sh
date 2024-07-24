@@ -316,7 +316,7 @@ apkExport() {
 
   clear
 
-  # Check for an empty search_word
+  # Check for search_word with function call
   if [ -z "$search_word" ]; then
     # Ask user for a search term
     read -p "Enter ONE or NO keyword to search for (ex: tmobile, att, google, android, opus, oneplus, qualcomm, cn, remote): " search_word
