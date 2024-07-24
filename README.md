@@ -1,6 +1,6 @@
 # Android-Debloat-Toolkit
 
-A toolkit to disable, uninstall, restore, and customize lists of Android APKs to debloat from your device.
+A toolkit to disable, uninstall, restore, and extract lists of Android APKs to debloat from your device.
 
 ## Table of Contents
 * [Features](#features)
