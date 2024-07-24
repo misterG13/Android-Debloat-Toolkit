@@ -41,6 +41,7 @@ Thumbs.db
 ##################
 apk_export_list_*.txt
 apk_list_*.txt
+apk_list_*.json
 custom_*.txt
 *.pdf
 *-full.txt
