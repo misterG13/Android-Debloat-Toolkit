@@ -321,7 +321,7 @@ apkExport() {
   # Check for search_word with function call
   if [ -z "$search_word" ]; then
     # Ask user for a search term
-    read -p "Enter ONE or NO keyword to search for (ex: tmobile, att, google, android, opus, oneplus, qualcomm, cn, remote): " search_word
+    read -p "Enter ONE or NO keyword (ex: cn, google, lock, oneplus, oplus, qualcomm, remote, tmo, tmobile): " search_word
   fi
 
   # ADB shell to get phone's model name
