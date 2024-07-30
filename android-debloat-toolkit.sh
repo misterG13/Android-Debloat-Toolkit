@@ -344,7 +344,6 @@ apkExport() {
   # Start JSON format
   echo "[" >> $output_file
 
-  # for package in $(adb shell pm list packages -f); do
   for ((i = 0; i < package_count; i++)); do
     package=${packages[$i]}
     package_path=$(echo $package | cut -d ':' -f 2)
@@ -374,12 +373,6 @@ apkExport() {
       echo "    \"status\": \"$package_status\"," >> $output_file
       echo "    \"removal\": \"unknown\"" >> $output_file
       echo "  }," >> $output_file
-
-      # echo " Package: $package_name" >> $output_file # id
-      # echo "  Version: $package_version" >> $output_file
-      # echo "  Status: $package_status" >> $output_file
-      # echo "  Directory: $package_dir" >> $output_file # add the package directory
-      # echo "" >> $output_file # add a blank line between packages
     fi
   done
 
