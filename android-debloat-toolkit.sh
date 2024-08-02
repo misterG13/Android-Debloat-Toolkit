@@ -333,7 +333,7 @@ apkExport() {
     output_file="${file_loc}${file_name}${model_name}.json"
   else
     # Build output_file
-    output_file="${file_loc}${file_name}${search_word}.json"
+    output_file="${file_loc}${file_name}${model_name}_${search_word}.json"
   fi
 
   # Creates file or clears file contents
