@@ -1,0 +1,494 @@
+# AT&T's proprietary agent app that provides device management and diagnostic capabilities
+com.att.android.agent
+
+# AT&T's Data Sense app, which helps users track and manage their data usage
+com.att.dsa
+
+# AT&T's MyATT app, which provides account management and billing information
+com.att.myatt
+
+# AT&T's Smart Wi-Fi app, which helps users manage their Wi-Fi connections
+com.att.smartwifi
+
+# DirecTV Remote app, which allows users to control their DirecTV streaming service
+com.directv.remote
+
+# Yahoo's mobile app, which is often pre-installed on AT&T devices
+com.yahoo.mobile.client.android.att
+
+# AT&T's TV app, which provides access to live TV and on-demand content
+com.att.tv
+
+# AT&T's Mobile Hotspot app, which allows users to share their device's internet connection
+com.att.hotspot
+
+# AT&T's Call Protect app, which provides call blocking and spam protection features
+com.att.callprotector
+
+# AT&T's Thanks app, which offers rewards and discounts to AT&T customers
+com.att.thanks
+
+# com.att.myWireless
+com.att.myWireless
+
+# com.att.dh
+com.att.dh
+
+# com.att.callprotect
+com.att.callprotect
+
+# com.att.csoiam.mobilekey
+com.att.csoiam.mobilekey
+
+# com.att.personalcloud
+com.att.personalcloud
+
+# com.digitalturbine.android.apps.news.att
+com.digitalturbine.android.apps.news.att
+
+# com.att.mobilesecurity
+com.att.mobilesecurity
+
+# com.asurion.android.protech.att
+com.asurion.android.protech.att
+
+# com.att.android.attsmartwifi
+com.att.android.attsmartwifi
+
+# part of Google's backup system
+com.android.backupconfirm
+
+# built in print service
+com.android.bips
+
+# overlay for built in print service
+com.android.bips.auto_generated_rro_product__
+
+# bluetooth midi devices support
+com.android.bluetoothmidiservice
+
+# bookmarks
+com.android.bookmarkprovider
+
+# backup of your phone's call log
+com.android.calllogbackup
+
+# emergency alerts via SMS
+com.android.cellbroadcastreceiver
+
+# overlay for cell broadcast
+com.android.cellbroadcastreceiver.overlay.pixel
+
+# overlay for cell broadcast
+com.android.cellbroadcastservice.overlay.pixel
+
+# service for managing companion devices
+com.android.companiondevicemanager
+
+# compatibility test suite
+com.android.cts.ctsshim
+
+# compatibility test suite
+com.android.cts.priv.ctsshim
+
+# screensaver when phone is docked
+com.android.dreams.basic
+
+# easter egg
+com.android.egg
+
+# emergency services handling in case of need
+com.android.emergency
+
+# OK google voice registration
+com.android.hotwordenrollment.okgoogle
+
+# OK google voice registration
+com.android.hotwordenrollment.xgoogle
+
+# source code viewer for html pages
+com.android.htmlviewer
+
+# handling of capabilities of input devices, e.g. keyboard
+com.android.inputdevices
+
+# screen cutout overlay
+com.android.internal.display.cutout.emulation.avoidA
+
+# screen cutout overlay
+com.android.internal.display.cutout.emulation.corner
+
+# screen cutout overlay
+com.android.internal.display.cutout.emulation.double
+
+# screen cutout overlay
+com.android.internal.display.cutout.emulation.hole
+
+# screen cutout overlay
+com.android.internal.display.cutout.emulation.noCutout
+
+# screen cutout overlay
+com.android.internal.display.cutout.emulation.tall
+
+# screen cutout overlay
+com.android.internal.display.cutout.emulation.waterfall
+
+# 3 button navigation
+com.android.internal.systemui.navbar.threebutton
+
+# use phone with one hand
+com.android.internal.systemui.onehanded.gestural
+
+# part of Google's backup system
+com.android.localtransport
+
+# framework for managing your device by IT admins, e.g. work profiles
+com.android.managedprovisioning
+
+# overlaty for managed provisioning
+com.android.managedprovisioning.overlay
+
+# MMS
+com.android.mms.service
+
+# MTP connection - e.g. file transfer - to PC; no need if you use adb
+com.android.mtp
+
+# equalizer
+com.android.musicfx
+
+# auto discovery of network proxies
+com.android.pacprocessor
+
+# browser bookmarks by Google partners
+com.android.providers.partnerbookmarks
+
+# safety info
+com.android.safetyregulatoryinfo
+
+# safety info overlay
+com.android.safetyregulatoryinfo.auto_generated_rro_product__
+
+# diagnostic plugin
+com.android.sdm.plugins.diagmon
+
+# screen which shows phone compliance info in settings
+com.android.settings.overlay.glu0g
+
+# part of Google's backup system
+com.android.sharedstoragebackup
+
+# app dialog for SIM cards which support interaction with Android OS
+com.android.simappdialog
+
+# app dialog for SIM cards which support interaction with Android OS
+com.android.stk
+com.android.stk2
+
+# part of Google pay framework
+com.android.systemui.plugin.globalactions.wallet
+
+# tracing
+com.android.traceur
+
+# tracing overlay
+com.android.traceur.auto_generated_rro_product__
+
+# tracing overlay
+com.android.traceur.auto_generated_rro_vendor__
+
+# live wallpapers
+com.android.wallpaper.livepicker
+com.android.wallpaper.livepicker.overlay
+
+# part of Google's backup system; backup wallpaper
+com.android.wallpaperbackup
+
+# part of verizon services
+com.customermobile.preload.vzw
+
+# accessibility: sound amplification
+com.google.android.accessibility.soundamplifier
+
+# accessibility: control device by sound
+com.google.android.apps.accessibility.voiceaccess
+
+# wifi calling
+com.google.android.apps.carrier.carrierwifi
+
+# wifi calling
+com.google.android.apps.carrier.log
+
+# citizen broadbane network handling
+com.google.android.apps.cbrsnetworkmonitor
+
+# diagnostics
+com.google.android.apps.diagnosticstool
+
+# pixel stand
+com.google.android.apps.dreamliner
+
+# Google help system
+com.google.android.apps.helprtc
+
+# bug handling
+com.google.android.apps.internal.betterbug
+
+# part of Google's backup system
+com.google.android.apps.restore
+
+# safety hub in settings
+com.google.android.apps.safetyhub
+
+# Pixel tips
+com.google.android.apps.tips
+
+# wallpapers
+com.google.android.apps.wallpaper
+
+# pixel wallpapers
+com.google.android.apps.wallpaper.pixel
+
+# wearables
+com.google.android.apps.wearables
+com.google.android.apps.wearables.assistant
+
+# Allows connection to your carrier to buy more data/minutes/calls if you are not on a contract. Do not disable this if you are not on a contract.
+com.android.carrierdefaultapp
+
+# Daydream photographic screensavers
+com.android.dreams.phototable
+
+# Overlay for Dreams
+com.android.dreams.phototable.overlay
+
+# Dynamic wallpaper
+com.android.galaxy4
+
+# Live wallapaper
+com.android.magicsmoke
+
+# Music Visualization Wallpapers
+com.android.musicvis
+
+# "Noise filed" live wallpaper
+com.android.noisefield
+
+# "Phase beam" live wallpaper
+com.android.phasebeam
+
+# Lets Google partners (OEM in most of the case) to customize the default email settings.
+# The manufacturer often change the default signature displayed the end of each of your mail (e.g "Sent from my Nokia phone")
+com.android.email.partnerprovider
+com.android.email.partnerprovider.overlay.
+
+# RAM Stress tester
+com.android.runintest.ddrtest
+
+# AOSP Sound recorder. OEM often use their own solution
+com.android.soundrecorder
+
+# "Holo spiral" Live wallpaper
+com.android.wallpaper.holospiral
+
+# Wallpaper cropper
+com.android.wallpapercropper
+
+# Notepad app
+com.example.android.notepad
+
+# Android Auto vendor's additions
+android.auto_generated_vendor_
+
+
+# OnePlus Weather Service
+com.oneplus.weather
+
+# OnePlus File Manager
+com.oneplus.filemanager
+
+# OnePlus Account
+com.oneplus.account
+
+# OnePlus Membership
+com.oneplus.membership
+
+# OnePlus Work-Life Balance
+com.oneplus.opwlb
+
+# OnePlus AOD (Always On Display)
+com.oplus.aod
+
+# OnePlus App Recover
+com.oplus.apprecover
+
+# OnePlus Atlas
+com.oplus.atlas
+
+# OnePlus Cast
+com.oplus.cast
+
+# OnePlus Cosa
+com.oplus.cosa
+
+# OnePlus Crash Box
+com.oplus.crashbox
+
+# OnePlus Customize Core App
+com.oplus.customize.coreapp
+
+# OnePlus Deep Thinker
+com.oplus.deepthinker
+
+# OnePlus Encryption
+com.oplus.encryption
+
+# OnePlus Games
+com.oplus.games
+
+# OnePlus Hamlet
+com.oplus.hamlet
+
+# OnePlus Health Service
+com.oplus.healthservice
+
+# OnePlus Interconnect Collect Kit
+com.oplus.interconnectcollectkit
+
+# OnePlus Linker
+com.oplus.linker
+
+# OnePlus Location
+com.oplus.location
+
+# OnePlus Location Proxy
+com.oplus.locationproxy
+
+# OnePlus Log Kit
+com.oplus.logkit
+
+# OnePlus Multi App
+com.oplus.multiapp
+
+# OnePlus NHS (Network Health Service)
+com.oplus.nhs
+
+# OnePlus OCS
+com.oplus.ocs
+
+# OnePlus OLC
+com.oplus.olc
+
+# OnePlus OMOJI
+com.oplus.omoji
+
+# OnePlus ONET
+com.oplus.onet
+
+# OnePlus Portrait
+com.oplus.portrait
+
+# OnePlus Postman Service
+com.oplus.postmanservice
+
+# OnePlus Quality Protect
+com.oplus.qualityprotect
+
+# OnePlus Safe Center
+com.oplus.safecenter
+
+# OnePlus SAU Helper
+com.oplus.sauhelper
+
+# OnePlus Security Permission
+com.oplus.securitypermission
+
+# OnePlus Smart Engine
+com.oplus.smartengine
+
+# OnePlus SOS
+com.oplus.sos
+
+# OnePlus Statistics ROM
+com.oplus.statistics.rom
+
+# OnePlus STD ID
+com.oplus.stdid
+
+# OnePlus STD SP
+com.oplus.stdsp
+
+# OnePlus Synergy
+com.oplus.synergy
+
+# OnePlus Traffic Monitor
+com.oplus.trafficmonitor
+
+# OnePlus UI Engine
+com.oplus.uiengine
+
+# T-Mobile My Account - Manage your T-Mobile account and services
+com.tmobile.myaccount
+com.tmobile.pr.mytmobile
+
+# T-Mobile Tuesdays - Get exclusive deals and perks every Tuesday
+com.tmobile.tuesdays
+
+# T-Mobile TV - Stream live TV and on-demand content
+com.tmobile.tv
+com.mobitv.client.tmobiletvhd
+
+# T-Mobile Name ID - Identify and block unwanted calls and texts
+com.tmobile.services.nameid
+com.whitepages.nameid.tmobile
+
+# T-Mobile DIGITS - Manage multiple numbers and devices from one app
+com.tmobile.digits
+
+# T-Mobile Visual Voicemail - Access and manage your voicemails visually
+com.tmobile.visualvoicemail
+
+# T-Mobile Hotspot - Manage your mobile hotspot and data usage
+com.tmobile.hotspot
+
+# Diagnostic tool
+com.tmobile.pr.adapt
+
+# Device Unlock
+com.tmobile.simlock
+
+# Visual VoiceMail
+com.tmobile.vvm.application
+
+# App Source
+us.com.dt.iq.appsource.tmobile
+
+# Verizon Messages
+com.verizon.messaging.vzmsgs.apk
+
+# Verizon Cloud
+com.verizon.cloud.apk
+
+# Verizon Call Filter
+com.verizon.callfilter.apk
+
+# Verizon Content Transfer
+com.verizon.contenttransfer.apk
+
+# Verizon Support & Protection
+com.verizon.vzwapps.support.apk
+
+# Verizon Wi-Fi Calling
+com.verizon.wificalling.apk
+
+# manage your Verizon account, including viewing your usage, paying your bill, and changing your plan
+com.verizon.myverizon.apk
+
+# back up and sync your contacts, photos, and videos to the Verizon Cloud
+com.verizon.vzwcloud.apk
+
+# block unwanted calls and identify incoming calls from unknown numbers
+com.verizon.callfilter.apk
+
+# manage your voicemails
+com.verizon.voicemail.apk
