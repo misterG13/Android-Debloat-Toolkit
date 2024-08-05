@@ -180,5 +180,5 @@ com.qualcomm.uimremoteclient
 # "Version: 12, Directory: /product/app/uimremoteserver/uimremoteserver"
 com.qualcomm.uimremoteserver
 
-# "Version: 11.0.0, Directory: /system_ext/priv-app/QuickAccessWallet/QuickAccessWallet"
+# "Version: 11, Directory: /system_ext/priv-app/QuickAccessWallet/QuickAccessWallet"
 com.android.systemui.plugin.globalactions.wallet
