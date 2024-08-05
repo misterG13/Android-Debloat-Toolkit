@@ -9,11 +9,13 @@ exitScript() {
 
 rebootAndroid() {
   clear
-  read -p "Reboot device now? (Y/N) " choice
-  case "$choice" in
-    Y|y ) echo "Rebooting device now..."; adb reboot; exitScript ;;
-    N|n ) echo "Not rebooting device." ;;
-    * ) echo "Please answer Yes or No." ;;
+  read -p "Reboot device now? (Y)es or (N)o " choice
+  echo ""
+
+  case ${choice,,} in
+    y ) echo "Rebooting device now..."; adb reboot; exitScript ;;
+    n ) echo "Not rebooting device." ;;
+    * ) echo "Please answer (Y)es or (N)o." ;;
   esac
 }
 
@@ -103,7 +105,7 @@ apkRemoval(){
   read -p "For each APK, do you want to (C)onfirm removal of each, yes to (A)ll or (E)xit? (c/a/e): " confirm
   echo ""
 
-  case $confirm in
+  case ${confirm,,} in
     c) skip=false ;;
     a) skip=true ;;
     e) echo "Removal cancelled."; submenuDebloat ;;
@@ -114,7 +116,7 @@ apkRemoval(){
     read -p "For all APKs in this list: (D)isable, (U)ninstall or (C)ancel? (d/u/c): " confirm
     echo ""
 
-    case $confirm in
+    case ${confirm,,} in
       d) removalType='d' ;;
       u) removalType='u' ;;
       c) echo "Removal cancelled."; submenuDebloat ;;
@@ -153,6 +155,9 @@ apkRemoval(){
           response=$removalType
         fi
 
+        # Make response all lowercase
+        response=${response,,}
+
         # Disable APK
         if [[ $response == "d" ]]; then
           adb shell pm disable-user --user 0 $apk
@@ -187,6 +192,9 @@ apkRemoval(){
 
   echo ""
   read -p "Removal complete, return to (M)ain Menu, (D)ebloat Menu or (E)xit? (m/d/e): " response
+
+  # Make response all lowercase
+  response=${response,,}
   
   # (M)ain Menu
   if [[ $response == "m" ]]; then
@@ -216,7 +224,7 @@ apkRestore() {
   echo ""
 
   # Set $skip variable
-  case $confirm in
+  case ${confirm,,} in
     c) skip=false ;;
     a) skip=true ;;
     e) echo "Restore cancelled."; submenuRestore ;;
@@ -252,6 +260,9 @@ apkRestore() {
         elif [[ $skip == true ]]; then
           response="r"
         fi
+
+        # Make response all lowercase
+        response=${response,,}
 
         # Restore APK
         if [[ $response == "r" ]]; then
@@ -290,6 +301,9 @@ apkRestore() {
 
   echo ""
   read -p "Restoration complete, return to (M)ain Menu, (R)estore Menu or (E)xit? (m/r/e): " response
+
+  # Make response all lowercase
+  response=${response,,}
   
   # (M)ain Menu
   if [[ $response == "m" ]]; then
@@ -322,6 +336,9 @@ apkExport() {
   if [ -z "$search_word" ]; then
     # Ask user for a search term
     read -p "Enter ONE or NO keyword (ex: cn, google, lock, oneplus, oplus, qualcomm, remote, tmo, tmobile): " search_word
+
+    # Make response all lowercase
+    search_word=${search_word,,}
   fi
 
   # ADB shell to get phone's model name
@@ -384,6 +401,9 @@ apkExport() {
 
   echo ""
   read -p "Export complete, return to (M)ain Menu or (E)xit? (m/e): " response
+
+  # Make response all lowercase
+  response=${response,,}
   
   # (M)ain Menu
   if [[ $response == "m" ]]; then
