@@ -48,7 +48,7 @@ loadPackages() {
 loadJSON() {
   local    file=$1 # JSON file location
   local     key=$2 # JSON variable name
-  local  search=$3 # Value to search for in each  $key
+  local  search=$3 # Value to search for in each $key
   local    key1=$4 # Multiple key and search values
   local search1=$5 # Multiple key and search values
 
@@ -102,7 +102,7 @@ apkRemoval(){
   echo "Begin removing APK files from your Android device."
   echo ""
 
-  read -p "For each APK, do you want to (C)onfirm removal of each, yes to (A)ll or (E)xit? (c/a/e): " confirm
+  read -p "For each APK, do you want to: (C)onfirm removal of each, yes to (A)ll or (E)xit? (c/a/e): " confirm
   echo ""
 
   case ${confirm,,} in
@@ -113,14 +113,14 @@ apkRemoval(){
   esac
 
   if [[ $skip == true ]]; then
-    read -p "For all APKs in this list: (D)isable, (U)ninstall or (C)ancel? (d/u/c): " confirm
+    read -p "For all APKs in this list: (D)isable, (U)ninstall or (C)ancel? (D/U/C): " confirm
     echo ""
 
     case ${confirm,,} in
       d) removalType='d' ;;
       u) removalType='u' ;;
       c) echo "Removal cancelled."; submenuDebloat ;;
-      *) echo "Invalid input. Please enter d, u or c."; submenuDebloat ;;
+      *) echo "Invalid input. Please enter D, U or C."; submenuDebloat ;;
     esac
   fi
 
@@ -135,9 +135,8 @@ apkRemoval(){
     if [[ $list == '#'* ]]; then
       echo ""
       echo "$apk"
-    
-    # Check if installed
     else
+      # Check if installed
       if isPackageInstalled $apk; then
         echo ""
         echo "List: $list"
@@ -148,7 +147,7 @@ apkRemoval(){
 
         # Check for 'skip'
         if [[ $skip == false ]]; then
-          read -p "(D)isable, (U)ninstall, (S)kip or (E)xit: $apk? (d/u/s/e): " response
+          read -p "(D)isable, (U)ninstall, (S)kip or (E)xit: $apk? (D/U/S/E): " response
           echo ""
 
         elif [[ $skip == true ]]; then
@@ -157,6 +156,20 @@ apkRemoval(){
 
         # Make response all lowercase
         response=${response,,}
+
+        # Code refactoring:
+        # case $response in
+        #   # Disable
+        #   d) adb shell pm disable-user --user 0 $apk; echo "Disabled: $apk"; sleep 1 ;;
+        #   # Uninstall
+        #   u) adb shell pm uninstall --user 0 $apk; echo "Uninstalled: $apk"; sleep 1 ;;
+        #   # Skip
+        #   s) echo "Skipping: $apk"; sleep 1 ;;
+        #   # Exit
+        #   e) submenuDebloat ;;
+        #   # Invalid response
+        #   *) echo "Invalid response. Please try again." ;;
+        # esac
 
         # Disable APK
         if [[ $response == "d" ]]; then
@@ -191,10 +204,18 @@ apkRemoval(){
   done
 
   echo ""
-  read -p "Removal complete, return to (M)ain Menu, (D)ebloat Menu or (E)xit? (m/d/e): " response
+  read -p "Removal complete, return to (M)ain Menu, (D)ebloat Menu or (E)xit? (M/D/E): " response
 
   # Make response all lowercase
   response=${response,,}
+
+  # Code refactoring:
+  # case $response in
+  #   m) mainMenu ;;
+  #   d) submenuDebloat ;;
+  #   e) exitScript ;;
+  #   *) mainMenu ;;
+  # esac
   
   # (M)ain Menu
   if [[ $response == "m" ]]; then
@@ -220,7 +241,7 @@ apkRestore() {
   echo "Begin restoring APK files from your Android device."
   echo ""
 
-  read -p "For each APK, do you want to (C)onfirm restoration of each, yes to (A)ll or (E)xit? (c/a/e): " confirm
+  read -p "For each APK, do you want to (C)onfirm restoration of each, yes to (A)ll or (E)xit? (C/A/E): " confirm
   echo ""
 
   # Set $skip variable
@@ -254,7 +275,7 @@ apkRestore() {
 
         # Check for 'skip'
         if [[ $skip == false ]]; then
-          read -p "(R)estore, (S)kip or (E)xit: $apk? (r/s/e): " response
+          read -p "(R)estore, (S)kip or (E)xit: $apk? (R/S/E): " response
           echo ""
 
         elif [[ $skip == true ]]; then
@@ -263,6 +284,27 @@ apkRestore() {
 
         # Make response all lowercase
         response=${response,,}
+
+        # Code refactoring:
+        # case $response in
+        #   # Restore
+        #   r) 
+        #     adb shell pm install-existing --user 0 $apk
+        #     adb shell pm enable --user 0 $apk
+        #     if isPackageInstalled $apk; then
+        #       echo "Successfully restored $apk."
+        #     else
+        #       echo "Failed to restore $apk."
+        #     fi
+        #     echo ""
+        #     ;;
+        #   # Skip
+        #   s) echo "Skipping: $apk"; sleep 1 ;;
+        #   # Exit
+        #   e) submenuRestore ;;
+        #   # Invalid input
+        #   *) echo "Invalid input. Please enter (R/S/E)"; submenuRestore ;;
+        # esac
 
         # Restore APK
         if [[ $response == "r" ]]; then
@@ -300,10 +342,18 @@ apkRestore() {
   done
 
   echo ""
-  read -p "Restoration complete, return to (M)ain Menu, (R)estore Menu or (E)xit? (m/r/e): " response
+  read -p "Restoration complete, return to (M)ain Menu, (R)estore Menu or (E)xit? (M/R/E): " response
 
   # Make response all lowercase
   response=${response,,}
+
+  # Code refactoring:
+  # case $response in
+  #   m) mainMenu ;;
+  #   r) submenuRestore ;;
+  #   e) exitScript ;;
+  #   *) mainMenu ;;
+  # esac
   
   # (M)ain Menu
   if [[ $response == "m" ]]; then
@@ -400,10 +450,17 @@ apkExport() {
   sed -i '$!N;$s/},/}/' $output_file
 
   echo ""
-  read -p "Export complete, return to (M)ain Menu or (E)xit? (m/e): " response
+  read -p "Export complete, return to (M)ain Menu or (E)xit? (M/E): " response
 
   # Make response all lowercase
   response=${response,,}
+
+  # Code refactoring:
+  # case $response in
+  #   m) mainMenu ;;
+  #   e) exitScript ;;
+  #   *) mainMenu ;;
+  # esac
   
   # (M)ain Menu
   if [[ $response == "m" ]]; then
