@@ -102,7 +102,7 @@ apkRemoval(){
   echo "Begin removing APK files from your Android device."
   echo ""
 
-  read -p "For each APK, do you want to: (C)onfirm removal of each, yes to (A)ll or (E)xit? (c/a/e): " confirm
+  read -p "For each APK, do you want to: (C)onfirm removal of each, yes to (A)ll or (E)xit? (C/A/E): " confirm
   echo ""
 
   case ${confirm,,} in
@@ -157,43 +157,19 @@ apkRemoval(){
         # Make response all lowercase
         response=${response,,}
 
-        # Code refactoring:
-        # case $response in
-        #   # Disable
-        #   d) adb shell pm disable-user --user 0 $apk; echo "Disabled: $apk"; sleep 1 ;;
-        #   # Uninstall
-        #   u) adb shell pm uninstall --user 0 $apk; echo "Uninstalled: $apk"; sleep 1 ;;
-        #   # Skip
-        #   s) echo "Skipping: $apk"; sleep 1 ;;
-        #   # Exit
-        #   e) submenuDebloat ;;
-        #   # Invalid response
-        #   *) echo "Invalid response. Please try again." ;;
-        # esac
-
-        # Disable APK
-        if [[ $response == "d" ]]; then
-          adb shell pm disable-user --user 0 $apk
-          echo "Disabled: $apk"
-          echo ""
-          sleep 1
-          
-        # Uninstall APK
-        elif [[ $response == "u" ]]; then
-          adb shell pm uninstall --user 0 $apk
-          echo "Uninstalled: $apk"
-          echo ""
-          sleep 1
-        
-        # Skip APK
-        elif [[ $response == "s" ]]; then
-          echo "Skipping: $apk"
-          sleep 1
-
-        # Exit
-        elif [[ $response == "e" ]]; then
-          submenuDebloat
-        fi
+        # Handle response
+        case $response in
+          # Disable
+          d) adb shell pm disable-user --user 0 $apk; echo "Disabled: $apk"; sleep 1 ;;
+          # Uninstall
+          u) adb shell pm uninstall --user 0 $apk; echo "Uninstalled: $apk"; sleep 1 ;;
+          # Skip
+          s) echo "Skipping: $apk"; sleep 1 ;;
+          # Exit
+          e) submenuDebloat ;;
+          # Invalid response
+          *) echo "Invalid response. Please try again." ;;
+        esac
 
       # Not Installed
       else
@@ -209,29 +185,13 @@ apkRemoval(){
   # Make response all lowercase
   response=${response,,}
 
-  # Code refactoring:
-  # case $response in
-  #   m) mainMenu ;;
-  #   d) submenuDebloat ;;
-  #   e) exitScript ;;
-  #   *) mainMenu ;;
-  # esac
-  
-  # (M)ain Menu
-  if [[ $response == "m" ]]; then
-    mainMenu
-
-  # (D)ebloat Menu
-  elif [[ $response == "d" ]]; then
-    submenuDebloat
-  
-  # (E)xit
-  elif [[ $response == "e" ]]; then
-    exitScript
-  
-  else
-    mainMenu
-  fi
+  # Handle response
+  case $response in
+    m) mainMenu ;;
+    d) submenuDebloat ;;
+    e) exitScript ;;
+    *) mainMenu ;;
+  esac
 }
 
 apkRestore() {
@@ -285,54 +245,26 @@ apkRestore() {
         # Make response all lowercase
         response=${response,,}
 
-        # Code refactoring:
-        # case $response in
-        #   # Restore
-        #   r) 
-        #     adb shell pm install-existing --user 0 $apk
-        #     adb shell pm enable --user 0 $apk
-        #     if isPackageInstalled $apk; then
-        #       echo "Successfully restored $apk."
-        #     else
-        #       echo "Failed to restore $apk."
-        #     fi
-        #     echo ""
-        #     ;;
-        #   # Skip
-        #   s) echo "Skipping: $apk"; sleep 1 ;;
-        #   # Exit
-        #   e) submenuRestore ;;
-        #   # Invalid input
-        #   *) echo "Invalid input. Please enter (R/S/E)"; submenuRestore ;;
-        # esac
-
-        # Restore APK
-        if [[ $response == "r" ]]; then
-
-          # attempt to reinstall
-          adb shell pm install-existing --user 0 $apk
-
-          # attempt to enable
-          adb shell pm enable --user 0 $apk
-          
-          # verify $apk was installed and enabled
-          if ! isPackageInstalled $apk; then
-            echo "Failed to restore $apk."
+        # Handle reponse
+        case $response in
+          # Restore
+          r) 
+            adb shell pm install-existing --user 0 $apk
+            adb shell pm enable --user 0 $apk
+            if isPackageInstalled $apk; then
+              echo "Successfully restored $apk."
+            else
+              echo "Failed to restore $apk."
+            fi
             echo ""
-          else
-            echo "Successfully restored $apk."
-            echo ""
-          fi
-
-        # Skip APK
-        elif [[ $response == "s" ]]; then
-          echo "Skipping: $apk"
-          sleep 1
-
-        # Exit
-        elif [[ $response == "e" ]]; then
-          submenuRestore
-        fi
+            ;;
+          # Skip
+          s) echo "Skipping: $apk"; sleep 1 ;;
+          # Exit
+          e) submenuRestore ;;
+          # Invalid input
+          *) echo "Invalid input. Please enter (R/S/E)"; submenuRestore ;;
+        esac
 
       # Not Installed
       else
@@ -347,29 +279,13 @@ apkRestore() {
   # Make response all lowercase
   response=${response,,}
 
-  # Code refactoring:
-  # case $response in
-  #   m) mainMenu ;;
-  #   r) submenuRestore ;;
-  #   e) exitScript ;;
-  #   *) mainMenu ;;
-  # esac
-  
-  # (M)ain Menu
-  if [[ $response == "m" ]]; then
-    mainMenu
-
-  # (R)estore Menu
-  elif [[ $response == "r" ]]; then
-    submenuRestore
-  
-  # (E)xit
-  elif [[ $response == "e" ]]; then
-    exitScript
-
-  else
-    mainMenu
-  fi
+  # Handle response
+  case $response in
+    m) mainMenu ;;
+    r) submenuRestore ;;
+    e) exitScript ;;
+    *) mainMenu ;;
+  esac
 }
 
 apkExport() {
@@ -455,24 +371,12 @@ apkExport() {
   # Make response all lowercase
   response=${response,,}
 
-  # Code refactoring:
-  # case $response in
-  #   m) mainMenu ;;
-  #   e) exitScript ;;
-  #   *) mainMenu ;;
-  # esac
-  
-  # (M)ain Menu
-  if [[ $response == "m" ]]; then
-    mainMenu
-
-  # (E)xit
-  elif [[ $response == "e" ]]; then
-    exitScript
-
-  else
-    mainMenu
-  fi
+  # Handle reponse
+  case $response in
+    m) mainMenu ;;
+    e) exitScript ;;
+    *) mainMenu ;;
+  esac
 }
 
 # Debloat custom.txt
