@@ -1,0 +1,527 @@
+[
+  {
+    "id": "com.oplus.healthservice",
+    "list": "unknown",
+    "description": "Version: 3.0.18, Directory: /system_ext/app/HealthService/HealthService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.smartengine",
+    "list": "unknown",
+    "description": "Version: 12.0.52, Directory: /product/app/SmartEngine/SmartEngine",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.securitykeyboard",
+    "list": "unknown",
+    "description": "Version: 2.1.7, Directory: /product/app/OplusSecurityKeyboard/OplusSecurityKeyboard",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.crashbox",
+    "list": "unknown",
+    "description": "Version: 13.4.30, Directory: /system_ext/app/CrashBox/CrashBox",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.wifi.resources.overlay.oplus",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /system_ext/overlay/OplusWifiResource",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.location",
+    "list": "unknown",
+    "description": "Version: 12.11.220617, Directory: /system_ext/app/OplusLocationService/OplusLocationService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.screenrecorder",
+    "list": "unknown",
+    "description": "Version: 12.11.30, Directory: /product/priv-app/OplusScreenRecorder/OplusScreenRecorder",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.powermonitor",
+    "list": "unknown",
+    "description": "Version: v2.202207011839, Directory: /system_ext/app/PowerMonitor/PowerMonitor",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "oplus.frameworkres.overlay.display.product",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /odm/overlay/oplus_framework_res_overlay.display.product.19853",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.interconnectcollectkit",
+    "list": "unknown",
+    "description": "Version: 1.1.4, Directory: /product/app/InterconnectCollectKit/InterconnectCollectKit",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.deepthinker",
+    "list": "unknown",
+    "description": "Version: 12.0.0, Directory: /system_ext/priv-app/DeepThinker/DeepThinker",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.qualityprotect",
+    "list": "unknown",
+    "description": "Version: 5.0.25, Directory: /system_ext/app/OplusQualityProtect/OplusQualityProtect",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.bluetooth.oplus.overlay",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /system_ext/overlay/OplusBluetoothResource",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.aod",
+    "list": "unknown",
+    "description": "Version: 2.1.32, Directory: /product/app/Aod/Aod",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.nhs",
+    "list": "unknown",
+    "description": "Version: 3.3.14, Directory: /system_ext/app/NetworkHealthService/NetworkHealthService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.ocs",
+    "list": "unknown",
+    "description": "Version: 1.4.15, Directory: /product/app/OpenCapabilityService/OpenCapabilityService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.ota",
+    "list": "unknown",
+    "description": "Version: 3.14.16, Directory: /system_ext/app/OTA/OTA",
+    "status": "disabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.sau",
+    "list": "unknown",
+    "description": "Version: 1.1.33, Directory: /system_ext/app/SystemAppUpdateService/SystemAppUpdateService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.sos",
+    "list": "unknown",
+    "description": "Version: 7.30.0, Directory: /product/priv-app/SOSHelper/SOSHelper",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.exserviceui",
+    "list": "unknown",
+    "description": "Version: 1.2.0, Directory: /system_ext/app/OplusExServiceUI/OplusExServiceUI",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.romupdate",
+    "list": "unknown",
+    "description": "Version: 3.8.11, Directory: /product/app/RomUpdate/RomUpdate",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.framework_bluetooth.overlay",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /system_ext/overlay/OplusFrameworkBluetoothResource",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "oplus.frameworkres.overlay.camera.product",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /odm/overlay/oplus_framework_res_overlay.camera.product.hotdogb",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.notificationmanager",
+    "list": "unknown",
+    "description": "Version: 12.10.06, Directory: /system_ext/app/NotificationCenter/NotificationCenter",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.upgradeguide",
+    "list": "unknown",
+    "description": "Version: 1.1.01, Directory: /system_ext/priv-app/UpgradeGuide/UpgradeGuide",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.wifitest",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /system_ext/app/wifirftest/wifirftest",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.locationproxy",
+    "list": "unknown",
+    "description": "Version: 12.0.14, Directory: /product/app/LocationProxy/LocationProxy",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.audio.effectcenter",
+    "list": "unknown",
+    "description": "Version: 1.0.79, Directory: /product/app/AudioEffectCenter/AudioEffectCenter",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.carrierconfig.oplus.overlay",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /product/overlay/OplusCarrierConfig",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.eyeprotect",
+    "list": "unknown",
+    "description": "Version: 2.0, Directory: /system_ext/app/OplusEyeProtect/OplusEyeProtect",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.synergy",
+    "list": "unknown",
+    "description": "Version: 3.1.12, Directory: /product/priv-app/HeySynergy/HeySynergy",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.android.overlay.gmsconfig.common",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/OplusGmsConfigOverlayCommon/OplusGmsConfigOverlayCommon",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.bttestmode",
+    "list": "unknown",
+    "description": "Version: 2.0.20150831, Directory: /system_ext/app/BTtestmode/BTtestmode",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.phone.overlay.oplus",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /product/overlay/TelephonyResCommon_Sys_Oplus",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.uiengine",
+    "list": "unknown",
+    "description": "Version: 12.0.38, Directory: /product/app/VariUIEngine/VariUIEngine",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.statistics.rom",
+    "list": "unknown",
+    "description": "Version: 5.5.12, Directory: /product/priv-app/DCS/DCS",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "oplus",
+    "list": "unknown",
+    "description": "Version: 8.0, Directory: /system_ext/framework/oplus-framework-res",
+    "status": "disabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.wirelesssettings",
+    "list": "unknown",
+    "description": "Version: 12.103.3, Directory: /system_ext/priv-app/WirelessSettings/WirelessSettings",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.uxdesign",
+    "list": "unknown",
+    "description": "Version: 12.1.0, Directory: /system_ext/app/UXDesign/UXDesign",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.appplatform",
+    "list": "unknown",
+    "description": "Version: 1.9.2, Directory: /system_ext/priv-app/OplusAppPlatform/OplusAppPlatform",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.android.overlay.modules.documentsui",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/OplusDocumentsUIOverlay/OplusDocumentsUIOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.opusermanual",
+    "list": "unknown",
+    "description": "Version: 1.3.25, Directory: /product/app/OPUserManual/OPUserManual",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.framework.rro.oneplus",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/oplus_framework_res_rro_oneplus",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.permissioncontroller.overlay.oplus",
+    "list": "unknown",
+    "description": "Version: 2.0.0, Directory: /system_ext/overlay/OplusPermissionControllerOverlay/OplusPermissionControllerOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.atlas",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /system_ext/app/OplusAtlasService/OplusAtlasService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.games",
+    "list": "unknown",
+    "description": "Version: 3.3.18, Directory: /product/app/Games/Games",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.stdid",
+    "list": "unknown",
+    "description": "Version: 1.1.0, Directory: /system_ext/priv-app/StdID/StdID",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.exsystemservice",
+    "list": "unknown",
+    "description": "Version: 1.1.2, Directory: /system_ext/priv-app/OplusExSystemService/OplusExSystemService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.wallpapers",
+    "list": "unknown",
+    "description": "Version: 12.1.42, Directory: /product/app/Wallpapers/Wallpapers",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.encryption",
+    "list": "unknown",
+    "description": "Version: 12.102.21, Directory: /product/app/FileEncryption/FileEncryption",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.trafficmonitor",
+    "list": "unknown",
+    "description": "Version: 12.006.6, Directory: /system_ext/priv-app/TrafficMonitor/TrafficMonitor",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.blacklistapp",
+    "list": "unknown",
+    "description": "Version: 6.5.11, Directory: /my_bigball/priv-app/BlackListApp/BlackListApp",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.wifibackuprestore",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /system_ext/app/WifiBackupAndRestore/WifiBackupAndRestore",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.battery",
+    "list": "unknown",
+    "description": "Version: 1.2.0, Directory: /system_ext/app/Battery/Battery",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.multiapp",
+    "list": "unknown",
+    "description": "Version: 2.1.0, Directory: /system_ext/app/OplusMultiApp/OplusMultiApp",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.engineercamera",
+    "list": "unknown",
+    "description": "Version: V4.0, Directory: /system_ext/app/OplusEngineerCamera/OplusEngineerCamera",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.postmanservice",
+    "list": "unknown",
+    "description": "Version: V5.1.3, Directory: /system_ext/app/PostmanService/PostmanService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.portrait",
+    "list": "unknown",
+    "description": "Version: 1.0.6, Directory: /product/app/Portrait/Portrait",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.gesture",
+    "list": "unknown",
+    "description": "Version: 8.1.0, Directory: /system_ext/app/OppoGestureUI/OppoGestureUI",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.securitypermission",
+    "list": "unknown",
+    "description": "Version: 2.0.600, Directory: /system_ext/app/SecurityPermission/SecurityPermission",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.cast",
+    "list": "unknown",
+    "description": "Version: 4.1.073, Directory: /product/priv-app/HeyCast/HeyCast",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.cosa",
+    "list": "unknown",
+    "description": "Version: 12.0.207, Directory: /product/app/COSA/COSA",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.lfeh",
+    "list": "unknown",
+    "description": "Version: 1.1.3, Directory: /system_ext/app/LFEHer/LFEHer",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.onet",
+    "list": "unknown",
+    "description": "Version: 1.2.068, Directory: /product/priv-app/ONet/ONet",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.athena",
+    "list": "unknown",
+    "description": "Version: 3.2.10, Directory: /system_ext/app/Athena/Athena",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.phonenoareainquire",
+    "list": "unknown",
+    "description": "Version: 13.0.0, Directory: /my_bigball/app/PhoneNOAreaInquireProvider/PhoneNOAreaInquireProvider",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.safecenter",
+    "list": "unknown",
+    "description": "Version: 12.100.0, Directory: /system_ext/app/SafeCenter/SafeCenter",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.linker",
+    "list": "unknown",
+    "description": "Version: 3.2.18, Directory: /product/priv-app/OPSynergy/OPSynergy",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.logkit",
+    "list": "unknown",
+    "description": "Version: 2.2.64, Directory: /system_ext/app/LogKit/LogKit",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.melody",
+    "list": "unknown",
+    "description": "Version: 4.1.290, Directory: /data/app/Melody/Melody",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.nrMode",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /system_ext/priv-app/OplusNrMode/OplusNrMode",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.engineermode",
+    "list": "unknown",
+    "description": "Version: V7.0, Directory: /system_ext/app/OplusEngineerMode/OplusEngineerMode",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.screenshot",
+    "list": "unknown",
+    "description": "Version: 12.12.42, Directory: /product/priv-app/Screenshot/Screenshot",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.subsys",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /system_ext/app/SubsystemApp/SubsystemApp",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.engineernetwork",
+    "list": "unknown",
+    "description": "Version: V2.2.20, Directory: /system_ext/app/OplusEngineerNetwork/OplusEngineerNetwork",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+]

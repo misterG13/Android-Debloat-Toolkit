@@ -1,0 +1,170 @@
+[
+  {
+    "id": "com.qualcomm.qti.performancemode",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/priv-app/PerformanceMode/PerformanceMode",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.powersavemode",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/PowerSaveMode/PowerSaveMode",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.wfd.service",
+    "list": "unknown",
+    "description": "Version: 2.0, Directory: /system_ext/priv-app/WfdService/WfdService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.ims",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /system_ext/app/imssettings/imssettings",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.devicestatisticsservice",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/DeviceStatisticsService/DeviceStatisticsService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.telephonyservice",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/QtiTelephonyService/QtiTelephonyService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.location",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /system_ext/priv-app/com.qualcomm.location/com.qualcomm.location",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.xrcb",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/priv-app/xrcbservice/xrcbservice",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.uimremoteserver",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /product/app/uimremoteserver/uimremoteserver",
+    "status": "uninstalled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.tmobile.rsuadapter.qualcomm",
+    "list": "unknown",
+    "description": "Version: 1.0.15, Directory: /my_bigball/priv-app/RSU-QualcommAdapter-USKU/RSU-QualcommAdapter-USKU",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qtil.btdsda",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/BluetoothDsDaService/BluetoothDsDaService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.uimGbaApp",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /product/app/uimgbaservice/uimgbaservice",
+    "status": "uninstalled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.atfwd2",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/AtFwd2/AtFwd2",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.workloadclassifier",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/workloadclassifier/workloadclassifier",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.uceShimService",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/uceShimService/uceShimService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.simcontacts",
+    "list": "unknown",
+    "description": "Version: 1.0.0, Directory: /system_ext/app/SimContact/SimContact",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.cne",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /vendor/app/CneApp/CneApp",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.timeservice",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /vendor/app/TimeService/TimeService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.atfwd",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/atfwd/atfwd",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.uimremoteclient",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /product/app/uimremoteclient/uimremoteclient",
+    "status": "uninstalled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qti.qualcomm.datastatusnotification",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/datastatusnotification/datastatusnotification",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.xrvd.service",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/priv-app/xrvdservice/xrvdservice",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.lpa",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /product/app/uimlpaservice/uimlpaservice",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qcrilmsgtunnel",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel",
+    "status": "enabled",
+    "removal": "unknown"
+  }
+]

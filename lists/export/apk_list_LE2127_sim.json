@@ -1,0 +1,16 @@
+[
+  {
+    "id": "com.android.simappdialog",
+    "list": "unknown",
+    "description": "Version: 11, Directory: /system/app/SimAppDialog/SimAppDialog",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.simsettings",
+    "list": "unknown",
+    "description": "Version: 11, Directory: /system_ext/app/SimSettings/SimSettings",
+    "status": "enabled",
+    "removal": "unknown"
+  }
+]

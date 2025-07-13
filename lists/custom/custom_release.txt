@@ -1,0 +1,184 @@
+# GAPPS
+
+# "GMail, Directory: /product/app/Gmail2/Gmail2"
+com.google.android.gm
+
+# "Youtube, Directory: /data/app/~~LaO0xoXBp04H5PUN6A3ceA==/com.google.android.youtube-yyUdwsBflBW6vOW1_9cwEA==/base"
+com.google.android.youtube
+
+# "Youtube Music, Directory: /data/app/YTMusic/YTMusic"
+com.google.android.apps.youtube.music
+
+# "Duo, Directory: /data/app/Duo/Duo"
+com.google.android.apps.tachyon
+
+# "Google Drive, Directory: /data/app/Drive/Drive"
+com.google.android.apps.docs
+
+# "Google Maps, Directory: /product/app/Maps/Maps"
+com.google.android.apps.maps
+
+# "Google TV/Videos, Directory: /data/app/Videos/Videos"
+com.google.android.videos
+
+# "Google Photos, Directory: /data/app/Photos/Photos"
+com.google.android.apps.photos
+
+# "Google Docs, Directory: /system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle"
+com.google.android.documentsui
+
+# "GBoard, Directory: /my_bigball/app/LatinImeGoogle/LatinImeGoogle"
+com.google.android.inputmethod.latin
+
+# "Google Calendar, Directory: /my_bigball/app/CalendarGoogle/CalendarGoogle"
+com.google.android.calendar
+
+# "Google WebView, Directory: /product/app/WebViewGoogle/WebViewGoogle"
+com.google.android.webview
+
+# "Google Widget Search, Directory: /product/priv-app/Velvet/Velvet"
+com.google.android.googlequicksearchbox
+
+# "Augmented Reality, Directory: /product/app/ARCore/ARCore"
+com.google.ar.core
+
+# "Augmented Reality, Camera, Directory: /data/app/Google_Lens/Google_Lens"
+com.google.ar.lens
+
+# "Remote Sim Lock Auth, Directory: /product/app/remoteSimLockAuthentication/remoteSimLockAuthentication"
+com.qualcomm.qti.remoteSimlockAuth
+
+# "Remote Sim Lock Service, Directory: /product/app/remotesimlockservice/remotesimlockservice"
+com.qualcomm.qti.uim
+
+# "One Time Initializer, Directory: /product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer"
+com.google.android.onetimeinitializer
+
+# "Setup Wizard, Directory: /my_heytap/non_overlay/priv-app/SetupWizard/SetupWizard"
+com.google.android.setupwizard
+
+# "Partner Setup, Directory: /product/priv-app/GooglePartnerSetup/GooglePartnerSetup"
+com.google.android.partnersetup
+
+# "Google Feedback, Directory: /my_heytap/non_overlay/priv-app/GoogleFeedback/GoogleFeedback"
+com.google.android.feedback
+
+# "Google Telemetry, Directory: /product/app/com.google.mainline.telemetry/com.google.mainline.telemetry"
+com.google.mainline.telemetry
+
+# "Google Location History, Directory: /product/app/GoogleLocationHistory/GoogleLocationHistory"
+com.google.android.gms.location.history
+
+# "Marvin Talkback, Directory: /product/app/talkback/talkback"
+com.google.android.marvin.talkback
+
+# "Hot Word Enrollment XGoogle, Directory: /product/priv-app/HotwordEnrollmentXGoogleWCD9340"
+com.android.hotwordenrollment.xgoogle
+
+# "Hot Word Enrollment OK Google, Directory: /product/priv-app/HotwordEnrollmentOKGoogleWCD9340"
+com.android.hotwordenrollment.okgoogle
+
+# Google Chrome
+com.android.chrome
+
+# "Version: 2.6.29, Directory: /product/priv-app/AccessoryFramework/AccessoryFramework"
+com.heytap.accessory
+
+# "Face Unlock, Directory: /my_product/non_overlay/priv-app/OPFaceUnlock/OPFaceUnlock"
+com.oneplus.faceunlock
+
+# "Version: 2.7.80, Directory: /data/app/OPWeather/OPWeather"
+net.oneplus.weather
+
+# "Version: 12.7.4, Directory: /data/app/OPNote/OPNote"
+com.oneplus.note
+
+# "Version: 2.3.24, Directory: /product/priv-app/OPScout/OPScout"
+com.oneplus.opscout
+
+# "Version: 3.5.63, Directory: /product/priv-app/OPShelf/OPShelf"
+com.oneplus.opshelf
+
+# "Version: 3.3.3, Directory: /product/app/Account/Account"
+com.oneplus.account
+
+# "Version: 3.0.42, Directory: /product/priv-app/OnePlusWizard/OnePlusWizard"
+com.oneplus.setupwizard
+
+# "Version: 12.21.3, Directory: /data/app/BackupAndRestore/BackupAndRestore"
+com.oneplus.backuprestore
+
+# "Version: 5.0.74, Directory: /my_bigball/priv-app/OnePlusGallery/OnePlusGallery"
+com.oneplus.gallery
+
+# "Version: 2.0.2, Directory: /product/app/OPPush/OPPush"
+net.oneplus.push
+
+# "Version: 4.1.3, Directory: /data/app/OPForum/OPForum"
+net.oneplus.forums
+
+# "Version: 13.7.0, Directory: /product/app/FileManager/FileManager"
+com.oneplus.filemanager
+
+# "Version: 2.2.22, Directory: /data/app/CanvasResources/CanvasResources"
+com.oneplus.canvasresources
+
+#"Version: 2.6.3, Directory: /data/app/~/com.oneplus.store-~/EAOnePlusStore"
+com.oneplus.store
+
+# "Version: 19.3.2, Directory: /my_bigball/priv-app/OPMemberShip/OPMemberShip"
+com.oneplus.membership
+
+# "Version: 12.0.52, Directory: /product/app/SmartEngine/SmartEngine"
+com.oplus.smartengine
+
+# "Version: 2.4.19, Directory: /data/app/OPBreathMode/OPBreathMode"
+com.oneplus.brickmode
+
+# "Version: 1.1.4, Directory: /product/app/InterconnectCollectKit/InterconnectCollectKit"
+com.oplus.interconnectcollectkit
+
+# "Version: 12.0.0, Directory: /system_ext/priv-app/DeepThinker/DeepThinker"
+com.oplus.deepthinker
+
+# "Version: 5.0.25, Directory: /system_ext/app/OplusQualityProtect/OplusQualityProtect"
+com.oplus.qualityprotect
+
+# "Version: 2.1.32, Directory: /product/app/Aod/Aod"
+com.oplus.aod
+
+# "Version: 1.4.15, Directory: /product/app/OpenCapabilityService/OpenCapabilityService"
+com.oplus.ocs
+
+# "Version: 1.1.33, Directory: /system_ext/app/SystemAppUpdateService/SystemAppUpdateService"
+com.oplus.sau
+
+# "Version: 3.1.12, Directory: /product/priv-app/HeySynergy/HeySynergy"
+com.oplus.synergy
+
+# "Version: 5.5.12, Directory: /product/priv-app/DCS/DCS"
+com.oplus.statistics.rom
+
+# "Version: 3.3.18, Directory: /product/app/Games/Games"
+com.oplus.games
+
+# "Version: 12.006.6, Directory: /system_ext/priv-app/TrafficMonitor/TrafficMonitor (needed to disable/enable wifi or cell traffic for each apk installed)"
+com.oplus.trafficmonitor
+
+# "Version: 12.0.207, Directory: /product/app/COSA/COSA"
+com.oplus.cosa
+
+# "Version: 1.2.068, Directory: /product/priv-app/ONet/ONet"
+com.oplus.onet
+
+# "Version: 3.2.18, Directory: /product/priv-app/OPSynergy/OPSynergy"
+com.oplus.linker
+
+# "Version: 12, Directory: /product/app/uimremoteclient/uimremoteclient"
+com.qualcomm.uimremoteclient
+
+# "Version: 12, Directory: /product/app/uimremoteserver/uimremoteserver"
+com.qualcomm.uimremoteserver
+
+# "Version: 11, Directory: /system_ext/priv-app/QuickAccessWallet/QuickAccessWallet"
+com.android.systemui.plugin.globalactions.wallet

@@ -1,0 +1,205 @@
+[
+  {
+    "id": "com.oneplus.calculator",
+    "list": "unknown",
+    "description": "Version: 2.1.75, Directory: /product/app/OPCalculator/OPCalculator",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "net.oneplus.weather",
+    "list": "unknown",
+    "description": "Version: 2.7.80, Directory: /data/app/OPWeather/OPWeather",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.note",
+    "list": "unknown",
+    "description": "Version: 12.7.4, Directory: /data/app/OPNote/OPNote",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.opscout",
+    "list": "unknown",
+    "description": "Version: 2.3.24, Directory: /product/priv-app/OPScout/OPScout",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.opshelf",
+    "list": "unknown",
+    "description": "Version: 3.5.63, Directory: /product/priv-app/OPShelf/OPShelf",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.account",
+    "list": "unknown",
+    "description": "Version: 3.3.3, Directory: /product/app/Account/Account",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.soundrecorder",
+    "list": "unknown",
+    "description": "Version: 3.0.40, Directory: /data/app/OPSoundRecorder/OPSoundRecorder",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.wallpaper",
+    "list": "unknown",
+    "description": "Version: 2.0.39, Directory: /product/app/OPLiveWallpaper/OPLiveWallpaper",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "net.oneplus.wallpaperresources",
+    "list": "unknown",
+    "description": "Version: 2.0.1, Directory: /product/app/OPWallpaperResources-OP7TPro/OPWallpaperResources-OP7TPro",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.brickmode",
+    "list": "unknown",
+    "description": "Version: 2.4.19, Directory: /data/app/OPBreathMode/OPBreathMode",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.deskclock",
+    "list": "unknown",
+    "description": "Version: 7.0.116, Directory: /product/priv-app/OPDeskClock/OPDeskClock",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.setupwizard",
+    "list": "unknown",
+    "description": "Version: 3.0.42, Directory: /product/priv-app/OnePlusWizard/OnePlusWizard",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.backuprestore",
+    "list": "unknown",
+    "description": "Version: 12.21.3, Directory: /data/app/BackupAndRestore/BackupAndRestore",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.gallery",
+    "list": "unknown",
+    "description": "Version: 5.0.74, Directory: /my_bigball/priv-app/OnePlusGallery/OnePlusGallery",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.camera.service",
+    "list": "unknown",
+    "description": "Version: 2.4.10, Directory: /product/priv-app/OnePlusCameraService/OnePlusCameraService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "net.oneplus.push",
+    "list": "unknown",
+    "description": "Version: 2.0.2, Directory: /product/app/OPPush/OPPush",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "net.oneplus.forums",
+    "list": "unknown",
+    "description": "Version: 4.1.3, Directory: /data/app/OPForum/OPForum",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "net.oneplus.widget",
+    "list": "unknown",
+    "description": "Version: 3.0.26, Directory: /data/app/OPWidget/OPWidget",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.filemanager",
+    "list": "unknown",
+    "description": "Version: 13.7.0, Directory: /product/app/FileManager/FileManager",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.faceunlock",
+    "list": "unknown",
+    "description": "Version: 2.8.8, Directory: /my_product/non_overlay/priv-app/OPFaceUnlock/OPFaceUnlock",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.framework.rro.oneplus",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/oplus_framework_res_rro_oneplus",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.canvasresources",
+    "list": "unknown",
+    "description": "Version: 2.2.22, Directory: /data/app/CanvasResources/CanvasResources",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.opwlb",
+    "list": "unknown",
+    "description": "Version: 3.3.31, Directory: /product/app/OPWorkLifeBalance/OPWorkLifeBalance",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.store",
+    "list": "unknown",
+    "description": "Version: 2.6.3, Directory: /data/app/~~zTr13WaHyljK4b6LiZFoYA==/com.oneplus.store-X1pD7O7H4ybLEkLhU-wvJQ==/EAOnePlusStore",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "android.autoinstalls.config.oneplus",
+    "list": "unknown",
+    "description": "Version: 1, Directory: /product/priv-app/PlayAutoInstallConfig/PlayAutoInstallConfig",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "android.framework.res.rro.oneplus",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/android_framework_res_rro_export_oneplus",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.camera",
+    "list": "unknown",
+    "description": "Version: 7.2.47, Directory: /product/priv-app/OnePlusCamera/OnePlusCamera",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.membership",
+    "list": "unknown",
+    "description": "Version: 19.3.2, Directory: /my_bigball/priv-app/OPMemberShip/OPMemberShip",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "net.oneplus.launcher",
+    "list": "unknown",
+    "description": "Version: 1.0.16, Directory: /product/app/OPLauncher/OPLauncher",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+]

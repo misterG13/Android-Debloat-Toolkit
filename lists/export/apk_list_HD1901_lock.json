@@ -1,0 +1,30 @@
+[
+  {
+    "id": "com.oneplus.deskclock",
+    "list": "unknown",
+    "description": "Version: 7.0.116, Directory: /product/priv-app/OPDeskClock/OPDeskClock",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.remoteSimlockAuth",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /product/app/remoteSimLockAuthentication/remoteSimLockAuthentication",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.faceunlock",
+    "list": "unknown",
+    "description": "Version: 2.8.8, Directory: /my_product/non_overlay/priv-app/OPFaceUnlock/OPFaceUnlock",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.providers.blockednumber",
+    "list": "unknown",
+    "description": "Version: 3.1.0, Directory: /system_ext/priv-app/BlockedNumberProvider/BlockedNumberProvider",
+    "status": "enabled",
+    "removal": "unknown"
+  }
+]

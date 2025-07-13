@@ -1,0 +1,3006 @@
+[
+  {
+    "id": "net.oneplus.weather",
+    "list": "unknown",
+    "description": "Version: 15.9.6, Directory: /product/app/OppoWeather2/OppoWeather2",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.inputmethod.latin",
+    "list": "unknown",
+    "description": "Version: 15.1.08.726012951-release-arm64-v8a
+14.6.03.665297282-release-arm64-v8a, Directory: /data/app/~~kCCGH_DHIDp5ERjn58XA9A==/com.google.android.inputmethod.latin-nKhC5quJ5CvKsN7RivT7zg==/base",
+    "status": "disabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.systemui",
+    "list": "unknown",
+    "description": "Version: 14.00.16, Directory: /system_ext/priv-app/SystemUI/SystemUI",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.bookmarkprovider",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/app/BookmarkProvider/BookmarkProvider",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.uwb.resources",
+    "list": "unknown",
+    "description": "Version: T-initial, Directory: /apex/com.android.uwb/priv-app/ServiceUwbResources@UKQ1.230924.001/ServiceUwbResources",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.providers.blockednumber",
+    "list": "unknown",
+    "description": "Version: 14.0.20, Directory: /system_ext/priv-app/BlockedNumberProvider/BlockedNumberProvider",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.battlelancer.seriesguide",
+    "list": "unknown",
+    "description": "Version: 2025.1.1, Directory: /data/app/~~jnfh4Uvzhx2kX8K6zo2ydw==/com.battlelancer.seriesguide-_rHzsltSGd3amR2RFlZYhQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.wifi.dialog",
+    "list": "unknown",
+    "description": "Version: 14-11790708, Directory: /apex/com.android.wifi/app/WifiDialogGoogle@341810030/WifiDialogGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.securitykeyboard",
+    "list": "unknown",
+    "description": "Version: 14.0.4, Directory: /product/app/OplusSecurityKeyboard/OplusSecurityKeyboard",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.launcher",
+    "list": "unknown",
+    "description": "Version: 14.0.51, Directory: /system_ext/priv-app/OplusLauncher/OplusLauncher",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.coloros.relax",
+    "list": "unknown",
+    "description": "Version: 2.2.34, Directory: /data/app/OppoRelax/OppoRelax",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.screenrecorder",
+    "list": "unknown",
+    "description": "Version: 14.2.6, Directory: /product/priv-app/OplusScreenRecorder/OplusScreenRecorder",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.networkstack.tethering",
+    "list": "unknown",
+    "description": "Version: 14-11756238, Directory: /apex/com.android.tethering/priv-app/TetheringGoogle@341810050/TetheringGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.performancemode",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/priv-app/PerformanceMode/PerformanceMode",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.googleassistant",
+    "list": "unknown",
+    "description": "Version: 0.1.601924805
+0.1.474378801, Directory: /data/app/~~vriur3rhlKENd6NkZRx2TQ==/com.google.android.apps.googleassistant-uQ3xlfFKCBtR1iJ83Y4I9A==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.server.telecom",
+    "list": "unknown",
+    "description": "Version: 14.14.25, Directory: /system_ext/priv-app/Telecom/Telecom",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.ndsf",
+    "list": "unknown",
+    "description": "Version: 14.1.9, Directory: /product/priv-app/DSF/DSF",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.framework.rro.oneplus",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/oplus_framework_res_rro_oneplus",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.untappdllc.app",
+    "list": "unknown",
+    "description": "Version: 4.5.2, Directory: /data/app/~~yUIFKsE6acqL7pZ9nk_0bA==/com.untappdllc.app-GDG9c3i6wi1pMtknFNMG_A==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.metis",
+    "list": "unknown",
+    "description": "Version: 15.0.168, Directory: /product/priv-app/Metis/Metis",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.smartengine",
+    "list": "unknown",
+    "description": "Version: 12.0.110, Directory: /product/app/SmartEngine/SmartEngine",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.synergy",
+    "list": "unknown",
+    "description": "Version: 14.20.50, Directory: /product/priv-app/HeySynergy/HeySynergy",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.olc",
+    "list": "unknown",
+    "description": "Version: V14.0.18, Directory: /system_ext/app/Olc/Olc",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.obrain",
+    "list": "unknown",
+    "description": "Version: 14.0.23, Directory: /my_stock/non_overlay/app/OBrain/OBrain",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.server.telecom.overlay.common",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /product/overlay/TelecommResCommon_Sys",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.onetrace",
+    "list": "unknown",
+    "description": "Version: 1.3.34, Directory: /system_ext/app/OTrace/OTrace",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.com.netflix.mediaclient.mediaclient",
+    "list": "unknown",
+    "description": "Version: 9.10.0 build 10 62444
+1.0.0, Directory: /data/app/~~pwoyoonx4Fq59K9PbkzC1w==/com.netflix.mediaclient-fU8_gqkCF1mouYV3pg1xYQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.encryption",
+    "list": "unknown",
+    "description": "Version: 14.6.3, Directory: /product/app/FileEncryption/FileEncryption",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.apprecover",
+    "list": "unknown",
+    "description": "Version: 1.7.010, Directory: /product/priv-app/MDSService/MDSService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "vendor.qti.iwlan",
+    "list": "unknown",
+    "description": "Version: 1.2, Directory: /vendor/app/IWlanService/IWlanService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.providers.downloads",
+    "list": "unknown",
+    "description": "Version: 14.0.0, Directory: /system_ext/priv-app/DownloadProvider/DownloadProvider",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.systemui.overlay.fingerprint.anim.stripe",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/SystemUIFingerprintRes_13_0_STRIPE",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.wellbeing",
+    "list": "unknown",
+    "description": "Version: 1.23.729347901 (706267)
+1.14.649750418 (636157), Directory: /data/app/~~ioI-4fjtDmZUOW2jO1vQTg==/com.google.android.apps.wellbeing--Xnj44tqEmiPvfT7ytWCyw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.safetycenter.resources.overlay",
+    "list": "unknown",
+    "description": "Version: 14.00.02, Directory: /system_ext/overlay/SafetyCenterResourcesOverlay/SafetyCenterResourcesOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.coloros.lockassistant",
+    "list": "unknown",
+    "description": "Version: 14.5.100, Directory: /product/priv-app/LockAssistant/LockAssistant",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "de.tutao.tutanota",
+    "list": "unknown",
+    "description": "Version: 275.250326.0, Directory: /data/app/~~ZdAILgL8depK_ThEuYRbIQ==/de.tutao.tutanota-w4XQ7RvWqmR6OZqd93ic6Q==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.redfin.android",
+    "list": "unknown",
+    "description": "Version: 569.0, Directory: /data/app/~~awqoVBncK4H7IAIqvWIXjQ==/com.redfin.android-IcKOnmzLlRO2eljNjJOYbg==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.contacts",
+    "list": "unknown",
+    "description": "Version: 4.51.25.735555589
+4.38.51.662676845, Directory: /data/app/~~iHiabURBC1njbHt7W9vofw==/com.google.android.contacts-pXdgNgtK7pFhRQ21wm66Ag==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.lfeh",
+    "list": "unknown",
+    "description": "Version: 1.2.2, Directory: /system_ext/app/LFEHer/LFEHer",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.powersavemode",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/PowerSaveMode/PowerSaveMode",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.wfd.service",
+    "list": "unknown",
+    "description": "Version: 2.0, Directory: /system_ext/priv-app/WfdService/WfdService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.openai.chatgpt",
+    "list": "unknown",
+    "description": "Version: 1.2025.091, Directory: /data/app/~~8DYR-r59DyLYq1DynEAj1g==/com.openai.chatgpt-yJmgcvZFxYniLVpyq8iDOg==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.ims",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /system_ext/app/imssettings/imssettings",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "android.overlay.common",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /product/overlay/FrameworksResCommon_Sys",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.systemui.overlay.common",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /product/overlay/SystemUIResCommon_Sys",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "net.oneplus.wallpaperresources",
+    "list": "unknown",
+    "description": "Version: 2.0.15, Directory: /product/app/OPWallpaperResources/OPWallpaperResources",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.gamma.scan",
+    "list": "unknown",
+    "description": "Version: 2.2.65, Directory: /data/app/~~m74Kd_JHuLmSaG62ftYurQ==/com.gamma.scan-bYPGPwjyj8nz126IbxHZ9Q==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.nas",
+    "list": "unknown",
+    "description": "Version: V14.0.0, Directory: /system_ext/app/NetworkAssistSys/NetworkAssistSys",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.atlas",
+    "list": "unknown",
+    "description": "Version: 13.1.0, Directory: /system_ext/app/OplusAtlasService/OplusAtlasService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.move.realtor",
+    "list": "unknown",
+    "description": "Version: 25.19.0, Directory: /data/app/~~e3ZmONelDsLFZ-9BRCP3ww==/com.move.realtor-gX0LcKJfMKXadXVfV0t1Yg==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.gsf",
+    "list": "unknown",
+    "description": "Version: 14-10347885, Directory: /my_heytap/non_overlay/priv-app/GoogleServicesFramework/GoogleServicesFramework",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.nrMode",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/priv-app/OplusNrMode/OplusNrMode",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.battery",
+    "list": "unknown",
+    "description": "Version: 1.2.1, Directory: /system_ext/app/Battery/Battery",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.microsoft.deviceintegrationservice",
+    "list": "unknown",
+    "description": "Version: 2.23103.5.26.0, Directory: /product/priv-app/DeviceIntegrationService/DeviceIntegrationService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.htmlviewer",
+    "list": "unknown",
+    "description": "Version: 14.0.0, Directory: /system_ext/app/HTMLViewer/HTMLViewer",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.as",
+    "list": "unknown",
+    "description": "Version: U.1.playstore.oemfull.551370458, Directory: /my_bigball/priv-app/AndroidSystemIntelligence_Features/AndroidSystemIntelligence_Features",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "vendor.qti.hardware.cacert.server",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /vendor/app/CACertService/CACertService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.qualityprotect",
+    "list": "unknown",
+    "description": "Version: 14.2.85, Directory: /system_ext/app/OplusQualityProtect/OplusQualityProtect",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.screenshot",
+    "list": "unknown",
+    "description": "Version: 15.1.32, Directory: /product/priv-app/Screenshot/Screenshot",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.wawa.android.appv2",
+    "list": "unknown",
+    "description": "Version: 9.4.0, Directory: /data/app/~~2_S8-nunqAUZNXyHrLtlkg==/com.wawa.android.appv2-buwO5j20RhwkS-RP2527BA==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.cosa",
+    "list": "unknown",
+    "description": "Version: 14.0.123, Directory: /product/app/COSA/COSA",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.vdc",
+    "list": "unknown",
+    "description": "Version: 14.2.10, Directory: /system_ext/priv-app/VDCService/VDCService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.portrait",
+    "list": "unknown",
+    "description": "Version: 14.0.11, Directory: /product/app/Portrait/Portrait",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "deckers.thibault.aves",
+    "list": "unknown",
+    "description": "Version: 1.12.3, Directory: /data/app/~~VVYCd2_3LwtPXfxlmALL1A==/deckers.thibault.aves-5ytfoG3dLjmFlzAaB8G8eQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "org.videolan.vlc",
+    "list": "unknown",
+    "description": "Version: 3.6.3, Directory: /data/app/~~lheQYty-Ne_DDrO4MjY-uQ==/org.videolan.vlc-UGjK_zJ96NIWVH6d-6_aIw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.devicestatisticsservice",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/DeviceStatisticsService/DeviceStatisticsService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "org.codeaurora.ims",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /system_ext/priv-app/ims/ims",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "android.frameworkres.overlay",
+    "list": "unknown",
+    "description": "Version: 33, Directory: /product/overlay/framework_res_overlay.network.fussi.20859",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.wifi.resources.overlay.common",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /product/overlay/WifiResCommon_Sys",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.settings.intelligence",
+    "list": "unknown",
+    "description": "Version: 14.0.0, Directory: /system_ext/priv-app/SettingsIntelligence/SettingsIntelligence",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.coloros.operationManual",
+    "list": "unknown",
+    "description": "Version: 14.0.42, Directory: /product/app/OplusOperationManual/OplusOperationManual",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.subscriptions.red",
+    "list": "unknown",
+    "description": "Version: 1.258.742843270, Directory: /data/app/~~X5whUHeByc_5sxSDjGoiWQ==/com.google.android.apps.subscriptions.red-cvWfN03wqIOYR1rprC_94A==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.companiondevicemanager",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/app/CompanionDeviceManager/CompanionDeviceManager",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.eid",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/EidService/EidService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.gms",
+    "list": "unknown",
+    "description": "Version: 25.11.34 (190400-740024306)
+24.31.37 (190400-662270918), Directory: /data/app/~~Yg_g7mvuOaJuDbxNeLIJ2A==/com.google.android.gms-S8avTahScgfXvPVfI1ejwg==/base",
+    "status": "disabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.trafficmonitor",
+    "list": "unknown",
+    "description": "Version: 14.2.1, Directory: /system_ext/priv-app/TrafficMonitor/TrafficMonitor",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.apps.tag",
+    "list": "unknown",
+    "description": "Version: 1.1, Directory: /system/priv-app/Tag/Tag",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.mtp",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/priv-app/MtpService/MtpService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.gms.supervision",
+    "list": "unknown",
+    "description": "Version: 0.1.453788429, Directory: /product/priv-app/FamilyLinkParentalControls/FamilyLinkParentalControls",
+    "status": "disabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "org.mozilla.fenix",
+    "list": "unknown",
+    "description": "Version: 139.0a1, Directory: /data/app/~~avf2TphD5bVWf2Z2YHOh0g==/org.mozilla.fenix-7-et7j_HnR1-WrhB8N6r4g==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.vpndialogs",
+    "list": "unknown",
+    "description": "Version: 13.000.4, Directory: /system_ext/priv-app/VpnDialogs/VpnDialogs",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "android.connectivity.base.overlay",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /system_ext/overlay/ConnectivityBaseOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.systemui.overlay.fingerprint.anim.none",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/SystemUIFingerprintRes_13_0_NONE",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.devicelockcontroller",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /apex/com.android.devicelock/priv-app/DeviceLockController@UKQ1.230924.001/DeviceLockController",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "oplus.frameworkres.overlay.display.product",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /odm/overlay/oplus_framework_res_overlay.display.product.20859",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.wallpaper",
+    "list": "unknown",
+    "description": "Version: 2.0.39, Directory: /product/app/OPLiveWallpaper/OPLiveWallpaper",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.youtube",
+    "list": "unknown",
+    "description": "Version: 20.13.37
+19.20.33, Directory: /data/app/~~CHPpoXxeStXKxnRGK9RqXQ==/com.google.android.youtube-G3aC_fWkNDuTq43xUeppcQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.certinstaller",
+    "list": "unknown",
+    "description": "Version: 13.0.5, Directory: /system_ext/app/CertInstaller/CertInstaller",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.ext.services",
+    "list": "unknown",
+    "description": "Version: aml_ext_341911000, Directory: /apex/com.android.extservices/priv-app/GoogleExtServices@341911000/GoogleExtServices",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.coboltforge.dontmind.multivnc",
+    "list": "unknown",
+    "description": "Version: 2.1.8, Directory: /data/app/~~5hc4F_o9V4B6U7anKs20Tw==/com.coboltforge.dontmind.multivnc-kxKdEqZQof65mjmcjlB57g==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.heytap.mcs",
+    "list": "unknown",
+    "description": "Version: 5.9.7, Directory: /product/app/MCS/MCS",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.proxyhandler",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/priv-app/ProxyHandler/ProxyHandler",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.vrem.wifianalyzer",
+    "list": "unknown",
+    "description": "Version: 3.1.4, Directory: /data/app/~~JNUphpEcJZ3hYiYB21tkxQ==/com.vrem.wifianalyzer-XeOLxp7V42134wrh3BTkfQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.framework_bluetooth.overlay",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/overlay/OplusFrameworkBluetoothResource",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.onetimeinitializer",
+    "list": "unknown",
+    "description": "Version: 14-10347885, Directory: /product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.healthconnect.controller",
+    "list": "unknown",
+    "description": "Version: 14-11815265, Directory: /apex/com.android.healthfitness/priv-app/HealthConnectControllerGoogle@341811030/HealthConnectControllerGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.cellbroadcastservice.overlay",
+    "list": "unknown",
+    "description": "Version: 1.0.5, Directory: /system_ext/overlay/CellBroadcastServiceModuleOverlay/CellBroadcastServiceModuleOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.settings.overlay.common",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /product/overlay/SettingsResCommon_Sys",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.bluetooth.oplus.overlay",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/overlay/OplusBluetoothResource",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.overlay.modules.ext.services",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/GoogleExtServicesConfigOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "vendor.qti.imsrcs",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/ImsRcsService/ImsRcsService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.safecenter",
+    "list": "unknown",
+    "description": "Version: 14.0.0, Directory: /system_ext/app/SafeCenter/SafeCenter",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "eu.duong.picturemanager",
+    "list": "unknown",
+    "description": "Version: 7.5.2, Directory: /data/app/~~3DrrDzvxRpNTJoWaufxAKA==/eu.duong.picturemanager-H7R6FagKX8kxADQUzt9VcA==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "oplus",
+    "list": "unknown",
+    "description": "Version: 8.0, Directory: /system_ext/framework/oplus-framework-res",
+    "status": "disabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.managedprovisioning",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/priv-app/ManagedProvisioning/ManagedProvisioning",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.telephonyservice",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/QtiTelephonyService/QtiTelephonyService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.shell",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/priv-app/Shell/Shell",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.securitypermission",
+    "list": "unknown",
+    "description": "Version: 14.00.002, Directory: /system_ext/app/SecurityPermission/SecurityPermission",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.carrierconfig.overlay",
+    "list": "unknown",
+    "description": "Version: 33, Directory: /product/overlay/CarrierConfigOverlay.20853",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.wifi.resources.overlay.oplus",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/overlay/OplusWifiResourceEx",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.coloros.assistantscreen",
+    "list": "unknown",
+    "description": "Version: 15.2.106
+14.7.130, Directory: /data/app/~~YZTrbbbI6OdgZmcna4X6eg==/com.coloros.assistantscreen-mFU09D9fDtqwnN-KI1FkjA==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.location",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /system_ext/priv-app/com.qualcomm.location/com.qualcomm.location",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.cts.priv.ctsshim",
+    "list": "unknown",
+    "description": "Version: 14-10093150, Directory: /apex/com.android.apex.cts.shim/priv-app/CtsShimPriv@MASTER/CtsShimPriv",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.excentus.mygaterewards",
+    "list": "unknown",
+    "description": "Version: 42.01.00, Directory: /data/app/~~yhzZuYvBVZYojMg6tbAJCg==/com.excentus.mygaterewards-PZxqBoV57NCi4XlRnP8zog==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.theme.font.notoserifsource",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/FontNotoSerifSource/FontNotoSerifSourceOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.konylabs.capitalone",
+    "list": "unknown",
+    "description": "Version: 6.22.7, Directory: /data/app/~~8gj510Zp6a7CbXnuPMHNzA==/com.konylabs.capitalone-gCM4TNman4WzvWofLeJtww==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.podcasts",
+    "list": "unknown",
+    "description": "Version: 1.0.0.728820940, Directory: /data/app/~~_rlDvBqv6K6v4ievv-Vdow==/com.google.android.apps.podcasts-csAwwMeGFK7aTVhaQZVIew==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.magazines",
+    "list": "unknown",
+    "description": "Version: 5.129.0.738302569, Directory: /data/app/~~UuCiIqw74vFWavInvdX6Tg==/com.google.android.apps.magazines-dNjc-uEvbto5U4oDEo5k-A==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.sauhelper",
+    "list": "unknown",
+    "description": "Version: 1.14.0, Directory: /system_ext/app/SAUHelper/SAUHelper",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.exserviceui",
+    "list": "unknown",
+    "description": "Version: 1.3.0, Directory: /system_ext/app/OplusExServiceUI/OplusExServiceUI",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.dynsystem",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/priv-app/DynamicSystemInstallationService/DynamicSystemInstallationService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.gesture",
+    "list": "unknown",
+    "description": "Version: 8.1.0, Directory: /system_ext/app/OplusGestureUI/OplusGestureUI",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.xrcb",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/priv-app/xrcbservice/xrcbservice",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.providers.media.module",
+    "list": "unknown",
+    "description": "Version: 14-11880920, Directory: /apex/com.android.mediaprovider/priv-app/MediaProviderGoogle@341914020/MediaProviderGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.heytap.colorfulengine",
+    "list": "unknown",
+    "description": "Version: 13.0.83, Directory: /product/priv-app/ColorfulEngine/ColorfulEngine",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.faceunlock",
+    "list": "unknown",
+    "description": "Version: 2.7.27, Directory: /my_product/non_overlay/priv-app/OPFaceUnlock/OPFaceUnlock",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.settings",
+    "list": "unknown",
+    "description": "Version: 14.0.0, Directory: /system_ext/priv-app/Settings/Settings",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.overlay.modules.modulemetadata.forframework",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/ModuleMetadataGoogleOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.windyty.android",
+    "list": "unknown",
+    "description": "Version: 45.0.6, Directory: /data/app/~~cZL37xbEyn87KwtqlBx5Rg==/com.windyty.android-ojRnlxHehhNdw2AFbeZLDw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.fido.uafclient",
+    "list": "unknown",
+    "description": "Version: 3.7.3, Directory: /system_ext/app/UAFClient/UAFClient",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.feedback",
+    "list": "unknown",
+    "description": "Version: 14-10347885, Directory: /my_heytap/non_overlay/priv-app/GoogleFeedback/GoogleFeedback",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.ext.shared",
+    "list": "unknown",
+    "description": "Version: 1, Directory: /my_heytap/non_overlay/app/GoogleExtShared/GoogleExtShared",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.cellbroadcastreceiver.overlay.common",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /product/overlay/CellBroadcastReceiverResCommon_Sys",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.webview",
+    "list": "unknown",
+    "description": "Version: 127.0.6533.64, Directory: /product/app/WebViewGoogle/WebViewGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.crashbox",
+    "list": "unknown",
+    "description": "Version: 14.2.8, Directory: /system_ext/app/CrashBox/CrashBox",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "org.readera",
+    "list": "unknown",
+    "description": "Version: 25.03.05+2110, Directory: /data/app/~~cEc6pZLvxRGc5HiSeMDdYQ==/org.readera-pzLYSvv_YyMLSqLZqyT8Qg==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.sos",
+    "list": "unknown",
+    "description": "Version: 14.90.70, Directory: /product/priv-app/SOSHelper/SOSHelper",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.internal.systemui.navbar.gestural_narrow_back",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/NavigationBarModeGesturalNarrowBack/NavigationBarModeGesturalOverlayNarrowBack",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.docs.editors.sheets",
+    "list": "unknown",
+    "description": "Version: 1.25.132.01.90, Directory: /data/app/~~yt2SUn3djWq0y7GTvjRKQg==/com.google.android.apps.docs.editors.sheets-GL7z35de6_AJUhI767ptqA==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.ocs",
+    "list": "unknown",
+    "description": "Version: 3.2.1, Directory: /product/app/OpenCapabilityService/OpenCapabilityService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.stdsp",
+    "list": "unknown",
+    "description": "Version: 2.1.6_9512d76_231115, Directory: /product/app/StdSP/StdSP",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.oemextensions",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/app/ExtensionsService/ExtensionsService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.providers.media",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/priv-app/MediaProviderLegacy/MediaProviderLegacy",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.multiapp",
+    "list": "unknown",
+    "description": "Version: 14.00.002, Directory: /system_ext/app/OplusMultiApp/OplusMultiApp",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.statementservice",
+    "list": "unknown",
+    "description": "Version: 1.1, Directory: /system/priv-app/StatementService/StatementService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.walletnfcrel",
+    "list": "unknown",
+    "description": "Version: 25.13.742760491
+24.20.637707351, Directory: /data/app/~~oahe6rFRayfiaTlfXoLNGg==/com.google.android.apps.walletnfcrel-uicwbzvRFiOSSxzGy7IG_A==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.uimremoteserver",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /product/app/uimremoteserver/uimremoteserver",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.internal.systemui.navbar.gestural_extra_wide_back",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/NavigationBarModeGesturalExtraWideBack/NavigationBarModeGesturalOverlayExtraWideBack",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qtil.btdsda",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/BluetoothDsDaService/BluetoothDsDaService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.engineernetwork",
+    "list": "unknown",
+    "description": "Version: 14.0.2, Directory: /system_ext/app/OplusEngineerNetwork/OplusEngineerNetwork",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.eyeprotect",
+    "list": "unknown",
+    "description": "Version: 14.0.0, Directory: /system_ext/app/OplusEyeProtect/OplusEyeProtect",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.wallpapers",
+    "list": "unknown",
+    "description": "Version: 14.21.61, Directory: /product/priv-app/Wallpapers/Wallpapers",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.coloros.floatassistant",
+    "list": "unknown",
+    "description": "Version: 14.1.6, Directory: /product/app/FloatAssistant/FloatAssistant",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qti.dcf",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /system_ext/priv-app/dcf/dcf",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.keychain",
+    "list": "unknown",
+    "description": "Version: 14.0.2, Directory: /system_ext/app/KeyChain/KeyChain",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.connectivity.resources.overlay.oplus",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/overlay/ServiceConnectivityResourcesOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.calculator",
+    "list": "unknown",
+    "description": "Version: 14.7.4, Directory: /product/app/Calculator2/Calculator2",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.coloros.healthcheck",
+    "list": "unknown",
+    "description": "Version: 14.0.17, Directory: /product/app/HealthCheck/HealthCheck",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.soundrecorder",
+    "list": "unknown",
+    "description": "Version: 15.0.23, Directory: /data/app/~~4ELWY9bDtWh-chbv3cqKCA==/com.oneplus.soundrecorder-CdWvsUGraU8ILrFnjf_Bpw==/NewSoundRecorder",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.location.fused",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/priv-app/FusedLocation/FusedLocation",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.mainline.telemetry",
+    "list": "unknown",
+    "description": "Version: 2024-07-01S+, Directory: /product/app/com.google.mainline.telemetry/com.google.mainline.telemetry",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.whatsapp",
+    "list": "unknown",
+    "description": "Version: 2.25.9.78, Directory: /data/app/~~q61BEt9IDGDewoHhDV8gaw==/com.whatsapp-L1BmvFYZBPX2oT2G_tsVHw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.exsystemservice",
+    "list": "unknown",
+    "description": "Version: 1.1.5, Directory: /system_ext/priv-app/OplusExSystemService/OplusExSystemService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.systemui.overlay.fingerprint.anim.fy",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/SystemUIFingerprintRes_13_0_FY",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.note",
+    "list": "unknown",
+    "description": "Version: 14.10.12, Directory: /data/app/OppoNote2/OppoNote2",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.publix.main",
+    "list": "unknown",
+    "description": "Version: 4.71.2, Directory: /data/app/~~4zRY1rQ51WSYumDEbyUHSw==/com.publix.main-XSbhCHeCPjzHmqHHoupZ8w==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.gm",
+    "list": "unknown",
+    "description": "Version: 2025.03.23.744886800.Release
+2024.07.21.656518540.Release, Directory: /data/app/~~a_LHAkNS04RjDn9aHQV6zw==/com.google.android.gm-vVkEGDrWEfjCIRPmU6rYcg==/base",
+    "status": "disabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.linkedin.android",
+    "list": "unknown",
+    "description": "Version: 4.1.1055.1, Directory: /data/app/~~QJUbmzB9gzHyiNFZX9PBrQ==/com.linkedin.android-fAn7snIu_vYvtOqoXGQ8nw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.deepthinker",
+    "list": "unknown",
+    "description": "Version: 14.0.125, Directory: /system_ext/priv-app/DeepThinker/DeepThinker",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.virtualmachine.res",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /apex/com.android.virt/app/android.system.virtualmachine.res@UKQ1.230924.001/android.system.virtualmachine.res",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.gallery",
+    "list": "unknown",
+    "description": "Version: 14.72.0, Directory: /my_bigball/priv-app/OppoGallery2/OppoGallery2",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.internal.systemui.navbar.gestural",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.android.overlay.gmsconfig.common",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /my_bigball/overlay/OplusGmsConfigOverlayCommon/OplusGmsConfigOverlayCommon",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.owkservice",
+    "list": "unknown",
+    "description": "Version: 14.0.1, Directory: /system_ext/app/OwkService/OwkService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "android.systemuithreekey.overlay.product",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /odm/overlay/android.systemuithreekey.overlay.product.20859",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.documentsui",
+    "list": "unknown",
+    "description": "Version: 14-11814667, Directory: /system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.nfc",
+    "list": "unknown",
+    "description": "Version: 14.0.19.240816, Directory: /system_ext/app/NfcNci/NfcNci",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.postmanservice",
+    "list": "unknown",
+    "description": "Version: 14.4.0, Directory: /system_ext/app/PostmanService/PostmanService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.printspooler",
+    "list": "unknown",
+    "description": "Version: 1.0.0, Directory: /system_ext/app/PrintSpooler/PrintSpooler",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qti.service.colorservice",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /system_ext/app/colorservice/colorservice",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.alphainventor.filemanager",
+    "list": "unknown",
+    "description": "Version: 3.5.6, Directory: /data/app/~~BvgBZ7MbbKX3VcMzmXs09Q==/com.alphainventor.filemanager-2YvPvZ6nS5Cu1nGSLQzVZw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.internal.display.cutout.emulation.tall",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/DisplayCutoutEmulationTall/DisplayCutoutEmulationTallOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.carrierconfig.overlay.common",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /product/overlay/CarrierConfigResCommon_Sys",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.systemui.accessibility.accessibilitymenu",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/priv-app/AccessibilityMenu/AccessibilityMenu",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.wapi.wapicertmanage",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/WapiCertManage/WapiCertManage",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.customize.coreapp",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /system_ext/priv-app/CustCoreApp/CustCoreApp",
+    "status": "disabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.traceur",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /system/app/Traceur/Traceur",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.heytap.accessory",
+    "list": "unknown",
+    "description": "Version: 14.3.41, Directory: /product/priv-app/AccessoryFramework/AccessoryFramework",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "net.skyscanner.android.main",
+    "list": "unknown",
+    "description": "Version: 7.136, Directory: /data/app/~~1HtGum-BV5UXC4VcUaAGAg==/net.skyscanner.android.main-V7SjExkQ6RNhPwYvR3PUSg==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.providers.downloads.ui",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/priv-app/DownloadProviderUi/DownloadProviderUi",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.wifi.resources.overlay.target",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /vendor/overlay/WifiResTarget",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.omoji",
+    "list": "unknown",
+    "description": "Version: 14.0.48, Directory: /my_bigball/app/Omoji/Omoji",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.store",
+    "list": "unknown",
+    "description": "Version: 3.0.1.2, Directory: /data/app/~~eXszZQ93GhG4kisrpJ25Kg==/com.oneplus.store-ZNwPpfhMku87TicANn-cvg==/EAOnePlusStore",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.carrierconfig",
+    "list": "unknown",
+    "description": "Version: 1.0.0, Directory: /system_ext/priv-app/CarrierConfig/CarrierConfig",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.packageinstaller",
+    "list": "unknown",
+    "description": "Version: 14-11704966, Directory: /my_heytap/non_overlay/priv-app/GooglePackageInstaller/GooglePackageInstaller",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.hotwordenrollment.xgoogle",
+    "list": "unknown",
+    "description": "Version: 13, Directory: /product/priv-app/HotwordEnrollmentXGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.credentialmanager",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/priv-app/CredentialManager/CredentialManager",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.projection.gearhead",
+    "list": "unknown",
+    "description": "Version: 14.0.651234-release
+1.2.531830-stub, Directory: /data/app/~~DkRs-nBqe32MAm3snmimpA==/com.google.android.projection.gearhead-OuBCKrXf0UQWF8cKG7k2ag==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.sdksandbox",
+    "list": "unknown",
+    "description": "Version: T-initial, Directory: /apex/com.android.adservices/app/SdkSandboxGoogle@341913040/SdkSandboxGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.rkpdapp",
+    "list": "unknown",
+    "description": "Version: 14-11681686, Directory: /apex/com.android.rkpd/priv-app/rkpdapp.google@341810000/rkpdapp.google",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.uimGbaApp",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /product/app/uimgbaservice/uimgbaservice",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.backuprestore",
+    "list": "unknown",
+    "description": "Version: 14.16.0, Directory: /data/app/BackupAndRestore/BackupAndRestore",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "org.thoughtcrime.securesms",
+    "list": "unknown",
+    "description": "Version: 7.38.7, Directory: /data/app/~~1J-WgkPzDfpKdeioVwtG-Q==/org.thoughtcrime.securesms-h1hTTpWWSkYDyFxQv2VP-A==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "android.frameworkres.overlay.display.product",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /odm/overlay/android_framework_res_overlay.display.product.20859",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.overlay.modules.documentsui",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/GoogleDocumentsUIOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.permissioncontroller.overlay.oplus",
+    "list": "unknown",
+    "description": "Version: 14.00.002, Directory: /system_ext/overlay/OplusPermissionControllerOverlay/OplusPermissionControllerOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.carrierconfig.platform",
+    "list": "unknown",
+    "description": "Version: 33, Directory: /product/overlay/CarrierConfigOverlay.platform.8350U",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.overlay.gmsconfig.gsa",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /my_bigball/overlay/GmsConfigOverlayGSA/GmsConfigOverlayGSA",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.robinhood.android",
+    "list": "unknown",
+    "description": "Version: 2025.14.2, Directory: /data/app/~~rlpcSYnZLYRIeKPlNBYBCg==/com.robinhood.android-G5-1IQ0k9h7WNThwXny-tA==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.kayak.android",
+    "list": "unknown",
+    "description": "Version: 227.1, Directory: /data/app/~~zbImZFbwIPz83zBuKrq1QA==/com.kayak.android-yjaL63kshKLxfGLwaJ5-1Q==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.overlay.modules.permissioncontroller",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/GooglePermissionControllerOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.providers.userdictionary",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/priv-app/UserDictionaryProvider/UserDictionaryProvider",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.atfwd2",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/AtFwd2/AtFwd2",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.dialer",
+    "list": "unknown",
+    "description": "Version: 169.0.742069049
+147.0.677532466, Directory: /data/app/~~ui3xVbJvPPwvbJ4Sb8KlOg==/com.google.android.dialer-APtzeLgs70SCwan1tOD1JA==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.internal.systemui.navbar.threebutton",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oppo.quicksearchbox",
+    "list": "unknown",
+    "description": "Version: 5.23.0
+5.16.4, Directory: /data/app/~~K2Aac8bfQwI6j6kxjUyb8g==/com.oppo.quicksearchbox-YhwOWhC3Y9kyTm30bYdZtw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.coloros.bootreg",
+    "list": "unknown",
+    "description": "Version: 14.0.82, Directory: /product/priv-app/OplusBootReg/OplusBootReg",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.vending",
+    "list": "unknown",
+    "description": "Version: 45.6.19-31 [0] [PR] 741616401
+42.1.27-31 [0] [PR] 658840558, Directory: /data/app/~~IbLhU4JXn4wHfCycSVrn-A==/com.android.vending-FUT4RwQuY1xpH_gE1iJf8Q==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.chrome",
+    "list": "unknown",
+    "description": "Version: 135.0.7049.79
+127.0.6533.64, Directory: /data/app/~~7TujJN88QdkSsu8ZyHcbHw==/com.android.chrome-BzmvaZuFL3psm1mlnD_jYw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.captiveportallogin",
+    "list": "unknown",
+    "description": "Version: 14-11275147, Directory: /system/app/CaptivePortalLoginGoogle/CaptivePortalLoginGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.ocloud",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/priv-app/OcloudApp/OcloudApp",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.as.oss",
+    "list": "unknown",
+    "description": "Version: 1.0.release.717856639
+1.0.release.650247599, Directory: /data/app/~~Qw56Dnk2gHjj0jzxXFJuQA==/com.google.android.as.oss-HivkXbaHZxgJIPtVltlhiQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.modulemetadata",
+    "list": "unknown",
+    "description": "Version: 2024-07-01S+, Directory: /product/app/com.google.android.modulemetadata/com.google.android.modulemetadata",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.internal.display.cutout.emulation.corner",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/DisplayCutoutEmulationCorner/DisplayCutoutEmulationCornerOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.camera",
+    "list": "unknown",
+    "description": "Version: 4.040.557, Directory: /product/app/OplusCamera/OplusCamera",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.dreams.basic",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/app/BasicDreams/BasicDreams",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.printservice.recommendation",
+    "list": "unknown",
+    "description": "Version: 1.3.0, Directory: /my_heytap/non_overlay/app/GooglePrintRecommendationService/GooglePrintRecommendationService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.audio.effectcenter",
+    "list": "unknown",
+    "description": "Version: 13.1.27, Directory: /product/app/AudioEffectCenter/AudioEffectCenter",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.stk",
+    "list": "unknown",
+    "description": "Version: 13.2.50, Directory: /system_ext/app/Stk/Stk",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.account",
+    "list": "unknown",
+    "description": "Version: EXP_8.44.35, Directory: /product/priv-app/KeKeUserCenter/KeKeUserCenter",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.coloros.colordirectservice",
+    "list": "unknown",
+    "description": "Version: 14.5.7, Directory: /product/app/ColorDirectService/ColorDirectService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.tts",
+    "list": "unknown",
+    "description": "Version: googletts.google-speech-apk_20250303.01_p1.734589102
+googletts.google-speech-apk_20240708.01_p0.650261580, Directory: /data/app/~~a_pCKnhwwidbbIdB_em0lA==/com.google.android.tts-jHDelmZejK-mlFV8_xCTxQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.googlequicksearchbox",
+    "list": "unknown",
+    "description": "Version: 16.12.40.ve.arm64
+15.39.41.28.arm64, Directory: /data/app/~~oaU2ycRWIDXld1ceB8TUCg==/com.google.android.googlequicksearchbox-cQAMugeA_TTCynJd3eRMYg==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.externalstorage",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/priv-app/ExternalStorageProvider/ExternalStorageProvider",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.pantanal.ums",
+    "list": "unknown",
+    "description": "Version: 15.0.114, Directory: /product/priv-app/UMS/UMS",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.networkstack",
+    "list": "unknown",
+    "description": "Version: 14-12024689, Directory: /system/priv-app/NetworkStackGoogle/NetworkStackGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.ar.lens",
+    "list": "unknown",
+    "description": "Version: 1.17.240515009
+1.14.220906006, Directory: /data/app/~~MIdxf3Z66KnqSE4JyMdelQ==/com.google.ar.lens-T1FNTe5D_OzTMKutTg8oSw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qti.qcc",
+    "list": "unknown",
+    "description": "Version: QCC14.2-20230818-959503a, Directory: /system_ext/app/QCC/QCC",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.partnersetup",
+    "list": "unknown",
+    "description": "Version: 100.652836256
+100.642292252, Directory: /data/app/~~8c9xKmFGAgTT6h4eIKEJFQ==/com.google.android.partnersetup-EGyjgWxBfKLg6KvaipFbkg==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.cts.ctsshim",
+    "list": "unknown",
+    "description": "Version: 14-10093150, Directory: /apex/com.android.apex.cts.shim/app/CtsShim@MASTER/CtsShim",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.coloros.activation",
+    "list": "unknown",
+    "description": "Version: 14.0.9, Directory: /my_bigball/app/OplusPhoneActivation/OplusPhoneActivation",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.srjuen.exifviewer",
+    "list": "unknown",
+    "description": "Version: 2.4.1, Directory: /data/app/~~GPGMcje-CML_mWqUaxGb_A==/com.srjuen.exifviewer-a-IVKvaTHhzSuzBdXI0Dig==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.federatedcompute",
+    "list": "unknown",
+    "description": "Version: T-initial, Directory: /apex/com.android.ondevicepersonalization/app/FederatedComputeGoogle@341812000/FederatedComputeGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.ace.shell.production",
+    "list": "unknown",
+    "description": "Version: 1.71.2, Directory: /data/app/~~d02EequYNCsoOZOFvgFPQQ==/com.ace.shell.production-v4KHmfkZ46BQ45KjVgN9ag==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.workloadclassifier",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/workloadclassifier/workloadclassifier",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.gms.location.history",
+    "list": "unknown",
+    "description": "Version: 1.2, Directory: /product/app/GoogleLocationHistory/GoogleLocationHistory",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.tachyon",
+    "list": "unknown",
+    "description": "Version: 297.0.742352960.duo.android_20250316.25_p7
+256.0.658128744.duo.android_20240728.12_p3, Directory: /data/app/~~-tKz9cVw3gPAhCFHnZKjxg==/com.google.android.apps.tachyon-Na5vy1HFr85v_jRk5-mQEQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "vendor.qti.imsdatachannel",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/ImsDataChannelService/ImsDataChannelService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.systemui.plugin.globalactions.wallet",
+    "list": "unknown",
+    "description": "Version: 11.0.0, Directory: /system_ext/priv-app/QuickAccessWallet/QuickAccessWallet",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.instagram.android",
+    "list": "unknown",
+    "description": "Version: 375.0.0.38.66, Directory: /data/app/~~nSmFDN7SOvOYHgbl-kcBBA==/com.instagram.android-W7gor1GGDgz72OnhtduyGw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "oplus.frameworkres.overlay.camera.product",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /odm/overlay/oplus_framework_res_overlay.camera.product.lemonadep",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.uceShimService",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/uceShimService/uceShimService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.carrierconfig.oplus.overlay",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /product/overlay/OplusCarrierConfig",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.googlevoice",
+    "list": "unknown",
+    "description": "Version: 2025.03.30.742085701, Directory: /data/app/~~GAtgl6-fFzqeyXFJMzBYfw==/com.google.android.apps.googlevoice-Gq_jCEZuesnQFybkvC_lvQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.restore",
+    "list": "unknown",
+    "description": "Version: 1.0.726433032
+1.0.644894896, Directory: /data/app/~~qt6xgehqxVpf8vAH9brmBw==/com.google.android.apps.restore-c5TBrNNqYQZTMUsUY32obg==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.netflix.partner.activation",
+    "list": "unknown",
+    "description": "Version: 1.0.0, Directory: /my_bigball/app/Netflix_Activation_OnePlus/Netflix_Activation_OnePlus",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.bluetooth",
+    "list": "unknown",
+    "description": "Version: 14.0.0, Directory: /system/app/Bluetooth/Bluetooth",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.email.partnerprovider",
+    "list": "unknown",
+    "description": "Version: 1.0.15, Directory: /product/app/EmailPartnerProvider/EmailPartnerProvider",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.melody",
+    "list": "unknown",
+    "description": "Version: 15.6.0
+15.1.0, Directory: /data/app/~~lIIkQKKsH28i810XHk4_qw==/com.oplus.melody-snxVBv1HTtQF871u22ohiQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.cellbroadcastreceiver",
+    "list": "unknown",
+    "description": "Version: R-initial, Directory: /apex/com.android.cellbroadcast/priv-app/GoogleCellBroadcastApp@341810000/GoogleCellBroadcastApp",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.jarsilio.android.scrambledeggsif",
+    "list": "unknown",
+    "description": "Version: 1.7.13, Directory: /data/app/~~W2cf6jUa6bg_Tfgu4i4YCg==/com.jarsilio.android.scrambledeggsif-fN9MdcWIlX0L1XH6wbIfEA==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.mediatek.omacp",
+    "list": "unknown",
+    "description": "Version: 14.0.17, Directory: /product/priv-app/Omacp/Omacp",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.appbooster",
+    "list": "unknown",
+    "description": "Version: 1.0.5, Directory: /system_ext/priv-app/AppBooster/AppBooster",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.internal.systemui.navbar.gestural_wide_back",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/NavigationBarModeGesturalWideBack/NavigationBarModeGesturalOverlayWideBack",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.wallpaperbackup",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/app/WallpaperBackup/WallpaperBackup",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.ondevicepersonalization.services",
+    "list": "unknown",
+    "description": "Version: T-initial, Directory: /apex/com.android.ondevicepersonalization/priv-app/OnDevicePersonalizationGoogle@341812000/OnDevicePersonalizationGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.calllogbackup",
+    "list": "unknown",
+    "description": "Version: 14.0.20, Directory: /system/priv-app/CallLogBackup/CallLogBackup",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.wifi.resources.overlay.common",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /vendor/overlay/WifiResCommon_mainline",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.statistics.rom",
+    "list": "unknown",
+    "description": "Version: 5.8.72.02, Directory: /product/priv-app/DCS/DCS",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.remoteSimlockAuth",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /product/app/remoteSimLockAuthentication/remoteSimLockAuthentication",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.hotwordenrollment.okgoogle",
+    "list": "unknown",
+    "description": "Version: 13, Directory: /product/priv-app/HotwordEnrollmentOKGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.gpudrivers.sm8350.api30",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /product/app/com.oplus.gpudrivers.sm8350.api30/com.oplus.gpudrivers.sm8350.api30",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.providers.contacts",
+    "list": "unknown",
+    "description": "Version: 14.0.100, Directory: /system_ext/priv-app/ContactsProvider/ContactsProvider",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.safetycenter.styles.overlay",
+    "list": "unknown",
+    "description": "Version: 14.00.002, Directory: /system_ext/overlay/SafetyCenterStylesOverlay/SafetyCenterStylesOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.dm",
+    "list": "unknown",
+    "description": "Version: 2.1.0, Directory: /my_bigball/priv-app/OplusDm/OplusDm",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.audible.application",
+    "list": "unknown",
+    "description": "Version: 3.97.0, Directory: /data/app/~~1O8njpIgL_3zIfULSr45Nw==/com.audible.application-7mddWyh_3DJ0tlXhxZsyFw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.maps",
+    "list": "unknown",
+    "description": "Version: 25.14.00.742022593
+11.140.0104, Directory: /data/app/~~CNbVjbyjbx6rTlFiSTT51g==/com.google.android.apps.maps-bXoj3Pmqds66gMwMYkEpOA==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.wifibackuprestore",
+    "list": "unknown",
+    "description": "Version: 14.1.7, Directory: /product/app/WifiBackupRestore/WifiBackupRestore",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.bttestmode",
+    "list": "unknown",
+    "description": "Version: 2.0.20150831, Directory: /system_ext/app/BTtestmode/BTtestmode",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.sau",
+    "list": "unknown",
+    "description": "Version: 1.4.18, Directory: /system_ext/app/SystemAppUpdateService/SystemAppUpdateService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "android.framework.res.rro.oneplus",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/android_framework_res_rro_export_oneplus",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.cellbroadcastservice",
+    "list": "unknown",
+    "description": "Version: R-initial, Directory: /apex/com.android.cellbroadcast/priv-app/GoogleCellBroadcastServiceModule@341810000/GoogleCellBroadcastServiceModule",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.calendar",
+    "list": "unknown",
+    "description": "Version: 2025.13.0-742080714-release
+2024.30.1-659970995-release, Directory: /data/app/~~Dvk3MSIawQOdGVpgP6BXAw==/com.google.android.calendar-PBpt25rgWfVSB3jB5Off9g==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.intentresolver",
+    "list": "unknown",
+    "description": "Version: 2021-11, Directory: /system/priv-app/IntentResolver/IntentResolver",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.simcontacts",
+    "list": "unknown",
+    "description": "Version: 1.0.0, Directory: /system_ext/app/SimContact/SimContact",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.bluetoothmidiservice",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/app/BluetoothMidiService/BluetoothMidiService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.microsoft.appmanager",
+    "list": "unknown",
+    "description": "Version: 1.25031.84.0
+1.24022.272.0, Directory: /data/app/~~-1r2YDsSVAFvST4ZdRPVBg==/com.microsoft.appmanager-iPduDTKkVmf-AyXxeDJLhA==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.changelly.app",
+    "list": "unknown",
+    "description": "Version: 3.39.0, Directory: /data/app/~~bYwkwRwsRxraNHG2bfaBkQ==/com.changelly.app-mSAdxS2SIn1RwJ1QLoIHSQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.uxdesign",
+    "list": "unknown",
+    "description": "Version: 14.0.0, Directory: /system_ext/app/UXDesign/UXDesign",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.brickmode",
+    "list": "unknown",
+    "description": "Version: 14.2.0, Directory: /data/app/OPBreathMode/OPBreathMode",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.rongcard.eidapi",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /vendor/app/EidService_V2/EidService_V2",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.videos",
+    "list": "unknown",
+    "description": "Version: 4.39.3031.737984647.2-release
+4.39.2261.642397094.1-release, Directory: /data/app/~~_hmoDLT8zO7bNKmVO2LqDw==/com.google.android.videos-KpWMM8zIWHDMqz0DiGcUFQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.overlay.gmsconfig.comms",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /my_bigball/overlay/GmsConfigOverlayComms/GmsConfigOverlayComms",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.sharedstoragebackup",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/priv-app/SharedStorageBackup/SharedStorageBackup",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "android.frameworkres.overlay.audio.product",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /odm/overlay/android_framework_res_overlay.audio.product.20859",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.internal.display.cutout.emulation.waterfall",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/DisplayCutoutEmulationWaterfall/DisplayCutoutEmulationWaterfallOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.phone.overlay.common",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /product/overlay/TelephonyResCommon_Sys",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.marvin.talkback",
+    "list": "unknown",
+    "description": "Version: 15.2.1.743808607
+14.1.0.595874199, Directory: /data/app/~~xsx3UB9PoC1K52SucSpo0w==/com.google.android.marvin.talkback-I44xLoKiMDRihltEhvTiqA==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.facebook.orca",
+    "list": "unknown",
+    "description": "Version: 501.0.0.61.108, Directory: /data/app/~~S2se9Gtv3MsuTpGuOJCjBw==/com.facebook.orca-xdD_uJnsFMKAm51dE6MVLQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.wifi.resources.overlay.target",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /vendor/overlay/WifiResTarget_mainline",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.pnc.ecommerce.mobile",
+    "list": "unknown",
+    "description": "Version: 4.55.1, Directory: /data/app/~~gAnnfz-tZ8JMeglArJAK8w==/com.pnc.ecommerce.mobile-ahzuRBY95O0eaXxWSsm2rA==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.filemanager",
+    "list": "unknown",
+    "description": "Version: 15.7.6, Directory: /product/app/FileManager/FileManager",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.localtransport",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/priv-app/LocalTransport/LocalTransport",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.twofasapp",
+    "list": "unknown",
+    "description": "Version: 5.4.9, Directory: /data/app/~~DwjjDMWbEH3qqEmUsGPBsw==/com.twofasapp-oV-aSeBGVoNwEYAUOIuhdw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.mainline.adservices",
+    "list": "unknown",
+    "description": "Version: 2024-07-01T+, Directory: /product/app/com.google.mainline.adservices/com.google.mainline.adservices",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.adservices.api",
+    "list": "unknown",
+    "description": "Version: 14-11914278, Directory: /apex/com.android.adservices/priv-app/AdServicesApkGoogle@341913040/AdServicesApkGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.inputdevices",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/priv-app/InputDevices/InputDevices",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.networkstack.overlay",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /system_ext/overlay/NetworkStackOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.cameraextensions",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/app/CameraExtensionsProxy/CameraExtensionsProxy",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.youtube.music",
+    "list": "unknown",
+    "description": "Version: 8.13.51
+7.13.52, Directory: /data/app/~~bWSmgPO3n0YusEEghUUoAA==/com.google.android.apps.youtube.music-7w8IipAlEoJ0v8mJGEfIzw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.walmart.android",
+    "list": "unknown",
+    "description": "Version: 25.12.1, Directory: /data/app/~~mKYLqbQmP6KS6HWiWUbQKg==/com.walmart.android-DFpw4hVg61W6uOG0uJqlNg==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.ons",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/priv-app/ONS/ONS",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.cne",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /vendor/app/CneApp/CneApp",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.romupdate",
+    "list": "unknown",
+    "description": "Version: 3.11.8, Directory: /product/app/RomUpdate/RomUpdate",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.se",
+    "list": "unknown",
+    "description": "Version: 14.0.17, Directory: /system_ext/app/SecureElement/SecureElement",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.touchtype.swiftkey",
+    "list": "unknown",
+    "description": "Version: 9.10.57.20, Directory: /data/app/~~rDzBK61Cw3Rx5AytLN7PAQ==/com.touchtype.swiftkey-TlqnwTwMUk_r8t6Ydw9czw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.egg",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /system/app/EasterEgg/EasterEgg",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.timeservice",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /vendor/app/TimeService/TimeService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.internal.display.cutout.emulation.hole",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/DisplayCutoutEmulationHole/DisplayCutoutEmulationHoleOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.internal.display.cutout.emulation.double",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/DisplayCutoutEmulationDouble/DisplayCutoutEmulationDoubleOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.atfwd",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/atfwd/atfwd",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.photos",
+    "list": "unknown",
+    "description": "Version: 7.23.0.744788288
+6.93.0.657009179, Directory: /data/app/~~YHDW2n2zbDZw526H4LOVpw==/com.google.android.apps.photos-optI5RQS3CKAp14I8tZqOA==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.pacprocessor",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/app/PacProcessor/PacProcessor",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.aod",
+    "list": "unknown",
+    "description": "Version: 14.20.42, Directory: /product/app/Aod/Aod",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.messaging",
+    "list": "unknown",
+    "description": "Version: messages.android_20250319_02_RC00.phone_dynamic
+messages.android_20240806_01_RC02.phone_dynamic, Directory: /data/app/~~uVuGgiddPzSg3qN91MIpOw==/com.google.android.apps.messaging-fiSx2QGEzzt-Zp8Bj-CBSQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.fido.asm",
+    "list": "unknown",
+    "description": "Version: 3.18.0, Directory: /system_ext/app/FidoAsm/FidoAsm",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.deskclock",
+    "list": "unknown",
+    "description": "Version: 14.10.6, Directory: /product/app/Clock/Clock",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.overlay.modules.permissioncontroller.forframework",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/GooglePermissionControllerFrameworkOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.role.notes.enabled",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/NotesRoleEnabled/NotesRoleEnabledOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.providers.calendar",
+    "list": "unknown",
+    "description": "Version: 15.0.4, Directory: /system_ext/priv-app/CalendarProvider/CalendarProvider",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.linker",
+    "list": "unknown",
+    "description": "Version: 14.10.90, Directory: /product/priv-app/OPSynergy/OPSynergy",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.athena",
+    "list": "unknown",
+    "description": "Version: 4.1.23, Directory: /system_ext/app/Athena/Athena",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.cota",
+    "list": "unknown",
+    "description": "Version: 1.8.47, Directory: /product/priv-app/Cota/Cota",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.facebook.lite",
+    "list": "unknown",
+    "description": "Version: 453.0.0.18.113, Directory: /data/app/~~0x39qGpDAPMrvucZ5PnJjQ==/com.facebook.lite-TKPKO36MPgrWtA0o6mFbyw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.uimremoteclient",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /product/app/uimremoteclient/uimremoteclient",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.overlay.gmsconfig.common",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /my_bigball/overlay/GmsConfigOverlayCommonEx/GmsConfigOverlayCommonEx",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.coloros.weather.service",
+    "list": "unknown",
+    "description": "Version: 15.4.2, Directory: /product/app/OppoWeatherService/OppoWeatherService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.phonevalley.progressive",
+    "list": "unknown",
+    "description": "Version: 3.119, Directory: /data/app/~~LuXBrY035_OAi7cf5UpSLw==/com.phonevalley.progressive-oHiG-_wCwt1-vSLamU2Hiw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "de.tutao.calendar",
+    "list": "unknown",
+    "description": "Version: 275.250326.0, Directory: /data/app/~~GODL_eMSG8uw9CfFqxlztA==/de.tutao.calendar-PiSSRtkpeogUCvButicmFg==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "android.overlay.target",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /vendor/overlay/FrameworksResTarget",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.coloros.scenemode",
+    "list": "unknown",
+    "description": "Version: 14.0.11, Directory: /product/app/SceneMode/SceneMode",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.simappdialog",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/app/SimAppDialog/SimAppDialog",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.accessibility.switchaccess",
+    "list": "unknown",
+    "description": "Version: 1.15.0.647194712, Directory: /product/app/SwitchAccess/SwitchAccess",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.engineercamera",
+    "list": "unknown",
+    "description": "Version: V4.0, Directory: /system_ext/app/OplusCommercialEngineerCamera/OplusCommercialEngineerCamera",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.apartments.mobile.android",
+    "list": "unknown",
+    "description": "Version: 13.4.0, Directory: /data/app/~~Sm82bZWSWqodeWhZSqIWfw==/com.apartments.mobile.android-Kv88d5jgBi9WTqgs9LIVLQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.adpmobile.android",
+    "list": "unknown",
+    "description": "Version: 25.13.0, Directory: /data/app/~~A_xfBi3kq8F5dQPQrUAl-A==/com.adpmobile.android-kTWWUqM_EefS0FO_JIkQbA==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "android.frameworkres.overlay.Network",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/overlay/framework_res_overlay_Network",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.hotspot2.osulogin",
+    "list": "unknown",
+    "description": "Version: 14-11790708, Directory: /apex/com.android.wifi/app/OsuLoginGoogle@341810030/OsuLoginGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.android.overlay.modules.documentsui",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /my_bigball/overlay/OplusDocumentsUIOverlay/OplusDocumentsUIOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.fido.fido2client",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /system_ext/app/Fido2Client/Fido2Client",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.wifi.resources",
+    "list": "unknown",
+    "description": "Version: R-initial, Directory: /apex/com.android.wifi/priv-app/ServiceWifiResourcesGoogle@341810030/ServiceWifiResourcesGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.notificationmanager",
+    "list": "unknown",
+    "description": "Version: 14.99.16.19, Directory: /system_ext/app/NotificationCenter/NotificationCenter",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.phone",
+    "list": "unknown",
+    "description": "Version: 14.20.0, Directory: /system_ext/priv-app/TeleService/TeleService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.paypal.android.p2pmobile",
+    "list": "unknown",
+    "description": "Version: 8.82.0, Directory: /data/app/~~hhc6vdYV3H69b8URA6N8ZQ==/com.paypal.android.p2pmobile-P1xz44teoNq8cP1FvcaBvg==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.aiunit",
+    "list": "unknown",
+    "description": "Version: 14.5.38, Directory: /product/app/AIUnit/AIUnit",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.nbu.files",
+    "list": "unknown",
+    "description": "Version: 1.6574.739091442.4-release
+1.4237.652465286.1-release, Directory: /data/app/~~PvpLocyQfjCWEGh-iT_2lQ==/com.google.android.apps.nbu.files-OkGaY2Jlz3yXRlMa0KcAcg==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.stdid",
+    "list": "unknown",
+    "description": "Version: 2.1.4, Directory: /system_ext/priv-app/StdID/StdID",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.appplatform",
+    "list": "unknown",
+    "description": "Version: 14.0.0, Directory: /system_ext/priv-app/OplusAppPlatform/OplusAppPlatform",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.docs",
+    "list": "unknown",
+    "description": "Version: 2.25.130.4.all.alldpi
+2.24.307.1.all.alldpi, Directory: /data/app/~~WGaEA9R1VofApMOIHJZo9A==/com.google.android.apps.docs-fTzrxU_VV3i39A6JCkebBA==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.providers.settings",
+    "list": "unknown",
+    "description": "Version: 14.0.0, Directory: /system_ext/priv-app/SettingsProvider/SettingsProvider",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.nhs",
+    "list": "unknown",
+    "description": "Version: 14.0.04, Directory: /system_ext/app/NetworkHealthService/NetworkHealthService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.chromecast.app",
+    "list": "unknown",
+    "description": "Version: 3.7.1.4, Directory: /data/app/Google_Home/Google_Home",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qti.confuridialer",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /product/app/ConfURIDialer/ConfURIDialer",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.configupdater",
+    "list": "unknown",
+    "description": "Version: 14-11896256, Directory: /product/priv-app/ConfigUpdater/ConfigUpdater",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.setupwizard",
+    "list": "unknown",
+    "description": "Version: 235.666735854, Directory: /my_heytap/non_overlay/priv-app/SetupWizard/SetupWizard",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.overlay.gmsconfig.asi",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /my_bigball/overlay/GmsConfigOverlayASI_Features/GmsConfigOverlayASI_Features",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.wallpaper.livepicker",
+    "list": "unknown",
+    "description": "Version: 14.0.0, Directory: /system_ext/app/WallpaperChooser/WallpaperChooser",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.carrierdefaultapp",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/app/CarrierDefaultApp/CarrierDefaultApp",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.healthservice",
+    "list": "unknown",
+    "description": "Version: 14.0.4, Directory: /system_ext/app/HealthService/HealthService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.cast",
+    "list": "unknown",
+    "description": "Version: 14.0.029, Directory: /product/priv-app/HeyCast/HeyCast",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.mms.service",
+    "list": "unknown",
+    "description": "Version: 14.0.60, Directory: /system_ext/priv-app/MmsService/MmsService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qti.dpmserviceapp",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/priv-app/dpmserviceapp/dpmserviceapp",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "net.oneplus.forums",
+    "list": "unknown",
+    "description": "Version: 4.20.1, Directory: /data/app/OPForum/OPForum",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.engineermode",
+    "list": "unknown",
+    "description": "Version: 14.2.0, Directory: /system_ext/app/OplusCommercialEngineerMode/OplusCommercialEngineerMode",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.backupconfirm",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/priv-app/BackupRestoreConfirmation/BackupRestoreConfirmation",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.subsys",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/SubsystemApp/SubsystemApp",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "android.autoinstalls.config.oneplus",
+    "list": "unknown",
+    "description": "Version: 1001
+1, Directory: /data/app/~~XJGhWTgu9z8pbgZBBNeVtg==/android.autoinstalls.config.oneplus-I8GQbAf-rqmq-8Btfyj1AQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qti.qualcomm.datastatusnotification",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/app/datastatusnotification/datastatusnotification",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.xrvd.service",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/priv-app/xrvdservice/xrvdservice",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.ses.entitlement.o2",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/priv-app/Entitlement/Entitlement",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "net.oneplus.widget",
+    "list": "unknown",
+    "description": "Version: 14.0.1, Directory: /data/app/OPWidget/OPWidget",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.vulkanLayer",
+    "list": "unknown",
+    "description": "Version: 0.001, Directory: /product/app/com.oplus.vulkanLayer/com.oplus.vulkanLayer",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.coloros.childrenspace",
+    "list": "unknown",
+    "description": "Version: 14.1.9, Directory: /product/app/ChildrenSpace/ChildrenSpace",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.providers.telephony",
+    "list": "unknown",
+    "description": "Version: 14.20.15, Directory: /system_ext/priv-app/TelephonyProvider/TelephonyProvider",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.permissioncontroller",
+    "list": "unknown",
+    "description": "Version: aml_per_341810000, Directory: /apex/com.android.permission/priv-app/GooglePermissionController@341810000/GooglePermissionController",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.microsoftsdk.crossdeviceservicebroker",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/app/CrossDeviceServiceBroker/CrossDeviceServiceBroker",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.safetycenter.resources",
+    "list": "unknown",
+    "description": "Version: 33 system image, Directory: /apex/com.android.permission/priv-app/GoogleSafetyCenterResources@341810000/GoogleSafetyCenterResources",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.systemui.overlay.fingerprint.anim.ripple",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/SystemUIFingerprintRes_13_0_RIPPLE",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.logkit",
+    "list": "unknown",
+    "description": "Version: 14.0.18, Directory: /system_ext/app/LogKit/LogKit",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.cellbroadcastreceiver",
+    "list": "unknown",
+    "description": "Version: R-initial, Directory: /system/priv-app/CellBroadcastLegacyApp/CellBroadcastLegacyApp",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.systemui.overlay.fingerprint.anim.cosmos",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/SystemUIFingerprintRes_13_0_COSMOS",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oneplus.membership",
+    "list": "unknown",
+    "description": "Version: 20.1.3
+20.0.1, Directory: /data/app/~~5TRXE6RTUJHnpUl30ZPWWA==/com.oneplus.membership-_nHSZkqmEFYIkudAaJjGjg==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.location",
+    "list": "unknown",
+    "description": "Version: 14.30.240507, Directory: /system_ext/app/OplusLocationService/OplusLocationService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.wirelesssettings",
+    "list": "unknown",
+    "description": "Version: 14.13.1, Directory: /system_ext/priv-app/WirelessSettings/WirelessSettings",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.virtualcomm",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/priv-app/OplusVirtualComm/OplusVirtualComm",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.overlay.modules.captiveportallogin.forframework",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/CaptivePortalLoginFrameworkOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.docs.editors.docs",
+    "list": "unknown",
+    "description": "Version: 1.25.142.00.90, Directory: /data/app/~~YjNBUZKklhntlcKzRFpqVA==/com.google.android.apps.docs.editors.docs-uBk3Yal_kHnixfgetYLZ_w==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.lpa",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /product/app/uimlpaservice/uimlpaservice",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.trulia.android",
+    "list": "unknown",
+    "description": "Version: 14.21.0, Directory: /data/app/~~Vo5UIxAFgfl1hmUdYAVXIA==/com.trulia.android-D1tzfsf-niZwE_1UIPDeEw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.games",
+    "list": "unknown",
+    "description": "Version: 5.16.0_global
+5.11.6_global, Directory: /data/app/~~MUkGJkdpOtO1OTPSKRZgxA==/com.oplus.games-PXvO5dArBuIJKbSjEtzILw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.rarlab.rar",
+    "list": "unknown",
+    "description": "Version: 7.01.build123, Directory: /data/app/~~z3k64p6AwGXcUU1hYhkKYg==/com.rarlab.rar-sfYjEsgHoOLwPVU0BvpGxQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.uim",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /product/app/remotesimlockservice/remotesimlockservice",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.cellbroadcastreceiver.overlay",
+    "list": "unknown",
+    "description": "Version: 1.0.5, Directory: /system_ext/overlay/CellBroadcastReceiverModuleOverlay/CellBroadcastReceiverModuleOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.systemui.overlay.fingerprint.anim.fireworks",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/SystemUIFingerprintRes_13_0_FIREWORKS",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.bips",
+    "list": "unknown",
+    "description": "Version: 1.0.0, Directory: /system_ext/priv-app/BuiltInPrintService/BuiltInPrintService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "android",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system/framework/framework-res",
+    "status": "disabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.coloros.systemclone",
+    "list": "unknown",
+    "description": "Version: 14.2.1, Directory: /product/priv-app/SystemClone/SystemClone",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "org.dayup.stocks",
+    "list": "unknown",
+    "description": "Version: 11.0.0.87, Directory: /data/app/~~acJww_tQnXYPYflpq5WiwA==/org.dayup.stocks-t_4ZK8USvuwAphU2VFMhiw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.connectivity.resources",
+    "list": "unknown",
+    "description": "Version: S-initial, Directory: /apex/com.android.tethering/priv-app/ServiceConnectivityResourcesGoogle@341810050/ServiceConnectivityResourcesGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.ar.core",
+    "list": "unknown",
+    "description": "Version: 0, Directory: /product/app/ARCore/ARCore",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.storagemanager",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/priv-app/StorageManager/StorageManager",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.interconnectcollectkit",
+    "list": "unknown",
+    "description": "Version: 5.0.1, Directory: /product/app/InterconnectCollectKit/InterconnectCollectKit",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.providers.partnerbookmarks",
+    "list": "unknown",
+    "description": "Version: 1.0.27, Directory: /product/app/ChromePartnerProvider/ChromePartnerProvider",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.uiengine",
+    "list": "unknown",
+    "description": "Version: 13.2.77, Directory: /product/app/VariUIEngine/VariUIEngine",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.locationproxy",
+    "list": "unknown",
+    "description": "Version: 12.0.19, Directory: /product/app/LocationProxy/LocationProxy",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.onet",
+    "list": "unknown",
+    "description": "Version: 14.14.60, Directory: /product/priv-app/ONet/ONet",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.powermonitor",
+    "list": "unknown",
+    "description": "Version: 14.0.100, Directory: /system_ext/app/PowerMonitor/PowerMonitor",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.wf.wellsfargomobile",
+    "list": "unknown",
+    "description": "Version: 25.03.00.75, Directory: /data/app/~~3WZWaXWs03JDLFjmUqBpzA==/com.wf.wellsfargomobile-bjlZ21zmE_Q7dJkYnIwbWQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qcrilmsgtunnel",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.systemui.overlay.fingerprint.anim.sw",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/SystemUIFingerprintRes_13_0_SW",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.internal.systemui.navbar.transparent",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/TransparentNavigationBar/TransparentNavigationBarOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.oplus.ota",
+    "list": "unknown",
+    "description": "Version: 14.1.13, Directory: /system_ext/app/OTA/OTA",
+    "status": "disabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.coloros.smartsidebar",
+    "list": "unknown",
+    "description": "Version: 15.2.7, Directory: /product/app/SmartSideBar/SmartSideBar",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.health.connect.backuprestore",
+    "list": "unknown",
+    "description": "Version: 14-11815265, Directory: /apex/com.android.healthfitness/app/HealthConnectBackupRestoreGoogle@341811030/HealthConnectBackupRestoreGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  }
+]

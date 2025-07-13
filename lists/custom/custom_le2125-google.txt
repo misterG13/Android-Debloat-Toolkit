@@ -1,0 +1,59 @@
+#GBoard (google keyboard)
+com.google.android.inputmethod.latin
+
+#Google Assistant
+com.google.android.apps.googleassistant
+
+#Google News
+com.google.android.apps.magazines
+
+#Google One
+com.google.android.apps.subscriptions.red
+
+#Google Podcasts
+com.google.android.apps.podcasts
+
+# Google Chrome
+com.android.chrome
+
+#Google Home
+com.google.android.apps.chromecast.app
+
+#Google TV
+com.google.android.videos
+
+#Google Wallet
+com.google.android.apps.walletnfcrel
+
+#Google Lens
+com.google.ar.lens
+
+#Google AR
+com.google.ar.core
+
+#Hot Word Enrollment OK Google
+com.android.hotwordenrollment.okgoogle
+
+#Google Location History
+com.google.android.gms.location.history
+
+#Google Digital Wellbeing
+com.google.android.apps.wellbeing
+
+#Youtube
+com.google.android.youtube
+
+#Youtube Music
+com.google.android.apps.youtube.music
+
+#Ad Services
+com.google.mainline.adservices
+
+#Ad Services API
+com.google.android.adservices.api
+
+#Netflix Media Clien
+com.com.netflix.mediaclient.mediaclient
+
+#Netflix Partner Activation
+com.netflix.partner.activation

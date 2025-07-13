@@ -1,0 +1,23 @@
+[
+  {
+    "id": "com.qualcomm.uimremoteclient",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /product/app/uimremoteclient/uimremoteclient",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.uimremoteserver",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /product/app/uimremoteserver/uimremoteserver",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.qualcomm.qti.remoteSimlockAuth",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /product/app/remoteSimLockAuthentication/remoteSimLockAuthentication",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+]

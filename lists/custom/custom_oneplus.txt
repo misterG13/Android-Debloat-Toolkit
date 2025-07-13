@@ -1,0 +1,101 @@
+# OnePlus Clone Phone
+com.oneplus.backuprestore
+
+# OnePlus Community
+net.oneplus.forums
+
+# OnePlus Gallery
+com.oneplus.gallery
+
+# OnePlus Games
+com.oplus.games
+
+# OnePlus Game Space
+com.oneplus.gamespace
+
+# OnePlus My Files
+com.oneplus.filemanager
+
+# OnePlus Notes
+com.oneplus.note
+
+# OnePlus Quick Connect
+com.heytap.accessory
+
+# OnePlus Recorder
+com.oneplus.soundrecorder
+
+# OnePlus Store
+com.oneplus.store
+
+# OnePlus Weather
+net.oneplus.weather
+
+# OnePlus Zen Mode 1/2
+com.oneplus.zenmode
+
+# OnePlus Zen Mode 2/2
+com.oneplus.brickmode
+
+# OnePlus O Relax
+com.coloros.relax
+
+# OnePlus Omoji
+com.oplus.omoji
+
+# OnePlus Canvas
+com.oneplus.canvasresources
+
+# OnePlus OEM T CMA
+cn.oneplus.oemtcma
+
+# OnePlus System Update
+com.oneplus.opbackup
+
+# OnePlus Ambient Display (AOD)
+com.oneplus.aod
+
+# OnePlus Setup Wizard
+com.oneplus.setupwizard
+
+# OnePlus Push Messages
+net.oneplus.push
+
+# OnePlus Common Log Tool
+net.oneplus.commonlogtool
+
+# OnePlus LogKit
+com.oem.oemlogkit
+
+# Smart Sidebar
+com.coloros.smartsidebar
+
+# Floating Windows
+com.coloros.floatassistant
+
+# Shelf
+com.coloros.assistantscreen
+
+# Operation Manual
+com.coloros.operationManual
+
+# Relax
+com.coloros.relax
+
+# Color OS Activation
+com.coloros.activation
+
+# OnePlus Metis
+com.oplus.metis
+
+# OnePlus Synergy 1/2
+com.oplus.synergy
+
+# OnePlus Synergy 2/2
+com.oplus.linker
+
+# Remove Carrier bootloader lock (dev options)
+com.qualcomm.qti.uim
+
+# Remove Carrier bootloader lock (dev options)
+com.qualcomm.qti.remoteSimlockAuth

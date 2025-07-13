@@ -1,0 +1,16 @@
+[
+  {
+    "id": "com.qualcomm.qti.simcontacts",
+    "list": "unknown",
+    "description": "Version: 1.0.0, Directory: /system_ext/app/SimContact/SimContact",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.simappdialog",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /system/app/SimAppDialog/SimAppDialog",
+    "status": "enabled",
+    "removal": "unknown"
+  }
+]

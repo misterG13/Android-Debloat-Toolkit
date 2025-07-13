@@ -1,0 +1,658 @@
+[
+  {
+    "id": "com.google.android.inputmethod.latin",
+    "list": "unknown",
+    "description": "Version: 15.1.08.726012951-release-arm64-v8a
+14.6.03.665297282-release-arm64-v8a, Directory: /data/app/~~kCCGH_DHIDp5ERjn58XA9A==/com.google.android.inputmethod.latin-nKhC5quJ5CvKsN7RivT7zg==/base",
+    "status": "disabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.wifi.dialog",
+    "list": "unknown",
+    "description": "Version: 14-11790708, Directory: /apex/com.android.wifi/app/WifiDialogGoogle@341810030/WifiDialogGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.networkstack.tethering",
+    "list": "unknown",
+    "description": "Version: 14-11756238, Directory: /apex/com.android.tethering/priv-app/TetheringGoogle@341810050/TetheringGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.googleassistant",
+    "list": "unknown",
+    "description": "Version: 0.1.601924805
+0.1.474378801, Directory: /data/app/~~vriur3rhlKENd6NkZRx2TQ==/com.google.android.apps.googleassistant-uQ3xlfFKCBtR1iJ83Y4I9A==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.wellbeing",
+    "list": "unknown",
+    "description": "Version: 1.23.729347901 (706267)
+1.14.649750418 (636157), Directory: /data/app/~~ioI-4fjtDmZUOW2jO1vQTg==/com.google.android.apps.wellbeing--Xnj44tqEmiPvfT7ytWCyw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.contacts",
+    "list": "unknown",
+    "description": "Version: 4.51.25.735555589
+4.38.51.662676845, Directory: /data/app/~~iHiabURBC1njbHt7W9vofw==/com.google.android.contacts-pXdgNgtK7pFhRQ21wm66Ag==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.gsf",
+    "list": "unknown",
+    "description": "Version: 14-10347885, Directory: /my_heytap/non_overlay/priv-app/GoogleServicesFramework/GoogleServicesFramework",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.as",
+    "list": "unknown",
+    "description": "Version: U.1.playstore.oemfull.551370458, Directory: /my_bigball/priv-app/AndroidSystemIntelligence_Features/AndroidSystemIntelligence_Features",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.subscriptions.red",
+    "list": "unknown",
+    "description": "Version: 1.258.742843270, Directory: /data/app/~~X5whUHeByc_5sxSDjGoiWQ==/com.google.android.apps.subscriptions.red-cvWfN03wqIOYR1rprC_94A==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.gms",
+    "list": "unknown",
+    "description": "Version: 25.11.34 (190400-740024306)
+24.31.37 (190400-662270918), Directory: /data/app/~~Yg_g7mvuOaJuDbxNeLIJ2A==/com.google.android.gms-S8avTahScgfXvPVfI1ejwg==/base",
+    "status": "disabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.gms.supervision",
+    "list": "unknown",
+    "description": "Version: 0.1.453788429, Directory: /product/priv-app/FamilyLinkParentalControls/FamilyLinkParentalControls",
+    "status": "disabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.youtube",
+    "list": "unknown",
+    "description": "Version: 20.13.37
+19.20.33, Directory: /data/app/~~CHPpoXxeStXKxnRGK9RqXQ==/com.google.android.youtube-G3aC_fWkNDuTq43xUeppcQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.ext.services",
+    "list": "unknown",
+    "description": "Version: aml_ext_341911000, Directory: /apex/com.android.extservices/priv-app/GoogleExtServices@341911000/GoogleExtServices",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.onetimeinitializer",
+    "list": "unknown",
+    "description": "Version: 14-10347885, Directory: /product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.healthconnect.controller",
+    "list": "unknown",
+    "description": "Version: 14-11815265, Directory: /apex/com.android.healthfitness/priv-app/HealthConnectControllerGoogle@341811030/HealthConnectControllerGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.cellbroadcastservice.overlay",
+    "list": "unknown",
+    "description": "Version: 1.0.5, Directory: /system_ext/overlay/CellBroadcastServiceModuleOverlay/CellBroadcastServiceModuleOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.overlay.modules.ext.services",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/GoogleExtServicesConfigOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.podcasts",
+    "list": "unknown",
+    "description": "Version: 1.0.0.728820940, Directory: /data/app/~~_rlDvBqv6K6v4ievv-Vdow==/com.google.android.apps.podcasts-csAwwMeGFK7aTVhaQZVIew==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.magazines",
+    "list": "unknown",
+    "description": "Version: 5.129.0.738302569, Directory: /data/app/~~UuCiIqw74vFWavInvdX6Tg==/com.google.android.apps.magazines-dNjc-uEvbto5U4oDEo5k-A==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.providers.media.module",
+    "list": "unknown",
+    "description": "Version: 14-11880920, Directory: /apex/com.android.mediaprovider/priv-app/MediaProviderGoogle@341914020/MediaProviderGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.overlay.modules.modulemetadata.forframework",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/ModuleMetadataGoogleOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.feedback",
+    "list": "unknown",
+    "description": "Version: 14-10347885, Directory: /my_heytap/non_overlay/priv-app/GoogleFeedback/GoogleFeedback",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.ext.shared",
+    "list": "unknown",
+    "description": "Version: 1, Directory: /my_heytap/non_overlay/app/GoogleExtShared/GoogleExtShared",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.webview",
+    "list": "unknown",
+    "description": "Version: 127.0.6533.64, Directory: /product/app/WebViewGoogle/WebViewGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.docs.editors.sheets",
+    "list": "unknown",
+    "description": "Version: 1.25.132.01.90, Directory: /data/app/~~yt2SUn3djWq0y7GTvjRKQg==/com.google.android.apps.docs.editors.sheets-GL7z35de6_AJUhI767ptqA==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.walletnfcrel",
+    "list": "unknown",
+    "description": "Version: 25.13.742760491
+24.20.637707351, Directory: /data/app/~~oahe6rFRayfiaTlfXoLNGg==/com.google.android.apps.walletnfcrel-uicwbzvRFiOSSxzGy7IG_A==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.connectivity.resources.overlay.oplus",
+    "list": "unknown",
+    "description": "Version: 14, Directory: /system_ext/overlay/ServiceConnectivityResourcesOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.mainline.telemetry",
+    "list": "unknown",
+    "description": "Version: 2024-07-01S+, Directory: /product/app/com.google.mainline.telemetry/com.google.mainline.telemetry",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.gm",
+    "list": "unknown",
+    "description": "Version: 2025.03.23.744886800.Release
+2024.07.21.656518540.Release, Directory: /data/app/~~a_LHAkNS04RjDn9aHQV6zw==/com.google.android.gm-vVkEGDrWEfjCIRPmU6rYcg==/base",
+    "status": "disabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.documentsui",
+    "list": "unknown",
+    "description": "Version: 14-11814667, Directory: /system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.packageinstaller",
+    "list": "unknown",
+    "description": "Version: 14-11704966, Directory: /my_heytap/non_overlay/priv-app/GooglePackageInstaller/GooglePackageInstaller",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.hotwordenrollment.xgoogle",
+    "list": "unknown",
+    "description": "Version: 13, Directory: /product/priv-app/HotwordEnrollmentXGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.projection.gearhead",
+    "list": "unknown",
+    "description": "Version: 14.0.651234-release
+1.2.531830-stub, Directory: /data/app/~~DkRs-nBqe32MAm3snmimpA==/com.google.android.projection.gearhead-OuBCKrXf0UQWF8cKG7k2ag==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.sdksandbox",
+    "list": "unknown",
+    "description": "Version: T-initial, Directory: /apex/com.android.adservices/app/SdkSandboxGoogle@341913040/SdkSandboxGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.rkpdapp",
+    "list": "unknown",
+    "description": "Version: 14-11681686, Directory: /apex/com.android.rkpd/priv-app/rkpdapp.google@341810000/rkpdapp.google",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.overlay.modules.documentsui",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/GoogleDocumentsUIOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.permissioncontroller.overlay.oplus",
+    "list": "unknown",
+    "description": "Version: 14.00.002, Directory: /system_ext/overlay/OplusPermissionControllerOverlay/OplusPermissionControllerOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.overlay.gmsconfig.gsa",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /my_bigball/overlay/GmsConfigOverlayGSA/GmsConfigOverlayGSA",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.overlay.modules.permissioncontroller",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/GooglePermissionControllerOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.dialer",
+    "list": "unknown",
+    "description": "Version: 169.0.742069049
+147.0.677532466, Directory: /data/app/~~ui3xVbJvPPwvbJ4Sb8KlOg==/com.google.android.dialer-APtzeLgs70SCwan1tOD1JA==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.captiveportallogin",
+    "list": "unknown",
+    "description": "Version: 14-11275147, Directory: /system/app/CaptivePortalLoginGoogle/CaptivePortalLoginGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.as.oss",
+    "list": "unknown",
+    "description": "Version: 1.0.release.717856639
+1.0.release.650247599, Directory: /data/app/~~Qw56Dnk2gHjj0jzxXFJuQA==/com.google.android.as.oss-HivkXbaHZxgJIPtVltlhiQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.modulemetadata",
+    "list": "unknown",
+    "description": "Version: 2024-07-01S+, Directory: /product/app/com.google.android.modulemetadata/com.google.android.modulemetadata",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.printservice.recommendation",
+    "list": "unknown",
+    "description": "Version: 1.3.0, Directory: /my_heytap/non_overlay/app/GooglePrintRecommendationService/GooglePrintRecommendationService",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.tts",
+    "list": "unknown",
+    "description": "Version: googletts.google-speech-apk_20250303.01_p1.734589102
+googletts.google-speech-apk_20240708.01_p0.650261580, Directory: /data/app/~~a_pCKnhwwidbbIdB_em0lA==/com.google.android.tts-jHDelmZejK-mlFV8_xCTxQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.googlequicksearchbox",
+    "list": "unknown",
+    "description": "Version: 16.12.40.ve.arm64
+15.39.41.28.arm64, Directory: /data/app/~~oaU2ycRWIDXld1ceB8TUCg==/com.google.android.googlequicksearchbox-cQAMugeA_TTCynJd3eRMYg==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.networkstack",
+    "list": "unknown",
+    "description": "Version: 14-12024689, Directory: /system/priv-app/NetworkStackGoogle/NetworkStackGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.ar.lens",
+    "list": "unknown",
+    "description": "Version: 1.17.240515009
+1.14.220906006, Directory: /data/app/~~MIdxf3Z66KnqSE4JyMdelQ==/com.google.ar.lens-T1FNTe5D_OzTMKutTg8oSw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.partnersetup",
+    "list": "unknown",
+    "description": "Version: 100.652836256
+100.642292252, Directory: /data/app/~~8c9xKmFGAgTT6h4eIKEJFQ==/com.google.android.partnersetup-EGyjgWxBfKLg6KvaipFbkg==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.federatedcompute",
+    "list": "unknown",
+    "description": "Version: T-initial, Directory: /apex/com.android.ondevicepersonalization/app/FederatedComputeGoogle@341812000/FederatedComputeGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.gms.location.history",
+    "list": "unknown",
+    "description": "Version: 1.2, Directory: /product/app/GoogleLocationHistory/GoogleLocationHistory",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.tachyon",
+    "list": "unknown",
+    "description": "Version: 297.0.742352960.duo.android_20250316.25_p7
+256.0.658128744.duo.android_20240728.12_p3, Directory: /data/app/~~-tKz9cVw3gPAhCFHnZKjxg==/com.google.android.apps.tachyon-Na5vy1HFr85v_jRk5-mQEQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.googlevoice",
+    "list": "unknown",
+    "description": "Version: 2025.03.30.742085701, Directory: /data/app/~~GAtgl6-fFzqeyXFJMzBYfw==/com.google.android.apps.googlevoice-Gq_jCEZuesnQFybkvC_lvQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.restore",
+    "list": "unknown",
+    "description": "Version: 1.0.726433032
+1.0.644894896, Directory: /data/app/~~qt6xgehqxVpf8vAH9brmBw==/com.google.android.apps.restore-c5TBrNNqYQZTMUsUY32obg==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.cellbroadcastreceiver",
+    "list": "unknown",
+    "description": "Version: R-initial, Directory: /apex/com.android.cellbroadcast/priv-app/GoogleCellBroadcastApp@341810000/GoogleCellBroadcastApp",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.ondevicepersonalization.services",
+    "list": "unknown",
+    "description": "Version: T-initial, Directory: /apex/com.android.ondevicepersonalization/priv-app/OnDevicePersonalizationGoogle@341812000/OnDevicePersonalizationGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.wifi.resources.overlay.common",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /vendor/overlay/WifiResCommon_mainline",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.android.hotwordenrollment.okgoogle",
+    "list": "unknown",
+    "description": "Version: 13, Directory: /product/priv-app/HotwordEnrollmentOKGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.maps",
+    "list": "unknown",
+    "description": "Version: 25.14.00.742022593
+11.140.0104, Directory: /data/app/~~CNbVjbyjbx6rTlFiSTT51g==/com.google.android.apps.maps-bXoj3Pmqds66gMwMYkEpOA==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.cellbroadcastservice",
+    "list": "unknown",
+    "description": "Version: R-initial, Directory: /apex/com.android.cellbroadcast/priv-app/GoogleCellBroadcastServiceModule@341810000/GoogleCellBroadcastServiceModule",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.calendar",
+    "list": "unknown",
+    "description": "Version: 2025.13.0-742080714-release
+2024.30.1-659970995-release, Directory: /data/app/~~Dvk3MSIawQOdGVpgP6BXAw==/com.google.android.calendar-PBpt25rgWfVSB3jB5Off9g==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.videos",
+    "list": "unknown",
+    "description": "Version: 4.39.3031.737984647.2-release
+4.39.2261.642397094.1-release, Directory: /data/app/~~_hmoDLT8zO7bNKmVO2LqDw==/com.google.android.videos-KpWMM8zIWHDMqz0DiGcUFQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.overlay.gmsconfig.comms",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /my_bigball/overlay/GmsConfigOverlayComms/GmsConfigOverlayComms",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.marvin.talkback",
+    "list": "unknown",
+    "description": "Version: 15.2.1.743808607
+14.1.0.595874199, Directory: /data/app/~~xsx3UB9PoC1K52SucSpo0w==/com.google.android.marvin.talkback-I44xLoKiMDRihltEhvTiqA==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.wifi.resources.overlay.target",
+    "list": "unknown",
+    "description": "Version: 12, Directory: /vendor/overlay/WifiResTarget_mainline",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.mainline.adservices",
+    "list": "unknown",
+    "description": "Version: 2024-07-01T+, Directory: /product/app/com.google.mainline.adservices/com.google.mainline.adservices",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.adservices.api",
+    "list": "unknown",
+    "description": "Version: 14-11914278, Directory: /apex/com.android.adservices/priv-app/AdServicesApkGoogle@341913040/AdServicesApkGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.networkstack.overlay",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /system_ext/overlay/NetworkStackOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.youtube.music",
+    "list": "unknown",
+    "description": "Version: 8.13.51
+7.13.52, Directory: /data/app/~~bWSmgPO3n0YusEEghUUoAA==/com.google.android.apps.youtube.music-7w8IipAlEoJ0v8mJGEfIzw==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.photos",
+    "list": "unknown",
+    "description": "Version: 7.23.0.744788288
+6.93.0.657009179, Directory: /data/app/~~YHDW2n2zbDZw526H4LOVpw==/com.google.android.apps.photos-optI5RQS3CKAp14I8tZqOA==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.messaging",
+    "list": "unknown",
+    "description": "Version: messages.android_20250319_02_RC00.phone_dynamic
+messages.android_20240806_01_RC02.phone_dynamic, Directory: /data/app/~~uVuGgiddPzSg3qN91MIpOw==/com.google.android.apps.messaging-fiSx2QGEzzt-Zp8Bj-CBSQ==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.overlay.modules.permissioncontroller.forframework",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/GooglePermissionControllerFrameworkOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.overlay.gmsconfig.common",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /my_bigball/overlay/GmsConfigOverlayCommonEx/GmsConfigOverlayCommonEx",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.accessibility.switchaccess",
+    "list": "unknown",
+    "description": "Version: 1.15.0.647194712, Directory: /product/app/SwitchAccess/SwitchAccess",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.hotspot2.osulogin",
+    "list": "unknown",
+    "description": "Version: 14-11790708, Directory: /apex/com.android.wifi/app/OsuLoginGoogle@341810030/OsuLoginGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.wifi.resources",
+    "list": "unknown",
+    "description": "Version: R-initial, Directory: /apex/com.android.wifi/priv-app/ServiceWifiResourcesGoogle@341810030/ServiceWifiResourcesGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.nbu.files",
+    "list": "unknown",
+    "description": "Version: 1.6574.739091442.4-release
+1.4237.652465286.1-release, Directory: /data/app/~~PvpLocyQfjCWEGh-iT_2lQ==/com.google.android.apps.nbu.files-OkGaY2Jlz3yXRlMa0KcAcg==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.docs",
+    "list": "unknown",
+    "description": "Version: 2.25.130.4.all.alldpi
+2.24.307.1.all.alldpi, Directory: /data/app/~~WGaEA9R1VofApMOIHJZo9A==/com.google.android.apps.docs-fTzrxU_VV3i39A6JCkebBA==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.chromecast.app",
+    "list": "unknown",
+    "description": "Version: 3.7.1.4, Directory: /data/app/Google_Home/Google_Home",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.configupdater",
+    "list": "unknown",
+    "description": "Version: 14-11896256, Directory: /product/priv-app/ConfigUpdater/ConfigUpdater",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.setupwizard",
+    "list": "unknown",
+    "description": "Version: 235.666735854, Directory: /my_heytap/non_overlay/priv-app/SetupWizard/SetupWizard",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.overlay.gmsconfig.asi",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /my_bigball/overlay/GmsConfigOverlayASI_Features/GmsConfigOverlayASI_Features",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.permissioncontroller",
+    "list": "unknown",
+    "description": "Version: aml_per_341810000, Directory: /apex/com.android.permission/priv-app/GooglePermissionController@341810000/GooglePermissionController",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.safetycenter.resources",
+    "list": "unknown",
+    "description": "Version: 33 system image, Directory: /apex/com.android.permission/priv-app/GoogleSafetyCenterResources@341810000/GoogleSafetyCenterResources",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.overlay.modules.captiveportallogin.forframework",
+    "list": "unknown",
+    "description": "Version: 1.0, Directory: /product/overlay/CaptivePortalLoginFrameworkOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.apps.docs.editors.docs",
+    "list": "unknown",
+    "description": "Version: 1.25.142.00.90, Directory: /data/app/~~YjNBUZKklhntlcKzRFpqVA==/com.google.android.apps.docs.editors.docs-uBk3Yal_kHnixfgetYLZ_w==/base",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.cellbroadcastreceiver.overlay",
+    "list": "unknown",
+    "description": "Version: 1.0.5, Directory: /system_ext/overlay/CellBroadcastReceiverModuleOverlay/CellBroadcastReceiverModuleOverlay",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.connectivity.resources",
+    "list": "unknown",
+    "description": "Version: S-initial, Directory: /apex/com.android.tethering/priv-app/ServiceConnectivityResourcesGoogle@341810050/ServiceConnectivityResourcesGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.ar.core",
+    "list": "unknown",
+    "description": "Version: 0, Directory: /product/app/ARCore/ARCore",
+    "status": "enabled",
+    "removal": "unknown"
+  },
+  {
+    "id": "com.google.android.health.connect.backuprestore",
+    "list": "unknown",
+    "description": "Version: 14-11815265, Directory: /apex/com.android.healthfitness/app/HealthConnectBackupRestoreGoogle@341811030/HealthConnectBackupRestoreGoogle",
+    "status": "enabled",
+    "removal": "unknown"
+  }
+]
