@@ -1,4 +1,4 @@
-# Packages #
+# Compressed Packages #
 ############
 *.7z
 *.gz
@@ -6,12 +6,9 @@
 *.tar
 *.zip
 
-# OS generated files #
+# User specific files #
 ######################
 .vscode
 
 # Custom Ignores #
 ##################
-lists/custom/*
-lists/export/*
-lists/
