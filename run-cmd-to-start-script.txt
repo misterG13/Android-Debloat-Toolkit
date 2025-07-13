@@ -1,0 +1,8 @@
+1) Open terminal and move to the directory holding this script
+
+2) Copy the following command (without quotes)
+  "bash android-debloat-toolkit.sh"
+
+3) Paste the command into the terminal, press EAOnePlusStore
+
+4) Script menu should appear (or error)
