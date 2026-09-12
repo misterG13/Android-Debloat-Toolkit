@@ -11,6 +11,8 @@ apkRemoval(){
   local -a snapshot_actions=()
   local json_map
   local tmpfile
+  local output=""
+  local -i rc=0
 
   clear
   echo "Begin removing APK files from your Android device."
@@ -78,22 +80,34 @@ apkRemoval(){
       case $response in
         # Disable
         d)
-          if adb_cmd shell pm disable-user --user 0 "$apk"; then
+          output=$(adb_cmd shell pm disable-user --user 0 "$apk" 2>&1)
+          rc=$?
+          if (( rc == 0 )); then
             echo "Disabled: $apk"
             writeLog "$list" "$apk" "disable" "ok"
             snapshot_actions+=("$apk|disable")
+          elif grep -qi "protected package" <<<"$output"; then
+            echo "Skipping protected package (cannot disable): $apk"
+            writeLog "$list" "$apk" "disable" "failed"
           else
+            [[ -n $output ]] && echo "$output"
             echo "Failed to disable: $apk"
             writeLog "$list" "$apk" "disable" "failed"
           fi
           sleep 1 ;;
         # Uninstall
         u)
-          if adb_cmd shell pm uninstall --user 0 "$apk"; then
+          output=$(adb_cmd shell pm uninstall --user 0 "$apk" 2>&1)
+          rc=$?
+          if (( rc == 0 )); then
             echo "Uninstalled: $apk"
             writeLog "$list" "$apk" "uninstall" "ok"
             snapshot_actions+=("$apk|uninstall")
+          elif grep -qi "protected package" <<<"$output"; then
+            echo "Skipping protected package (cannot uninstall): $apk"
+            writeLog "$list" "$apk" "uninstall" "failed"
           else
+            [[ -n $output ]] && echo "$output"
             echo "Failed to uninstall: $apk"
             writeLog "$list" "$apk" "uninstall" "failed"
           fi
