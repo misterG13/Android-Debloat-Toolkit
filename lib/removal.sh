@@ -153,9 +153,23 @@ apkRemoval(){
 debloatList() {
   local snap_dir=""
   local file_name=""
+  local list_dir=""
+  local response=""
 
   clear
-  selectJSONList "$PROJECT_DIR/lists/exported" || { mainMenu; return; }
+  echo "Debloat reads a JSON list from either source directory:"
+  echo ""
+  echo "  (E)xported lists   $PROJECT_DIR/lists/exported"
+  echo "  (C)ustomized lists $PROJECT_DIR/lists/customized"
+  echo ""
+  read -rp "Choose a source (E/C): " response
+
+  case ${response,,} in
+    c) list_dir="$PROJECT_DIR/lists/customized" ;;
+    *) list_dir="$PROJECT_DIR/lists/exported" ;;
+  esac
+
+  selectJSONList "$list_dir" || { mainMenu; return; }
 
   # Copy the chosen list into a per-device snapshot that doubles as the
   # restore list for this device (overwrites any previous snapshot).
