@@ -1,8 +1,0 @@
-# Bookmark Provider
-com.android.bookmarkprovider
-
-# Facebook
-com.facebook.katana
-
-# Instagram
-com.instagram.android
