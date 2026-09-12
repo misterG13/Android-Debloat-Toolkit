@@ -10,7 +10,9 @@ must stay.
 | `debloat-oneplus.md` | OnePlus-package bloat only, with ready `pm disable-user` commands |
 
 These are static guides for deciding what to remove; the toolkit itself reads
-JSON lists from `lists/exported/` (see `lists/README.md`, `lists/exported/README.md`).
+JSON lists from `lists/exported/` or the curated `lists/customized/` (see
+`lists/README.md`, `lists/exported/README.md`, `lists/customized/README.md`).
+The curated lists are generated from these docs.
 
 Notes:
 - "Bloat" here means removable without breaking SMS, calls, or the browser —

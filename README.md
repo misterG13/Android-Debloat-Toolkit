@@ -68,6 +68,7 @@ lib/
   restore.sh   # restore actions
   export.sh    # export the device's APK list to JSON
   menus.sh     # menu navigation
+lists/customized/  # curated, tracked JSON lists (from debloat/ docs)
 lists/exported/  # JSON lists used by Debloat/Restore
 logs/          # audit logs (created on first debloat action)
 ```
