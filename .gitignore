@@ -16,6 +16,7 @@
 # Generated output #
 ####################
 logs/
-lists/debloated/
+lists/debloated/*
+!lists/debloated/README.md
 lists/exported/*
 !lists/exported/README.md
