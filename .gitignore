@@ -12,3 +12,9 @@
 
 # Custom Ignores #
 ##################
+
+# Generated output #
+####################
+logs/
+lists/debloated/
+lists/export/
