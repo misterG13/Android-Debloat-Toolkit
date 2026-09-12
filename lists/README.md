@@ -1,29 +1,21 @@
-## APK files picked from debloat.bat found @
-```
-https://github.com/OshekharO/Debloater-Enhanced
+## JSON lists
+
+Debloat and Restore operate on export-format JSON lists placed in this directory.
+
+Each file is an array of objects created by the toolkit's **Export Phone's APK List**
+option. To curate a list, edit a copy of an export: keep the `id`, optionally set a
+meaningful `list`, `description`, and `removal`, and drop the entries you want to skip.
+
+Example entry:
+```json
+{
+  "id": "com.google.android.gm",
+  "list": "google",
+  "description": "Gmail",
+  "status": "enabled",
+  "removal": "recommended"
+}
 ```
 
-## APK files sourced from SHELL files @
-```
-https://gitlab.com/W1nst0n/universal-android-debloater
-```
-
-## Download Android App Inspector from the Google Play Store.
-```
-https://play.google.com/store/apps/details?id=com.ubqsoft.sec01
-```
-
-## Debloat LISTS - S22 Ultra Series
-```
-https://xdaforums.com/t/debloat-lists-s22-ultra-series.4413149/
-```
-
-## OOS13 How to eliminate basically all of the extra battery usage, especially when idle.
-```
-https://www.reddit.com/r/oneplus/comments/zeuefz/oos13_how_to_eliminate_basically_all_of_the_extra/
-```
-
-## universal-android-debloater JSON list
-```
-https://github.com/0x192/universal-android-debloater/blob/main/resources/assets/uad_lists.json
-```
+Only the `id` is required. If exactly one JSON list is present it is used directly;
+otherwise the script asks which list to use.
