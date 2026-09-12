@@ -50,7 +50,7 @@ If more than one authorized device is connected, set `ADB_SERIAL` to target one:
    - The script will guide you through the process of debloating your device
 3. **Choose the operation**
    - Disable, uninstall, or restore APKs
-   - Debloat or Restore reads a JSON list from `lists/export/` (pick one if several exist)
+   - Debloat or Restore reads a JSON list from `lists/exported/` (pick one if several exist)
 4. **Choose a confirmation mode**
    - Confirm each APK, apply to all, or exit
 5. **Actions are logged**
@@ -68,7 +68,7 @@ lib/
   restore.sh   # restore actions
   export.sh    # export the device's APK list to JSON
   menus.sh     # menu navigation
-lists/export/  # JSON lists used by Debloat/Restore
+lists/exported/  # JSON lists used by Debloat/Restore
 logs/          # audit logs (created on first debloat action)
 ```
 

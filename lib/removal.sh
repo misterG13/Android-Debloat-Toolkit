@@ -155,7 +155,7 @@ debloatList() {
   local file_name=""
 
   clear
-  selectJSONList "$PROJECT_DIR/lists/export" || { mainMenu; return; }
+  selectJSONList "$PROJECT_DIR/lists/exported" || { mainMenu; return; }
 
   # Copy the chosen list into a per-device snapshot that doubles as the
   # restore list for this device (overwrites any previous snapshot).

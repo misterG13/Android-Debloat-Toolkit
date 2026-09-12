@@ -4,7 +4,7 @@ declare -g PROJECT_DIR=${PROJECT_DIR:-$PWD}
 
 apkExport() {
   local search_word="${1:-}"
-  local file_loc="$PROJECT_DIR/lists/export/"
+  local file_loc="$PROJECT_DIR/lists/exported/"
   local file_name="apk_list_"
   local output_file
   local model_name

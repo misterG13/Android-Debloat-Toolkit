@@ -17,4 +17,5 @@
 ####################
 logs/
 lists/debloated/
-lists/export/
+lists/exported/*
+!lists/exported/README.md
